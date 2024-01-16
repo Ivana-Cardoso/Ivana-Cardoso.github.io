@@ -2,16 +2,16 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Ivana-Cardoso.github.io",
+    "title": "biRd",
     "section": "",
-    "text": "Post With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nJan 16, 2024\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nJan 13, 2024\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nPost With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nJan 16, 2024\n\n\nHarlow Malloc\n\n\n1 min\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nJan 13, 2024\n\n\nTristan O’Malley\n\n\n1 min\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "Sobre este blog",
     "section": "",
-    "text": "About this blog"
+    "text": "Seja bem-vind@ ao biRd blog!\nO blog tem este nome como uma junção de duas coisas que gosto muito: aves e R! Aqui são publicados textos relacionados à ciência, ecologia, ornitologia e alguma coisa sobre estatística, principalmente no ambiente R.\n\nCriei este blog como uma forma de compartilhar o que aprendi, e também de continuar aprendendo sobre os temas citados acima.\n\nMeu nome é Ivana Cardoso, sou bióloga e cientista. Se você quiser saber mais sobre mim, leia este post ou dê uma olhada no meu CV.\nEspero que o biRd blog seja útil para você de alguma maneira.\nBoa leitura!"
   },
   {
     "objectID": "posts/post-with-code/index.html",
@@ -26,5 +26,26 @@
     "title": "Welcome To My Blog",
     "section": "",
     "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "about.html#sobre-este-blog",
+    "href": "about.html#sobre-este-blog",
+    "title": "biRd blog",
+    "section": "",
+    "text": "Seja bem-vind@ ao biRd blog!\nO blog tem este nome como uma junção de duas coisas que gosto muito: aves e R! Aqui são publicados textos relacionados à ciência, ecologia, ornitologia e alguma coisa sobre estatística, principalmente no ambiente R.\n\nCriei este blog como uma forma de compartilhar o que aprendi, e também de continuar aprendendo sobre os temas citados acima.\n\nMeu nome é Ivana Cardoso, sou bióloga e cientista. Se você quiser saber mais sobre mim, leia este post ou dê uma olhada no meu CV.\nEspero que o biRd blog seja útil para você de alguma maneira.\nBoa leitura!"
+  },
+  {
+    "objectID": "about.html#section",
+    "href": "about.html#section",
+    "title": "Sobre este blog",
+    "section": "",
+    "text": "Seja bem-vind@ ao biRd blog!\nO blog tem este nome como uma junção de duas coisas que gosto muito: aves e R! Aqui são publicados textos relacionados à ciência, ecologia, ornitologia e alguma coisa sobre estatística, principalmente no ambiente R.\n\nCriei este blog como uma forma de compartilhar o que aprendi, e também de continuar aprendendo sobre os temas citados acima.\n\nMeu nome é Ivana Cardoso, sou bióloga e cientista. Se você quiser saber mais sobre mim, leia este post ou dê uma olhada no meu CV.\nEspero que o biRd blog seja útil para você de alguma maneira.\nBoa leitura!"
+  },
+  {
+    "objectID": "CV.html",
+    "href": "CV.html",
+    "title": "Summary",
+    "section": "",
+    "text": "Summary\nI am undergraduated in Biological Sciences (Instituto Federal Farroupilha - 2019) and hold a master’s degree in Ecology and Conservation (Universidade Estadual de Santa Cruz - 2022). Currently, I am a Ph.D. candidate in Ecology at the National Institute of Amazonian Research, and my research is focused on the spatiotemporal effects of forest insularization on biodiversity. I am interested in ecology, biodiversity conservation, and ornithology.\n\n\nEducation\n\n\n# A tibble: 3 × 5\n  what                                   when      with              where why  \n  &lt;chr&gt;                                  &lt;chr&gt;     &lt;chr&gt;             &lt;chr&gt; &lt;lis&gt;\n1 Undergraduation in Biological Sciences 2015-2019 Instituto Federa… Júli… &lt;chr&gt;\n2 Masters in Ecology and Conservation    2020-2022 Universidade Est… Ilhé… &lt;chr&gt;\n3 PhD in Ecology                         2023-     Instituto Nacion… Mana… &lt;chr&gt;\n\n\n\n\nWork Experience\nJune 2016 - present\n\nIn 2016, I volunteered for the Chico Mendes Institute for Biodiversity Conservation, participating in the research project Ecological Impacts of River Damming on forest Bird Assemblages in the Brazilian Amazon. In this project, we sampled understory birds in 33 forest islands and five continuous forest using mist-nets.\nIn 2021, I conducted a project research to assess the influence of landscape and local variables on multiple facets of bird diversity in eucalypt plantations distributed in Atlantic Forest landscapes. In this project, we sampled understory birds in 19 eucalypt plantations using mist-nets.\nIn 2022, I participated in a research project to assess whether plantations of native coniferous trees (Araucaria angustifolia) and exotic ones (Pinus elliottii) are capable of sustaining forest avifauna. In this project, we surveyed 18 sample points using mist-nets.\nIn 2022, I surveyed 68 forest islands using audio recorders in the Balbina Hydroelectric Reservoir to assess the conservation status of biodiversity on forested islands of varying sizes.\n\n\n\nPrizes\nHelmut Sick Award - 1st place for undergraduate student oral presentation at the XXVI Congresso Brasileiro de Ornitologia (2019). Awarded by Sociedade Brasileira de Ornitologia\n\n\nBibliographic production\nOriginal research published in journals:\n\nCARDOSO, I.; BUENO, A. S.; MORANTE-FILHO, J. C.Number of forest fragments and understory plants exert opposite effects on multiple facets of bird diversity in eucalypt plantations. Landscape Ecology, v.3, p.1 - 15, 2023.\n\nMost relevant abstracts published in proceedings of events:\n\nCARDOSO, I.; AMARANTE, R. T.; AMARANTE, R. T.; FERNANDES, F. B.; BUENO, A. S. Functional diversity of understory birds in natural forests and coniferous tree plantations in the Araucaria Moist Forests ecoregion In: II Ornithological Congress of the Americas, 2023. Abstract book, page 199, 2023.\nCARDOSO, I.; BUENO, A. S.; PERES, C. A. Ambientes de borda criados por insularização florestal abrigam avifaunas empobrecidas In: XXVI Congresso Brasileiro de Ornitologia, 2019. Livro de resumos, page 34, 2019.\nCARDOSO, I.; BUENO, A. S.; PERES, C. A. Classifying edge tolerance in understory birds in Amazonian forest islands: a quantitative approach In: Ornithological Congress of the Americas, 2017. Book of abstracts, page 237, 2017."
   }
 ]

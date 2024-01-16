@@ -17,7 +17,7 @@ website:
       - icon: twitter
         href: https://twitter.com
         
-    logo: biRd.png
+    logo: round_biRd.png
     
 format:
   html:

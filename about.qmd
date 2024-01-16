@@ -1,19 +1,12 @@
 ---
-title: "biRd blog"
+title: "Sobre este blog"
 image: biRd.png
 about: 
   template: solana
   image-shape: rectangle
-  links:
-    - icon: twitter
-      text: Twitter
-      href: https://twitter.com
-    - icon: github
-      text: Github
-      href: https://github.com/Ivana-Cardoso
 ---
 
-## Sobre este blog
+## 
 
 Seja bem-vind\@ ao biRd blog!
 
@@ -21,7 +14,7 @@ O blog tem este nome como uma junção de duas coisas que gosto muito: aves e R!
 \
 Criei este blog como uma forma de compartilhar o que aprendi, e também de continuar aprendendo sobre os temas citados acima. \
 \
-Meu nome é Ivana Cardoso, sou bióloga e cientista. Se você quiser saber mais sobre mim, leia este [post](https://anotherecoblog.wordpress.com/2020/05/28/ciencia-amazonia-e-o-chamado-para-a-aventura/#more-1971) ou dê uma olhada no meu [CV](..CV.Rmd).
+Meu nome é Ivana Cardoso, sou bióloga e cientista. Se você quiser saber mais sobre mim, leia este [post](https://anotherecoblog.wordpress.com/2020/05/28/ciencia-amazonia-e-o-chamado-para-a-aventura/#more-1971) ou dê uma olhada no meu [CV](CV.pdf).
 
 Espero que o biRd blog seja útil para você de alguma maneira.
 
