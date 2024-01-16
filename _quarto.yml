@@ -3,18 +3,26 @@ project:
   output-dir: docs
 
 website:
-  title: "Ivana-Cardoso.github.io"
+  title: "biRd"
+  description: "Aventuras em ornitologia, ecologia e estatística"
   navbar:
-    right:
-      - about.qmd
+    left:
+      - text: "Início"
+        file: index.qmd
+      - text: "Sobre"
+        file: about.qmd
+    right: 
       - icon: github
-        href: https://github.com/
+        href: https://github.com/Ivana-Cardoso
       - icon: twitter
         href: https://twitter.com
+        
+    logo: biRd.png
+    
 format:
   html:
-    theme: cosmo
-    css: styles.css
+    theme: theme.scss
+    mainfont: "Open Sans"
 
 editor: visual
 
