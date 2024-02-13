@@ -2,7 +2,8 @@
 title: "Mulheres na Ciência: Quebrando barreiras e inspirando caminhos"
 author: "Ivana Cardoso"
 date: "2024-02-11"
-categories: [mulheres, ciência]
+image: "women_science_freepik.jpg"
+categories: [igualdade de gênero, empoderamento feminino]
 ---
 
 Mulheres enfrentaram desafios e discriminação, especialmente na busca por educação e reconhecimento na ciência. Fomos consideradas intelectualmente inferiores e afastadas de espaços de produção científica durante muito tempo na história.
@@ -53,12 +54,6 @@ Em 1905, iniciou sua trajetória como assistente de zoologia no Museu de Histór
 
 Emília foi diretora do Museu Paraense Emílio Goeldi entre 1914 e 1922, sendo assim a primeira mulher a dirigir uma instituição científica na América Latina. Entre seus trabalhos de destaque está o Catálogo de Aves Amazônicas (1914) com 1117 aves amazônicas. [Helmut Sick](https://en.wikipedia.org/wiki/Helmut_Sick) dedicou a ela o livro Ornitologia Brasileira em 1985.
 
-
-
-
-
 Neste post, exploramos as trajetórias de três mulheres cientistas cujas contribuições ecoam nas áreas de estatística, programação e ornitologia - temas que caracterizam o biRd blog. Que essas narrativas instiguem nosso compromisso contínuo com a igualdade de gênero e apoio às mulheres e meninas em sua jornada de busca pelo conhecimento e pela descoberta científica.
 
-
-
-
+*Créditos da imagem na capa do post: [Freepik](https://www.freepik.com/free-vector/flat-international-day-women-girls-science-background_133721459.htm#from_view=detail_serie)*

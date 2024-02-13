@@ -1,13 +1,15 @@
 ---
 title: "  "
 title-block-banner: true
+margin-header: subscribe.html
 listing:
   contents: posts
   sort: "date desc"
   type: default
   categories: false
   sort-ui: true
-  filter-ui: true
-  fields: [author, date, title, reading-time, description, categories]
+  filter-ui: false
+  fields: [image, author, date, title, reading-time, description, categories]
 page-layout: full
+lang: pt
 ---
