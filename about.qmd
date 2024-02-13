@@ -4,6 +4,7 @@ image: biRd.png
 about: 
   template: solana
   image-shape: rectangle
+comments: false
 ---
 
 ## 

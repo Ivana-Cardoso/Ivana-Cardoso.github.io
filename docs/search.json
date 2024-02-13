@@ -1,117 +1,5 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "biRd",
-    "section": "",
-    "text": "Ordenar por\n       Pré-selecionado\n         \n          Título\n        \n         \n          Data - Mais velho\n        \n         \n          Data - O mais novo\n        \n         \n          Autor\n        \n     \n  \n\n\n\n\n  \n\n\n\n\nMulheres na Ciência: Quebrando barreiras e inspirando caminhos\n\n\n\n\n\n\n\nigualdade de gênero\n\n\nempoderamento feminino\n\n\n\n\n\n\n\n\n\n\n\n11 de fev. de 2024\n\n\nIvana Cardoso\n\n\n5 minutos\n\n\n\n\n\n\nNenhum item correspondente"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "Sobre este blog",
-    "section": "",
-    "text": "Seja bem-vind@ ao biRd blog!\nO blog tem este nome como uma junção de duas coisas que gosto muito: aves e R! Aqui são publicados textos relacionados à ciência, ecologia, ornitologia e alguma coisa sobre estatística, principalmente no ambiente R.\n\nCriei este blog como uma forma de compartilhar o que aprendi, e também de continuar aprendendo sobre os temas citados acima.\n\nMeu nome é Ivana Cardoso, sou bióloga e cientista. Se você quiser saber mais sobre mim, você pode ler sobre minha formação aqui e algumas experiências aqui.\nEspero que o biRd blog seja útil para você de alguma maneira.\nBoa leitura!"
-  },
-  {
-    "objectID": "posts/post-with-code/index.html",
-    "href": "posts/post-with-code/index.html",
-    "title": "Mulheres na Ciência: Quebrando barreiras e inspirando caminhos",
-    "section": "",
-    "text": "Mulheres enfrentaram desafios e discriminação, especialmente na busca por educação e reconhecimento na ciência. Fomos consideradas intelectualmente inferiores e afastadas de espaços de produção científica durante muito tempo na história.\nApesar do surgimento das universidades na Idade Média, como a Universidade de Bolonha em 1088, só obtivemos o direito de frequentá-las em 1879, se autorizadas por nossos pais ou maridos. Além das restrições de acesso a educação, muitas mulheres foram ofuscadas e tiveram o crédito de seus trabalhos científicos atribuídos a homens, como Lise Meitner e Rosalind Franklin.\nAtualmente, a representação feminina na pesquisa científica é desigual, com apenas 33% de todos os pesquisadores no mundo sendo mulheres (2023). No Brasil, dos cerca de 21 mil bolsistas do CNPq, 35% são mulheres (2022). Esses números destacam a necessidade contínua de promover a igualdade de gênero e reconhecer o papel crucial das mulheres na ciência.\nHoje é o Dia Internacional das Mulheres e Meninas na Ciência, por isso, este post busca explorar a trajetória de três mulheres cientistas que desafiaram as normas de sua época e abriram caminho para outras mulheres. Uma dessas mulheres foi pioneira na criação de gráficos, outra desenvolveu a primeira linguagem de programação a utilizar palavras, e a última foi a primeira mulher a dirigir uma instituição científica na América do Sul. Espero que esses relatos inspirem e incentivem mais mulheres a seguir seus sonhos e contribuírem para o progresso científico e tecnológico."
-  },
-  {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Welcome To My Blog",
-    "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
-  },
-  {
-    "objectID": "about.html#sobre-este-blog",
-    "href": "about.html#sobre-este-blog",
-    "title": "biRd blog",
-    "section": "",
-    "text": "Seja bem-vind@ ao biRd blog!\nO blog tem este nome como uma junção de duas coisas que gosto muito: aves e R! Aqui são publicados textos relacionados à ciência, ecologia, ornitologia e alguma coisa sobre estatística, principalmente no ambiente R.\n\nCriei este blog como uma forma de compartilhar o que aprendi, e também de continuar aprendendo sobre os temas citados acima.\n\nMeu nome é Ivana Cardoso, sou bióloga e cientista. Se você quiser saber mais sobre mim, leia este post ou dê uma olhada no meu CV.\nEspero que o biRd blog seja útil para você de alguma maneira.\nBoa leitura!"
-  },
-  {
-    "objectID": "about.html#section",
-    "href": "about.html#section",
-    "title": "Sobre este blog",
-    "section": "",
-    "text": "Seja bem-vind@ ao biRd blog!\nO blog tem este nome como uma junção de duas coisas que gosto muito: aves e R! Aqui são publicados textos relacionados à ciência, ecologia, ornitologia e alguma coisa sobre estatística, principalmente no ambiente R.\n\nCriei este blog como uma forma de compartilhar o que aprendi, e também de continuar aprendendo sobre os temas citados acima.\n\nMeu nome é Ivana Cardoso, sou bióloga e cientista. Se você quiser saber mais sobre mim, você pode ler sobre minha formação aqui e algumas experiências aqui.\nEspero que o biRd blog seja útil para você de alguma maneira.\nBoa leitura!"
-  },
-  {
-    "objectID": "CV.html",
-    "href": "CV.html",
-    "title": "Summary",
-    "section": "",
-    "text": "Summary\nI am undergraduated in Biological Sciences (Instituto Federal Farroupilha - 2019) and hold a master’s degree in Ecology and Conservation (Universidade Estadual de Santa Cruz - 2022). Currently, I am a Ph.D. candidate in Ecology at the National Institute of Amazonian Research, and my research is focused on the spatiotemporal effects of forest insularization on biodiversity. I am interested in ecology, biodiversity conservation, and ornithology.\n\n\nEducation\n\n\n# A tibble: 3 × 5\n  what                                   when      with              where why  \n  &lt;chr&gt;                                  &lt;chr&gt;     &lt;chr&gt;             &lt;chr&gt; &lt;lis&gt;\n1 Undergraduation in Biological Sciences 2015-2019 Instituto Federa… Júli… &lt;chr&gt;\n2 Masters in Ecology and Conservation    2020-2022 Universidade Est… Ilhé… &lt;chr&gt;\n3 PhD in Ecology                         2023-     Instituto Nacion… Mana… &lt;chr&gt;\n\n\n\n\nWork Experience\nJune 2016 - present\n\nIn 2016, I volunteered for the Chico Mendes Institute for Biodiversity Conservation, participating in the research project Ecological Impacts of River Damming on forest Bird Assemblages in the Brazilian Amazon. In this project, we sampled understory birds in 33 forest islands and five continuous forest using mist-nets.\nIn 2021, I conducted a project research to assess the influence of landscape and local variables on multiple facets of bird diversity in eucalypt plantations distributed in Atlantic Forest landscapes. In this project, we sampled understory birds in 19 eucalypt plantations using mist-nets.\nIn 2022, I participated in a research project to assess whether plantations of native coniferous trees (Araucaria angustifolia) and exotic ones (Pinus elliottii) are capable of sustaining forest avifauna. In this project, we surveyed 18 sample points using mist-nets.\nIn 2022, I surveyed 68 forest islands using audio recorders in the Balbina Hydroelectric Reservoir to assess the conservation status of biodiversity on forested islands of varying sizes.\n\n\n\nPrizes\nHelmut Sick Award - 1st place for undergraduate student oral presentation at the XXVI Congresso Brasileiro de Ornitologia (2019). Awarded by Sociedade Brasileira de Ornitologia\n\n\nBibliographic production\nOriginal research published in journals:\n\nCARDOSO, I.; BUENO, A. S.; MORANTE-FILHO, J. C.Number of forest fragments and understory plants exert opposite effects on multiple facets of bird diversity in eucalypt plantations. Landscape Ecology, v.3, p.1 - 15, 2023.\n\nMost relevant abstracts published in proceedings of events:\n\nCARDOSO, I.; AMARANTE, R. T.; AMARANTE, R. T.; FERNANDES, F. B.; BUENO, A. S. Functional diversity of understory birds in natural forests and coniferous tree plantations in the Araucaria Moist Forests ecoregion In: II Ornithological Congress of the Americas, 2023. Abstract book, page 199, 2023.\nCARDOSO, I.; BUENO, A. S.; PERES, C. A. Ambientes de borda criados por insularização florestal abrigam avifaunas empobrecidas In: XXVI Congresso Brasileiro de Ornitologia, 2019. Livro de resumos, page 34, 2019.\nCARDOSO, I.; BUENO, A. S.; PERES, C. A. Classifying edge tolerance in understory birds in Amazonian forest islands: a quantitative approach In: Ornithological Congress of the Americas, 2017. Book of abstracts, page 237, 2017."
-  },
-  {
-    "objectID": "about_author.html",
-    "href": "about_author.html",
-    "title": "biRd",
-    "section": "",
-    "text": "Meu nome é Ivana Cardoso, sou aluna de doutorado em Ecologia no Instituto Nacional de Pesquisas da Amazônia e, atualmente, estudo os efeitos espaciais e temporais da insularização sobre a biodiversidade."
-  },
-  {
-    "objectID": "about_author.html#educação",
-    "href": "about_author.html#educação",
-    "title": "biRd",
-    "section": "Educação",
-    "text": "Educação\nInstituto Federal Farroupilha | Júlio de Castilhos, RS Licenciatura em Ciências Biológicas | 2015 - 2019\nUniversidade Estadual de Santa Cruz | Ilhéus, BA Mestrado em Ecologia e Conservação da Biodiversidade | 2020 - 2022\nInstituto Nacional de Pesquisas da Amazônia | Manaus, AM Doutorado em Ecologia | 2023 -"
-  },
-  {
-    "objectID": "about_author.html#experiência",
-    "href": "about_author.html#experiência",
-    "title": "Sobre a autora",
-    "section": "Experiência",
-    "text": "Experiência\nFui voluntária do Instituto Chico Mendes de Conservação da Biodiversidade participando do projeto de pesquisa Ecological Impacts of River Damming on forest Bird Assemblages in the Brazilian Amazon| 2016\n\nConduzi um projeto de pesquisa para avaliar a influência das variaveis locais e da paisagem em multiplas dimensões da diversidade de aves em plantações de eucalipto distribuídas em paisagens na Mata Atlantica | 2020 - 2022\n\nParticipei em um projeto de pesquisa que avaliava se plantações nativas de (Araucaria angustifolia) e exóticas de (Pinus elliottii) são capazes de manter a avifauna florestal da Floresta Ombrófila Mista | 2022\n\nAmostrei 68 ilhas florestais artificiais de diferentes tamanhos para avaliar o status de conservação da biodiversidade nessas ilhas | 2022"
-  },
-  {
-    "objectID": "about_author.html#prêmios",
-    "href": "about_author.html#prêmios",
-    "title": "biRd",
-    "section": "Prêmios",
-    "text": "Prêmios\nHelmut Sick- 1° lugar estudante de graduação, apresentação oral no XXVI Congresso Brasileiro de Ornitologia (2019). Premiada pela Sociedade Brasileira de Ornitologia."
-  },
-  {
-    "objectID": "about_author.html#produção-bibliográfica",
-    "href": "about_author.html#produção-bibliográfica",
-    "title": "biRd",
-    "section": "Produção bibliográfica",
-    "text": "Produção bibliográfica\nCARDOSO, I.; BUENO, A. S.; MORANTE-FILHO, J. C. Number of forest fragments and understory plants exert opposite effects on multiple facets of bird diversity in eucalypt plantations Landscape Ecology, v.3, p.1 - 15, 2023."
-  },
-  {
-    "objectID": "about_author.html#section",
-    "href": "about_author.html#section",
-    "title": "Sobre a autora",
-    "section": "",
-    "text": "Meu nome é Ivana Cardoso, sou aluna de doutorado em Ecologia no Instituto Nacional de Pesquisas da Amazônia e, atualmente, estudo os efeitos espaciais e temporais da insularização sobre a biodiversidade."
-  },
-  {
-    "objectID": "about_author.html#sobre-a-autora",
-    "href": "about_author.html#sobre-a-autora",
-    "title": "biRd",
-    "section": "",
-    "text": "Meu nome é Ivana Cardoso, sou aluna de doutorado em Ecologia no Instituto Nacional de Pesquisas da Amazônia e, atualmente, estudo os efeitos espaciais e temporais da insularização sobre a biodiversidade."
-  },
-  {
-    "objectID": "posts/post-with-code/index.html#florence-nightingale",
-    "href": "posts/post-with-code/index.html#florence-nightingale",
-    "title": "Mulheres na ciência",
-    "section": "Florence Nightingale",
-    "text": "Florence Nightingale\nFlorence Nightingale (1820 - 1910) foi uma enfermeira que revolucionou a enfermagem, utilizando, para isso, as primeiras representações gráficas de dados estatísticos!\nEla foi educada por seu pai, que lhe ensinou italiano, latim, grego, filosofia, história, escrita e matemática, e aos 33 anos começou a trabalhar como enfermeira.\nApós um ano de trabalho, Florence foi designada como enfermeira-chefe na Guerra da Crimeia. Durante o tempo em que passou nessa guerra, ela percebeu que melhores condições de higiene nos hospitais poderiam diminuir a taxa de mortalidade dos soldados.\nDepois de perceber isso, ela precisava convencer de que essa melhora nas condições sanitárias salvaria muitas vidas. Porém, isso não era uma tarefa fácil… ela era uma mulher, uma civil e sua autoridade era independente das Forças Armadas. Então, como ela poderia convercer sobre a necessidade das mudanças? Ela partiu para os números!\nQuando Florence chegou, em fevereiro de 1855, a mortalidade era de 42,7%. Meio ano após sua chegada e a implementação de sua reforma sanitária, a mortalidade caiu para 2,2%.\nFlorence foi uma pioneira na representação gráfica de estatísticas, pois inventou os gráficos de área polar para mostrar quantas mortes poderiam ter sido evitadas se essas medidas sanitárias tivessem sido tomadas antes. Abaixo está o gráfico de área polar criado pela Florence:"
-  },
-  {
-    "objectID": "posts/post-with-code/index.html#florence-nightingale-1820---1910",
-    "href": "posts/post-with-code/index.html#florence-nightingale-1820---1910",
-    "title": "Mulheres na Ciência: Quebrando barreiras e inspirando caminhos",
-    "section": "Florence Nightingale (1820 - 1910)",
-    "text": "Florence Nightingale (1820 - 1910)\n\n\n\nThe Lady With the Lamp, Santa Croce Firenze©"
-  },
-  {
     "objectID": "posts/Mulheres_na_Ciencia/index.html",
     "href": "posts/Mulheres_na_Ciencia/index.html",
     "title": "Mulheres na Ciência: Quebrando barreiras e inspirando caminhos",
@@ -138,5 +26,61 @@
     "title": "Mulheres na Ciência: Quebrando barreiras e inspirando caminhos",
     "section": "Emília Snethlage (1868-1929)",
     "text": "Emília Snethlage (1868-1929)\n\n\n\nMuseum für Naturkunde Berlin/Historische Bild-und Schriftgutsammlungen©\n\n\nEmília foi uma ornitóloga e naturalista, conhecida por seu trabalho na Amazônia. Ela também foi a primeira mulher a dirigir uma instituição científica na América Latina.\nEm 1899, ela começou a estudar história natural na Universidade de Berlim e cinco anos mais tarde, tornou-se doutora em ciências pela Universidade de Freiburg.\nEm 1905, iniciou sua trajetória como assistente de zoologia no Museu de História Natural de Berlim. Contudo, ainda no mesmo ano, mudou-se para Belém para trabalhar no Museu Paraense de História Natural e Ethnographia, atual Museu Paraense Emilio Goeldi. A partir desse momento, ela liderou diversas expedições pela Amazônia, sendo uma das mais notáveis a sua exploração entre os rios Xingu e Tapajós em 1909.\nEmília foi diretora do Museu Paraense Emílio Goeldi entre 1914 e 1922, sendo assim a primeira mulher a dirigir uma instituição científica na América Latina. Entre seus trabalhos de destaque está o Catálogo de Aves Amazônicas (1914) com 1117 aves amazônicas. Helmut Sick dedicou a ela o livro Ornitologia Brasileira em 1985.\nNeste post, exploramos as trajetórias de três mulheres cientistas cujas contribuições ecoam nas áreas de estatística, programação e ornitologia - temas que caracterizam o biRd blog. Que essas narrativas instiguem nosso compromisso contínuo com a igualdade de gênero e apoio às mulheres e meninas em sua jornada de busca pelo conhecimento e pela descoberta científica.\nCréditos da imagem na capa do post: Freepik"
+  },
+  {
+    "objectID": "about_author.html",
+    "href": "about_author.html",
+    "title": "biRd blog",
+    "section": "",
+    "text": "Meu nome é Ivana Cardoso, sou aluna de doutorado em Ecologia no Instituto Nacional de Pesquisas da Amazônia e, atualmente, estudo os efeitos espaciais e temporais da insularização sobre a biodiversidade."
+  },
+  {
+    "objectID": "about_author.html#sobre-a-autora",
+    "href": "about_author.html#sobre-a-autora",
+    "title": "biRd blog",
+    "section": "",
+    "text": "Meu nome é Ivana Cardoso, sou aluna de doutorado em Ecologia no Instituto Nacional de Pesquisas da Amazônia e, atualmente, estudo os efeitos espaciais e temporais da insularização sobre a biodiversidade."
+  },
+  {
+    "objectID": "about_author.html#educação",
+    "href": "about_author.html#educação",
+    "title": "biRd blog",
+    "section": "Educação",
+    "text": "Educação\nInstituto Federal Farroupilha | Júlio de Castilhos, RS Licenciatura em Ciências Biológicas | 2015 - 2019\nUniversidade Estadual de Santa Cruz | Ilhéus, BA Mestrado em Ecologia e Conservação da Biodiversidade | 2020 - 2022\nInstituto Nacional de Pesquisas da Amazônia | Manaus, AM Doutorado em Ecologia | 2023 -"
+  },
+  {
+    "objectID": "about_author.html#prêmios",
+    "href": "about_author.html#prêmios",
+    "title": "biRd blog",
+    "section": "Prêmios",
+    "text": "Prêmios\nHelmut Sick- 1° lugar estudante de graduação, apresentação oral no XXVI Congresso Brasileiro de Ornitologia (2019). Premiada pela Sociedade Brasileira de Ornitologia."
+  },
+  {
+    "objectID": "about_author.html#produção-bibliográfica",
+    "href": "about_author.html#produção-bibliográfica",
+    "title": "biRd blog",
+    "section": "Produção bibliográfica",
+    "text": "Produção bibliográfica\nCARDOSO, I.; BUENO, A. S.; MORANTE-FILHO, J. C. Number of forest fragments and understory plants exert opposite effects on multiple facets of bird diversity in eucalypt plantations Landscape Ecology, v.3, p.1 - 15, 2023."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Sobre este blog",
+    "section": "",
+    "text": "Seja bem-vind@ ao biRd blog!\nO blog tem este nome como uma junção de duas coisas que gosto muito: aves e R! Aqui são publicados textos relacionados à ciência, ecologia, ornitologia e alguma coisa sobre estatística, principalmente no ambiente R.\n\nCriei este blog como uma forma de compartilhar o que aprendi, e também de continuar aprendendo sobre os temas citados acima.\n\nMeu nome é Ivana Cardoso, sou bióloga e cientista. Se você quiser saber mais sobre mim, você pode ler sobre minha formação aqui e algumas experiências aqui.\nEspero que o biRd blog seja útil para você de alguma maneira.\nBoa leitura!"
+  },
+  {
+    "objectID": "about.html#section",
+    "href": "about.html#section",
+    "title": "Sobre este blog",
+    "section": "",
+    "text": "Seja bem-vind@ ao biRd blog!\nO blog tem este nome como uma junção de duas coisas que gosto muito: aves e R! Aqui são publicados textos relacionados à ciência, ecologia, ornitologia e alguma coisa sobre estatística, principalmente no ambiente R.\n\nCriei este blog como uma forma de compartilhar o que aprendi, e também de continuar aprendendo sobre os temas citados acima.\n\nMeu nome é Ivana Cardoso, sou bióloga e cientista. Se você quiser saber mais sobre mim, você pode ler sobre minha formação aqui e algumas experiências aqui.\nEspero que o biRd blog seja útil para você de alguma maneira.\nBoa leitura!"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "biRd blog",
+    "section": "",
+    "text": "Ordenar por\n       Pré-selecionado\n         \n          Título\n        \n         \n          Data - Mais velho\n        \n         \n          Data - O mais novo\n        \n         \n          Autor\n        \n     \n  \n\n\n\n\n\n\n\n\n\n\nMulheres na Ciência: Quebrando barreiras e inspirando caminhos\n\n\n\n\n\n\nigualdade de gênero\n\n\nempoderamento feminino\n\n\n\n\n\n\n\n\n\n11 de fev. de 2024\n\n\nIvana Cardoso\n\n\n5 minutos\n\n\n\n\n\n\nNenhum item correspondente"
   }
 ]

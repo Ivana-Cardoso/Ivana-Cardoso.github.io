@@ -1,9 +1,9 @@
 project:
   type: website
   output-dir: docs
-
+  
 website:
-  title: "biRd"
+  title: "biRd blog"
   description: "Aventuras em ornitologia, ecologia e estatística"
   navbar:
     left:
@@ -17,12 +17,16 @@ website:
       - icon: twitter
         href: https://twitter.com/Iv_Cardoso
     logo: round_biRd.png
-    
-    
+    comments: 
+    giscus: 
+      repo: Ivana-Cardoso/Ivana-Cardoso.github.io
+      
 format:
   html:
-    theme: theme.scss
-    mainfont: "Open Sans"
+    theme:
+      - theme.scss
+   
+
 
 editor: visual
 

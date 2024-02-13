@@ -3,7 +3,9 @@ title: "Mulheres na Ciência: Quebrando barreiras e inspirando caminhos"
 author: "Ivana Cardoso"
 date: "2024-02-11"
 image: "women_science_freepik.jpg"
-categories: [igualdade de gênero, empoderamento feminino]
+categories: 
+  - igualdade de gênero
+  - empoderamento feminino
 ---
 
 Mulheres enfrentaram desafios e discriminação, especialmente na busca por educação e reconhecimento na ciência. Fomos consideradas intelectualmente inferiores e afastadas de espaços de produção científica durante muito tempo na história.

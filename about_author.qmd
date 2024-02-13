@@ -22,6 +22,7 @@ about:
     - icon: instagram
       text: Instagram
       href: https://instagram.com/waters_ivana?igsh=eHINWJ2eHgzN2V0
+comments: false
 ---
 
 ## Sobre a autora
