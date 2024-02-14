@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>biRd blog</title>
+<link>https://ivana-cardoso.github.io/</link>
+<atom:link href="https://ivana-cardoso.github.io/index.xml" rel="self" type="application/rss+xml"/>
+<description>Aventuras em ornitologia, ecologia e estatística</description>
+<generator>quarto-1.5.12</generator>
+<lastBuildDate>Sun, 11 Feb 2024 03:00:00 GMT</lastBuildDate>
+<item>
+  <title>Mulheres na Ciência: Quebrando barreiras e inspirando caminhos</title>
+  <dc:creator>Ivana Cardoso</dc:creator>
+  <link>https://ivana-cardoso.github.io/posts/Mulheres_na_Ciencia/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Mulheres enfrentaram desafios e discriminação, especialmente na busca por educação e reconhecimento na ciência. Fomos consideradas intelectualmente inferiores e afastadas de espaços de produção científica durante muito tempo na história.</p>
+<p>Apesar do surgimento das universidades na Idade Média, como a Universidade de Bolonha em 1088, só obtivemos o direito de frequentá-las em 1879, se autorizadas por nossos pais ou maridos. Além das restrições de acesso a educação, muitas mulheres foram ofuscadas e tiveram o crédito de seus trabalhos científicos atribuídos a homens, como <a href="https://doi.org/10.1590/1806-9126-RBEF-2022-0103">Lise Meitner</a> e <a href="https://pubs.aip.org/physicstoday/article/56/3/42/412288">Rosalind Franklin</a>.</p>
+<p>Atualmente, a representação feminina na pesquisa científica é desigual, com apenas <a href="https://www.unesco.org/pt/days/women-girls-science">33% de todos os pesquisadores no mundo sendo mulheres</a> (2023). No Brasil, <a href="https://piaui.folha.uol.com.br/cada-100-bolsistas-do-cnpq-65-sao-homens-e-35-sao-mulheres/">dos cerca de 21 mil bolsistas do CNPq, 35% são mulheres</a> (2022). Esses números destacam a necessidade contínua de promover a igualdade de gênero e reconhecer o papel crucial das mulheres na ciência.</p>
+<p>Hoje é o Dia Internacional das Mulheres e Meninas na Ciência, por isso, este post busca explorar a trajetória de três mulheres cientistas que desafiaram as normas de sua época e abriram caminho para outras mulheres. Uma dessas mulheres foi pioneira na criação de gráficos, outra desenvolveu a primeira linguagem de programação a utilizar palavras, e a última foi a primeira mulher a dirigir uma instituição científica na América do Sul. Espero que esses relatos inspirem e incentivem mais mulheres e meninas a seguir seus sonhos e contribuírem para o progresso científico e tecnológico.</p>
+<section id="florence-nightingale-1820---1910" class="level2">
+<h2 class="anchored" data-anchor-id="florence-nightingale-1820---1910">Florence Nightingale (1820 - 1910)</h2>
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><img src="https://ivana-cardoso.github.io/posts/Mulheres_na_Ciencia/Florence-Nightingale.png" class="img-fluid quarto-figure quarto-figure-left figure-img" style="width:40.0%"></p>
+<figcaption>Santa Croce Firenze©</figcaption>
+</figure>
+</div>
+<p>Florence foi uma enfermeira que revolucionou a enfermagem através das primeiras representações gráficas de dados estatísticos. Ela começou a trabalhar aos 33 anos e, após um ano de trabalho, foi designada como enfermeira-chefe na <a href="https://pt.wikipedia.org/wiki/Guerra_da_Crimeia">Guerra da Crimeia</a>.</p>
+<p>Durante o tempo em que passou nessa guerra, ela percebeu que melhores condições de higiene nos hospitais poderiam diminuir a taxa de mortalidade dos soldados. Porém, não foi uma tarefa fácil convencer as pessoas no poder de que essa melhoria nas condições sanitárias salvaria muitas vidas pois, além de ser mulher, ela era uma civil e sua autoridade era independente das Forças Armadas. Assim, para convencer sobre a necessidade das mudanças, ela partiu para os números:</p>
+<p>Quando Florence chegou, em fevereiro de 1855, a taxa de mortalidade era de 42,7%. Meio ano após sua chegada e a implementação de sua reforma sanitária, a taxa de mortalidade caiu para 2,2%.</p>
+<p>Florence foi uma pioneira na representação gráfica de estatísticas, inventando os diagramas de área polar para mostrar quantas mortes poderiam ter sido evitadas se essas medidas sanitárias tivessem sido tomadas antes. Abaixo está a figura original criado pela Florence:</p>
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><img src="https://ivana-cardoso.github.io/posts/Mulheres_na_Ciencia/polar-area-diagram.png" class="img-fluid quarto-figure quarto-figure-left figure-img"></p>
+<figcaption>Diagrama de Área Polar</figcaption>
+</figure>
+</div>
+<p>No diagrama acima, as partes em azul representam mortes preveníveis (como aquelas causadas por doenças contagiosas), as partes em marrom representam mortes por feridas e as partes em cinza representam mortes por outras causas. Note que o pico de mortalidade foi em janeiro de 1855, totalizando 3.168 mortes - destas 2.761 de doenças contagiosas e 83 de ferimentos -. Esse diagrama está no livro <em>Notes on Matters Affecting the Health, Efficiency and Hospital Administration of the British Army</em> (1858), escrito pela Florence, mas eu retirei essas informações do <a href="https://www.jstor.org/stable/24969329">artigo escrito por Bernard Cohen em 1984</a>.</p>
+</section>
+<section id="grace-hopper-1906---1992" class="level2">
+<h2 class="anchored" data-anchor-id="grace-hopper-1906---1992">Grace Hopper (1906 - 1992)</h2>
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><img src="https://ivana-cardoso.github.io/posts/Mulheres_na_Ciencia/Grace-Hopper.jpg" class="img-fluid quarto-figure quarto-figure-left figure-img" style="width:40.0%"></p>
+<figcaption>Vassar College©</figcaption>
+</figure>
+</div>
+<p>Grace foi uma pioneira na programação computacional e inspirou, e inspira, muitas <a href="https://www.aauw.org/resources/research/the-stem-gap/">mulheres na área STEM</a> (Science, Technology, Engineering and Matematics), que ainda é predominantemente masculina.</p>
+<p>Em 1928, Grace graduou-se em matemática e física na Vassar College, assumindo o cargo de professora de matemática na mesma instituição em 1931. Ela também formou-se mestre (1930) e doutora em matemática (1934) pela Universidade de Yale.</p>
+<p>Em 1939, com o início da Segunda Guerra Mundial, ela interrompeu sua carreira de professora para se alistar na Marinha dos EUA. Lá, Grace foi designada para trabalhar nos computadores de <a href="https://pt.wikipedia.org/wiki/Howard_Aiken">Howard Aiken</a>, tornando-se a terceira programadora, e a única mulher, a trabalhar no <a href="https://pt.wikipedia.org/wiki/Harvard_Mark_I">Mark I</a>.</p>
+<p>Foi ela quem propôs a criação de uma linguagem de programação exclusivamente em inglês, desenvolvendo o primeiro compilador de processamento de dados em inglês. Seu trabalho não apenas simplificou a programação de computadores, mas também abriu as portas para uma nova era de acessibilidade na tecnologia da informação.</p>
+</section>
+<section id="emília-snethlage-1868-1929" class="level2">
+<h2 class="anchored" data-anchor-id="emília-snethlage-1868-1929">Emília Snethlage (1868-1929)</h2>
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><img src="https://ivana-cardoso.github.io/posts/Mulheres_na_Ciencia/Emilia-Snethlage.png" class="img-fluid quarto-figure quarto-figure-left figure-img" style="width:40.0%"></p>
+<figcaption>Museum für Naturkunde Berlin/Historische Bild-und Schriftgutsammlungen©</figcaption>
+</figure>
+</div>
+<p>Emília foi uma ornitóloga e naturalista, conhecida por seu trabalho na Amazônia. Ela também foi a primeira mulher a dirigir uma instituição científica na América Latina.</p>
+<p>Em 1899, ela começou a estudar história natural na Universidade de Berlim e cinco anos mais tarde, tornou-se doutora em ciências pela Universidade de Freiburg.</p>
+<p>Em 1905, iniciou sua trajetória como assistente de zoologia no Museu de História Natural de Berlim. Contudo, ainda no mesmo ano, mudou-se para Belém para trabalhar no Museu Paraense de História Natural e Ethnographia, atual <a href="https://www.gov.br/museugoeldi/pt-br">Museu Paraense Emilio Goeldi</a>. A partir desse momento, ela liderou diversas expedições pela Amazônia, sendo uma das mais notáveis a sua exploração entre os rios Xingu e Tapajós em 1909.</p>
+<p>Emília foi diretora do Museu Paraense Emílio Goeldi entre 1914 e 1922, sendo assim a primeira mulher a dirigir uma instituição científica na América Latina. Entre seus trabalhos de destaque está o Catálogo de Aves Amazônicas (1914) com 1117 aves amazônicas. <a href="https://en.wikipedia.org/wiki/Helmut_Sick">Helmut Sick</a> dedicou a ela o livro Ornitologia Brasileira em 1985.</p>
+<p>Neste post, exploramos as trajetórias de três mulheres cientistas cujas contribuições ecoam nas áreas de estatística, programação e ornitologia - temas que caracterizam o biRd blog. Que essas narrativas instiguem nosso compromisso contínuo com a igualdade de gênero e apoio às mulheres e meninas em sua jornada de busca pelo conhecimento e pela descoberta científica.</p>
+<p><em>Créditos da imagem na capa do post: <a href="https://www.freepik.com/free-vector/flat-international-day-women-girls-science-background_133721459.htm#from_view=detail_serie">Freepik</a></em></p>
+
+
+</section>
+
+ ]]></description>
+  <category>igualdade de gênero</category>
+  <category>empoderamento feminino</category>
+  <guid>https://ivana-cardoso.github.io/posts/Mulheres_na_Ciencia/</guid>
+  <pubDate>Sun, 11 Feb 2024 03:00:00 GMT</pubDate>
+  <media:content url="https://ivana-cardoso.github.io/posts/Mulheres_na_Ciencia/women_science_freepik.jpg" medium="image" type="image/jpeg"/>
+</item>
+</channel>
+</rss>

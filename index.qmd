@@ -10,6 +10,7 @@ listing:
   sort-ui: true
   filter-ui: false
   fields: [image, author, date, title, reading-time, description, categories]
+  feed: true
 page-layout: full
 lang: pt
 ---
