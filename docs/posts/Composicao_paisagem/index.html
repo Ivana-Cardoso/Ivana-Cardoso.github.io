@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.450">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Ivana Cardoso">
+<meta name="dcterms.date" content="2024-02-26">
+
+<title>biRd blog - Como calcular a composição da paisagem no R?</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-fixed fullcontent">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../round_biRd.png" alt="" class="navbar-logo">
+    </a>
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">biRd blog</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html" rel="" target="">
+ <span class="menu-text">Início</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../about.html" rel="" target="">
+ <span class="menu-text">Sobre</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/Ivana-Cardoso" rel="" target=""><i class="bi bi-github" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/Iv_Cardoso" rel="" target=""><i class="bi bi-twitter" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools">
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Como calcular a composição da paisagem no R?</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">R</div>
+                <div class="quarto-category">ecologia de paisagem</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Ivana Cardoso </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">February 26, 2024</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+<p><a href="https://www.scielo.br/j/bn/a/Jbchd6rjY35PGkY5BHPz63S/">Em ecologia de paisagens</a>, uma paisagem pode ser definida como um mosaico de usos do solo que interagem entre si em uma determinada escala, e pode ser caracterizada por sua composição e configuração. A composição da paisagem diz respeito a quantidade dos diferentes elementos na paisagem, enquanto a configuração diz respeito ao arranjo espacial desses elementos.</p>
+<p>Por exemplo, a cobertura florestal é uma medida de composição da paisagem que representa a quantidade de floresta, geralmente expressa em porcentagem, dentro da paisagem. <a href="https://onlinelibrary.wiley.com/doi/epdf/10.1111/ele.13535">Maior cobertura florestal</a> pode indicar maior diversidade de espécies e disponibilidade de recursos. Já o número de fragmentos é uma medida de configuração da paisagem que representa o nível de fragmentação dessa paisagem. Para um determinado valor de habitat, <a href="https://onlinelibrary.wiley.com/doi/epdf/10.1111/ele.13535">mais fragmentos</a> podem facilitar a movimentação das espécies.</p>
+<p>A escala em que a composição e a configuração da paisagem são calculadas influencia fortemente a relação das espécies com a paisagem. Por isso, é indicado fazer uma análise multi-escalar para selecionar uma escala, chamada <a href="https://onlinelibrary.wiley.com/doi/pdf/10.1111/geb.12233">escala de efeito</a>, que produza a relação mais forte entre sua variável resposta relacionada às espécies e sua variável preditora relacionada à paisagem. Por exemplo, em um estudo com aves foi utilizada uma análise multi-escalar para avaliar a relação entre <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/jbi.13499">número de espécies e quantidade de habitat disponível</a> na paisagem.</p>
+<p>No post de hoje, vamos aprender a calcular a composição da paisagem no software R utilizando o pacote <a href="https://r-spatialecology.github.io/landscapemetrics/index.html">landscapemetrics</a>. Para isso, utilizaremos, para fins didáticos, poucas paisagens e apenas uma escala de 2000 m. No entanto, lembre-se de avaliar se uma análise multi-escalar seria adequada para o seu caso.</p>
+<p>A área de estudo que escolhi foi a <a href="https://ppbio.inpa.gov.br/sitios/RDS_Rio_Negro">Reserva de Desenvolvimento Sustentável (RDS) do Rio Negro</a>, no Amazonas. Então, baixei o raster de cobertura e uso do solo da área no <a href="https://brasil.mapbiomas.org/colecoes-mapbiomas/">MAPBIOMAS</a> para o ano de 2022 (coleção 8). O arquivo está disponível no meu <a href="https://github.com/Ivana-Cardoso/Ivana-Cardoso.github.io/tree/main/posts">GitHub</a>, mas caso prefira baixar diretamente do site original, sugiro utilizar o <a href="https://www.youtube.com/watch?v=OBqaoSuLGbk&amp;ab_channel=MapBiomasBrasil">Toolkit</a> no Google Engine e prestar atenção ao Sistema de Referência de Coordenadas (CRS) escolhido.</p>
+<section id="calculando-a-composição-da-paisagem" class="level2">
+<h2 class="anchored" data-anchor-id="calculando-a-composição-da-paisagem">Calculando a composição da paisagem</h2>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Carregue os pacotes necessarios</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(raster)</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(landscapemetrics)</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(sf)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Importe o raster</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>RDS <span class="ot">&lt;-</span> <span class="fu">raster</span>(<span class="st">"RDS_Rio_Negro.tif"</span>)</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Veja qual a projecao do raster</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="fu">proj4string</span>(RDS)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "+proj=utm +zone=20 +south +datum=WGS84 +units=m +no_defs"</code></pre>
+</div>
+</div>
+<p>O nosso raster está no datum WGS-84, no formato de saída UTM, zona 20, hemisfério sul. É importante atentar para o formato de saída, pois queremos que as unidades do mapa sejam metros, e não graus. Isso facilita a compreensão do tamanho das nossas paisagens. É mais intuitivo entender que o tamanho das paisagens é de 2000 m do que 0.018 graus, não é? <br> Lembre-se de verificar a <a href="https://forest-gis.com/2016/06/um-pouco-sobre-a-projecao-utm.html/">zona UTM</a> da sua ára de estudo e garantir que seu raster esteja na projeção correta. <br></p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Cheque o raster</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="fu">check_landscape</span>(RDS) </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>  layer       crs units   class n_classes OK
+1     1 projected     m integer         9  ✔</code></pre>
+</div>
+</div>
+<p>Observe que nossas unidades estão em metros (coluna ‘units’), nosso raster possui nove classes (coluna ‘n_classes’) de uso e cobertura do solo, e que o valor dessas classes é especificado por números inteiros (coluna ‘class’). <br></p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Crie as coordenadas centrais das paisagens</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>coordenadas <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(<span class="at">X =</span> <span class="fu">c</span>(<span class="dv">774310</span>, <span class="dv">757581</span>, <span class="dv">745481</span>),</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>                          <span class="at">Y =</span> <span class="fu">c</span>(<span class="dv">9658335</span>, <span class="dv">9670747</span>, <span class="dv">9688402</span>))</span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Identifique as paisagens</span></span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>coordenadas<span class="sc">$</span>id <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>)</span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Transforme a tabela de coordenadas em pontos espaciais</span></span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a>pontos <span class="ot">&lt;-</span> <span class="fu">st_as_sf</span>(coordenadas, </span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a>                        <span class="at">coords =</span> <span class="fu">c</span>(<span class="st">"X"</span>, <span class="st">"Y"</span>), <span class="at">crs =</span> <span class="fu">crs</span>(RDS)) </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>Se você quiser visualizar seus dados <strong>diretamente</strong> no R antes de iniciar as análises, você pode utilizar os comandos abaixo:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Crie as paisagens de 2000 m</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>paisagens <span class="ot">&lt;-</span> <span class="fu">st_buffer</span>(pontos, <span class="at">dist =</span> <span class="dv">2000</span>)</span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Visualize os dados</span></span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(RDS, <span class="at">col=</span><span class="fu">gray.colors</span>(<span class="dv">34</span>))</span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a><span class="fu">points</span>(coordenadas, <span class="at">pch =</span> <span class="dv">16</span>)</span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(paisagens, <span class="at">add =</span> <span class="cn">TRUE</span>, <span class="at">color=</span><span class="st">"black"</span>) </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p><img src="RDS.png" class="img-fluid" style="width:60.0%"></p>
+<p>Eu criei esse mapa no QGIS V.3.34.3, mas ele é essencialmente o mesmo do mapa gerado a partir dos comandos acima, com exceção das cores. Eu escolhi fazer no QGIS apenas para mudar as cores sem incluir e dificultar o código com ações que não são o objetivo desse tutorial. Os pontos das nossas coordenadas estão representadas no mapa pela bolinha preta com contorno branco e as paisagens de 2000 m estão representadas pelo círculo tracejado.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Calcule a composição da paisagem</span></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>composicao <span class="ot">&lt;-</span> landscapemetrics<span class="sc">::</span><span class="fu">sample_lsm</span>(RDS, <span class="at">y =</span> pontos, <span class="at">size =</span> <span class="dv">2000</span>,</span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>                                           <span class="at">shape =</span> <span class="st">"circle"</span>, <span class="at">plot_id =</span> pontos<span class="sc">$</span>id,</span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a>                                           <span class="at">what =</span> <span class="st">"lsm_c_pland"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>Para amostrar paisagens em uma determinada escala ao redor de pontos de interesse utilizamos a função <a href="https://r-spatialecology.github.io/landscapemetrics/reference/sample_lsm.html">sample_lsm</a>. Dentro dessa função especificamos nosso raster (RDS), os pontos centrais de interesse (y = pontos), a escala da nossa paisagem (size = 2000), o formato da nossa paisagem (shape = “circle”), o identificador de cada paisagem (plot_id = pontos$id) e o que gostaríamos de calcular dentro dessa paisagem (“lsm_c_pland”). A função <a href="https://r-spatialecology.github.io/landscapemetrics/reference/lsm_c_pland.html?q=lsm_c_pland#ref-usage">lsm_c_pland</a> calcula a porcentagem de cada classe do raster dentro da paisagem. No nosso caso, essa função calculou a porcentagem de cada uso do solo nas paisagens.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Visualize os resultados</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>composicao</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 16 × 8
+   layer level class    id metric   value plot_id percentage_inside
+   &lt;int&gt; &lt;chr&gt; &lt;int&gt; &lt;int&gt; &lt;chr&gt;    &lt;dbl&gt;   &lt;dbl&gt;             &lt;dbl&gt;
+ 1     1 class     3    NA pland  74.4          1              102.
+ 2     1 class     6    NA pland   6.75         1              102.
+ 3     1 class    11    NA pland   1.23         1              102.
+ 4     1 class    12    NA pland   0.0352       1              102.
+ 5     1 class    15    NA pland   0.458        1              102.
+ 6     1 class    33    NA pland  17.2          1              102.
+ 7     1 class     3    NA pland  97.8          2              102.
+ 8     1 class     6    NA pland   1.06         2              102.
+ 9     1 class    15    NA pland   0.810        2              102.
+10     1 class    33    NA pland   0.374        2              102.
+11     1 class     3    NA pland  68.1          3              102.
+12     1 class     6    NA pland   2.26         3              102.
+13     1 class    11    NA pland   2.18         3              102.
+14     1 class    12    NA pland   0.507        3              102.
+15     1 class    15    NA pland   9.73         3              102.
+16     1 class    33    NA pland  17.2          3              102.</code></pre>
+</div>
+</div>
+<p>Essa tabela mostra nossos resultados. Preste atenção na coluna três, chamada “class”, na coluna seis, chamada “value”, e na coluna sete chamada “plot_id”.</p>
+<p>A coluna três indica os valores dos pixels que representam as classes. Já que utilizamos o raster do MAPBIOMAS, temos que consultar o <a href="https://brasil.mapbiomas.org/wp-content/uploads/sites/4/2023/08/Legenda-Colecao-8-LEGEND-CODE.pdf">código de legenda</a> para entender o que é cada classe do raster.</p>
+<p>A coluna seis indica o valor, em porcentagem, de cada classe na paisagem.</p>
+<p>A coluna sete indica a qual paisagem pertencem os valores. Com nossos resultados podemos concluir que:</p>
+A composição da <strong>paisagem 1</strong> é:
+
+<ul>
+<li>74.4% de Formação Florestal (classe 3),</li>
+<li>6.75% de Floresta Alagável (classe 6),</li>
+<li>1.23% Campo Alagado e Área Pantanosa (classe 11),</li>
+<li>0.0352% de Formação Campestre (classe 12),</li>
+<li>0.458% de Pastagem (classe 15),</li>
+<li>17.2% de Rio (classe 33).
+</li></ul>
+
+A composição da <strong>paisagem 2</strong> é:
+
+<ul>
+<li>97.8% de Formação Florestal (classe 3),</li>
+<li>1.06% de Floresta Alagável (classe 6),</li>
+<li>0.810% de Pastagem (classe 15),</li>
+<li>0.374% de Rio (classe 33).
+</li></ul>
+
+A composição da <strong>paisagem 3</strong> é:
+
+<ul>
+<li>68.1% de Formação Florestal (classe 3),</li>
+<li>2.26% de Floresta Alagável (classe 6),</li>
+<li>2.18% Campo Alagado e Área Pantanosa (classe 11),</li>
+<li>0.507% de Formação Campestre (classe 12),</li>
+<li>9.73% de Pastagem (classe 15),</li>
+<li>17.2% de Rio (classe 33).
+</li></ul>
+
+<p><img src="RDS_Landscapes.png" class="img-fluid"></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<script src="https://utteranc.es/client.js" repo="Ivana-Cardoso/biRd_comments" issue-term="pathname" theme="github-light" crossorigin="anonymous" async="">
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>

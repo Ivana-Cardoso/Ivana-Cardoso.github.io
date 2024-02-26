@@ -1,0 +1,22 @@
+<PAMDataset>
+  <PAMRasterBand band="1">
+    <Description>classification_2022</Description>
+    <Histograms>
+      <HistItem>
+        <HistMin>-0.4880952380952381</HistMin>
+        <HistMax>41.48809523809524</HistMax>
+        <BucketCount>42</BucketCount>
+        <IncludeOutOfRange>0</IncludeOutOfRange>
+        <Approximate>0</Approximate>
+        <HistCounts>1974849|0|0|1027459|29|0|38596|0|0|0|0|8177|733|0|0|29799|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|45279|0|0|0|0|0|0|0|84</HistCounts>
+      </HistItem>
+    </Histograms>
+    <Metadata>
+      <MDI key="STATISTICS_MAXIMUM">41</MDI>
+      <MDI key="STATISTICS_MEAN">1.714380616991</MDI>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
+      <MDI key="STATISTICS_STDDEV">4.3341262028331</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+</PAMDataset>

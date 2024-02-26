@@ -6,17 +6,307 @@
       version="2.0">
 <channel>
 <title>biRd blog</title>
-<link>https://ivana-cardoso.github.io/</link>
+<link>https://ivana-cardoso.github.io/index.html</link>
 <atom:link href="https://ivana-cardoso.github.io/index.xml" rel="self" type="application/rss+xml"/>
 <description>Aventuras em ornitologia, ecologia e estatística</description>
-<generator>quarto-1.5.12</generator>
-<lastBuildDate>Sun, 11 Feb 2024 03:00:00 GMT</lastBuildDate>
+<generator>quarto-1.3.450</generator>
+<lastBuildDate>Mon, 26 Feb 2024 03:00:00 GMT</lastBuildDate>
+<item>
+  <title>Como calcular a composição da paisagem no R?</title>
+  <dc:creator>Ivana Cardoso</dc:creator>
+  <link>https://ivana-cardoso.github.io/posts/Composicao_paisagem/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p><a href="https://www.scielo.br/j/bn/a/Jbchd6rjY35PGkY5BHPz63S/">Em ecologia de paisagens</a>, uma paisagem pode ser definida como um mosaico de usos do solo que interagem entre si em uma determinada escala, e pode ser caracterizada por sua composição e configuração. A composição da paisagem diz respeito a quantidade dos diferentes elementos na paisagem, enquanto a configuração diz respeito ao arranjo espacial desses elementos.</p>
+<p>Por exemplo, a cobertura florestal é uma medida de composição da paisagem que representa a quantidade de floresta, geralmente expressa em porcentagem, dentro da paisagem. <a href="https://onlinelibrary.wiley.com/doi/epdf/10.1111/ele.13535">Maior cobertura florestal</a> pode indicar maior diversidade de espécies e disponibilidade de recursos. Já o número de fragmentos é uma medida de configuração da paisagem que representa o nível de fragmentação dessa paisagem. Para um determinado valor de habitat, <a href="https://onlinelibrary.wiley.com/doi/epdf/10.1111/ele.13535">mais fragmentos</a> podem facilitar a movimentação das espécies.</p>
+<p>A escala em que a composição e a configuração da paisagem são calculadas influencia fortemente a relação das espécies com a paisagem. Por isso, é indicado fazer uma análise multi-escalar para selecionar uma escala, chamada <a href="https://onlinelibrary.wiley.com/doi/pdf/10.1111/geb.12233">escala de efeito</a>, que produza a relação mais forte entre sua variável resposta relacionada às espécies e sua variável preditora relacionada à paisagem. Por exemplo, em um estudo com aves foi utilizada uma análise multi-escalar para avaliar a relação entre <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/jbi.13499">número de espécies e quantidade de habitat disponível</a> na paisagem.</p>
+<p>No post de hoje, vamos aprender a calcular a composição da paisagem no software R utilizando o pacote <a href="https://r-spatialecology.github.io/landscapemetrics/index.html">landscapemetrics</a>. Para isso, utilizaremos, para fins didáticos, poucas paisagens e apenas uma escala de 2000 m. No entanto, lembre-se de avaliar se uma análise multi-escalar seria adequada para o seu caso.</p>
+<p>A área de estudo que escolhi foi a <a href="https://ppbio.inpa.gov.br/sitios/RDS_Rio_Negro">Reserva de Desenvolvimento Sustentável (RDS) do Rio Negro</a>, no Amazonas. Então, baixei o raster de cobertura e uso do solo da área no <a href="https://brasil.mapbiomas.org/colecoes-mapbiomas/">MAPBIOMAS</a> para o ano de 2022 (coleção 8). O arquivo está disponível no meu <a href="https://github.com/Ivana-Cardoso/Ivana-Cardoso.github.io/tree/main/posts">GitHub</a>, mas caso prefira baixar diretamente do site original, sugiro utilizar o <a href="https://www.youtube.com/watch?v=OBqaoSuLGbk&amp;ab_channel=MapBiomasBrasil">Toolkit</a> no Google Engine e prestar atenção ao Sistema de Referência de Coordenadas (CRS) escolhido.</p>
+<section id="calculando-a-composição-da-paisagem" class="level2">
+<h2 class="anchored" data-anchor-id="calculando-a-composição-da-paisagem">Calculando a composição da paisagem</h2>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Carregue os pacotes necessarios</span></span>
+<span id="cb1-2"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">library</span>(raster)</span>
+<span id="cb1-3"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">library</span>(landscapemetrics)</span>
+<span id="cb1-4"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">library</span>(sf)</span></code></pre></div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Importe o raster</span></span>
+<span id="cb2-2">RDS <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">raster</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"RDS_Rio_Negro.tif"</span>)</span>
+<span id="cb2-3"></span>
+<span id="cb2-4"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Veja qual a projecao do raster</span></span>
+<span id="cb2-5"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">proj4string</span>(RDS)</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "+proj=utm +zone=20 +south +datum=WGS84 +units=m +no_defs"</code></pre>
+</div>
+</div>
+<p>O nosso raster está no datum WGS-84, no formato de saída UTM, zona 20, hemisfério sul. É importante atentar para o formato de saída, pois queremos que as unidades do mapa sejam metros, e não graus. Isso facilita a compreensão do tamanho das nossas paisagens. É mais intuitivo entender que o tamanho das paisagens é de 2000 m do que 0.018 graus, não é? <br> Lembre-se de verificar a <a href="https://forest-gis.com/2016/06/um-pouco-sobre-a-projecao-utm.html/">zona UTM</a> da sua ára de estudo e garantir que seu raster esteja na projeção correta. <br></p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Cheque o raster</span></span>
+<span id="cb4-2"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">check_landscape</span>(RDS) </span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>  layer       crs units   class n_classes OK
+1     1 projected     m integer         9  ✔</code></pre>
+</div>
+</div>
+<p>Observe que nossas unidades estão em metros (coluna ‘units’), nosso raster possui nove classes (coluna ‘n_classes’) de uso e cobertura do solo, e que o valor dessas classes é especificado por números inteiros (coluna ‘class’). <br></p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb6" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Crie as coordenadas centrais das paisagens</span></span>
+<span id="cb6-2">coordenadas <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">data.frame</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">X =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">c</span>(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">774310</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">757581</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">745481</span>),</span>
+<span id="cb6-3">                          <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">Y =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">c</span>(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">9658335</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">9670747</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">9688402</span>))</span>
+<span id="cb6-4"></span>
+<span id="cb6-5"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Identifique as paisagens</span></span>
+<span id="cb6-6">coordenadas<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">$</span>id <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">c</span>(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">3</span>)</span>
+<span id="cb6-7"></span>
+<span id="cb6-8"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Transforme a tabela de coordenadas em pontos espaciais</span></span>
+<span id="cb6-9">pontos <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">st_as_sf</span>(coordenadas, </span>
+<span id="cb6-10">                        <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">coords =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">c</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"X"</span>, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Y"</span>), <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">crs =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">crs</span>(RDS)) </span></code></pre></div>
+</div>
+<p>Se você quiser visualizar seus dados <strong>diretamente</strong> no R antes de iniciar as análises, você pode utilizar os comandos abaixo:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb7" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Crie as paisagens de 2000 m</span></span>
+<span id="cb7-2">paisagens <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">st_buffer</span>(pontos, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">dist =</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2000</span>)</span>
+<span id="cb7-3"></span>
+<span id="cb7-4"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Visualize os dados</span></span>
+<span id="cb7-5"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">plot</span>(RDS, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">col=</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">gray.colors</span>(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">34</span>))</span>
+<span id="cb7-6"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">points</span>(coordenadas, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">pch =</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">16</span>)</span>
+<span id="cb7-7"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">plot</span>(paisagens, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">add =</span> <span class="cn" style="color: #8f5902;
+background-color: null;
+font-style: inherit;">TRUE</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">color=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"black"</span>) </span></code></pre></div>
+</div>
+<p><img src="https://ivana-cardoso.github.io/posts/Composicao_paisagem/RDS.png" class="img-fluid" style="width:60.0%"></p>
+<p>Eu criei esse mapa no QGIS V.3.34.3, mas ele é essencialmente o mesmo do mapa gerado a partir dos comandos acima, com exceção das cores. Eu escolhi fazer no QGIS apenas para mudar as cores sem incluir e dificultar o código com ações que não são o objetivo desse tutorial. Os pontos das nossas coordenadas estão representadas no mapa pela bolinha preta com contorno branco e as paisagens de 2000 m estão representadas pelo círculo tracejado.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb8" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Calcule a composição da paisagem</span></span>
+<span id="cb8-2">composicao <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> landscapemetrics<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">::</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">sample_lsm</span>(RDS, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">y =</span> pontos, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">size =</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2000</span>,</span>
+<span id="cb8-3">                                           <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">shape =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"circle"</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">plot_id =</span> pontos<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">$</span>id,</span>
+<span id="cb8-4">                                           <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">what =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"lsm_c_pland"</span>)</span></code></pre></div>
+</div>
+<p>Para amostrar paisagens em uma determinada escala ao redor de pontos de interesse utilizamos a função <a href="https://r-spatialecology.github.io/landscapemetrics/reference/sample_lsm.html">sample_lsm</a>. Dentro dessa função especificamos nosso raster (RDS), os pontos centrais de interesse (y = pontos), a escala da nossa paisagem (size = 2000), o formato da nossa paisagem (shape = “circle”), o identificador de cada paisagem (plot_id = pontos$id) e o que gostaríamos de calcular dentro dessa paisagem (“lsm_c_pland”). A função <a href="https://r-spatialecology.github.io/landscapemetrics/reference/lsm_c_pland.html?q=lsm_c_pland#ref-usage">lsm_c_pland</a> calcula a porcentagem de cada classe do raster dentro da paisagem. No nosso caso, essa função calculou a porcentagem de cada uso do solo nas paisagens.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb9" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Visualize os resultados</span></span>
+<span id="cb9-2">composicao</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 16 × 8
+   layer level class    id metric   value plot_id percentage_inside
+   &lt;int&gt; &lt;chr&gt; &lt;int&gt; &lt;int&gt; &lt;chr&gt;    &lt;dbl&gt;   &lt;dbl&gt;             &lt;dbl&gt;
+ 1     1 class     3    NA pland  74.4          1              102.
+ 2     1 class     6    NA pland   6.75         1              102.
+ 3     1 class    11    NA pland   1.23         1              102.
+ 4     1 class    12    NA pland   0.0352       1              102.
+ 5     1 class    15    NA pland   0.458        1              102.
+ 6     1 class    33    NA pland  17.2          1              102.
+ 7     1 class     3    NA pland  97.8          2              102.
+ 8     1 class     6    NA pland   1.06         2              102.
+ 9     1 class    15    NA pland   0.810        2              102.
+10     1 class    33    NA pland   0.374        2              102.
+11     1 class     3    NA pland  68.1          3              102.
+12     1 class     6    NA pland   2.26         3              102.
+13     1 class    11    NA pland   2.18         3              102.
+14     1 class    12    NA pland   0.507        3              102.
+15     1 class    15    NA pland   9.73         3              102.
+16     1 class    33    NA pland  17.2          3              102.</code></pre>
+</div>
+</div>
+<p>Essa tabela mostra nossos resultados. Preste atenção na coluna três, chamada “class”, na coluna seis, chamada “value”, e na coluna sete chamada “plot_id”.</p>
+<p>A coluna três indica os valores dos pixels que representam as classes. Já que utilizamos o raster do MAPBIOMAS, temos que consultar o <a href="https://brasil.mapbiomas.org/wp-content/uploads/sites/4/2023/08/Legenda-Colecao-8-LEGEND-CODE.pdf">código de legenda</a> para entender o que é cada classe do raster.</p>
+<p>A coluna seis indica o valor, em porcentagem, de cada classe na paisagem.</p>
+<p>A coluna sete indica a qual paisagem pertencem os valores. Com nossos resultados podemos concluir que:</p>
+A composição da <strong>paisagem 1</strong> é:
+
+<ul>
+<li>74.4% de Formação Florestal (classe 3),</li>
+<li>6.75% de Floresta Alagável (classe 6),</li>
+<li>1.23% Campo Alagado e Área Pantanosa (classe 11),</li>
+<li>0.0352% de Formação Campestre (classe 12),</li>
+<li>0.458% de Pastagem (classe 15),</li>
+<li>17.2% de Rio (classe 33).
+</li></ul>
+
+A composição da <strong>paisagem 2</strong> é:
+
+<ul>
+<li>97.8% de Formação Florestal (classe 3),</li>
+<li>1.06% de Floresta Alagável (classe 6),</li>
+<li>0.810% de Pastagem (classe 15),</li>
+<li>0.374% de Rio (classe 33).
+</li></ul>
+
+A composição da <strong>paisagem 3</strong> é:
+
+<ul>
+<li>68.1% de Formação Florestal (classe 3),</li>
+<li>2.26% de Floresta Alagável (classe 6),</li>
+<li>2.18% Campo Alagado e Área Pantanosa (classe 11),</li>
+<li>0.507% de Formação Campestre (classe 12),</li>
+<li>9.73% de Pastagem (classe 15),</li>
+<li>17.2% de Rio (classe 33).
+</li></ul>
+
+<p><img src="https://ivana-cardoso.github.io/posts/Composicao_paisagem/RDS_Landscapes.png" class="img-fluid"></p>
+
+
+</section>
+
+ ]]></description>
+  <category>R</category>
+  <category>ecologia de paisagem</category>
+  <guid>https://ivana-cardoso.github.io/posts/Composicao_paisagem/index.html</guid>
+  <pubDate>Mon, 26 Feb 2024 03:00:00 GMT</pubDate>
+  <media:content url="https://ivana-cardoso.github.io/posts/Composicao_paisagem/Paisagem_capa.png" medium="image" type="image/png" height="102" width="144"/>
+</item>
 <item>
   <title>Mulheres na Ciência: Quebrando barreiras e inspirando caminhos</title>
   <dc:creator>Ivana Cardoso</dc:creator>
-  <link>https://ivana-cardoso.github.io/posts/Mulheres_na_Ciencia/</link>
+  <link>https://ivana-cardoso.github.io/posts/Mulheres_na_Ciencia/index.html</link>
   <description><![CDATA[ 
-
 
 
 
@@ -29,8 +319,8 @@
 <h2 class="anchored" data-anchor-id="florence-nightingale-1820---1910">Florence Nightingale (1820 - 1910)</h2>
 <div class="quarto-figure quarto-figure-left">
 <figure class="figure">
-<p><img src="https://ivana-cardoso.github.io/posts/Mulheres_na_Ciencia/Florence-Nightingale.png" class="img-fluid quarto-figure quarto-figure-left figure-img" style="width:40.0%"></p>
-<figcaption>Santa Croce Firenze©</figcaption>
+<p><img src="https://ivana-cardoso.github.io/posts/Mulheres_na_Ciencia/Florence-Nightingale.png" class="img-fluid figure-img" style="width:40.0%"></p>
+<figcaption class="figure-caption">Santa Croce Firenze©</figcaption>
 </figure>
 </div>
 <p>Florence foi uma enfermeira que revolucionou a enfermagem através das primeiras representações gráficas de dados estatísticos. Ela começou a trabalhar aos 33 anos e, após um ano de trabalho, foi designada como enfermeira-chefe na <a href="https://pt.wikipedia.org/wiki/Guerra_da_Crimeia">Guerra da Crimeia</a>.</p>
@@ -39,8 +329,8 @@
 <p>Florence foi uma pioneira na representação gráfica de estatísticas, inventando os diagramas de área polar para mostrar quantas mortes poderiam ter sido evitadas se essas medidas sanitárias tivessem sido tomadas antes. Abaixo está a figura original criado pela Florence:</p>
 <div class="quarto-figure quarto-figure-left">
 <figure class="figure">
-<p><img src="https://ivana-cardoso.github.io/posts/Mulheres_na_Ciencia/polar-area-diagram.png" class="img-fluid quarto-figure quarto-figure-left figure-img"></p>
-<figcaption>Diagrama de Área Polar</figcaption>
+<p><img src="https://ivana-cardoso.github.io/posts/Mulheres_na_Ciencia/polar-area-diagram.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Diagrama de Área Polar</figcaption>
 </figure>
 </div>
 <p>No diagrama acima, as partes em azul representam mortes preveníveis (como aquelas causadas por doenças contagiosas), as partes em marrom representam mortes por feridas e as partes em cinza representam mortes por outras causas. Note que o pico de mortalidade foi em janeiro de 1855, totalizando 3.168 mortes - destas 2.761 de doenças contagiosas e 83 de ferimentos -. Esse diagrama está no livro <em>Notes on Matters Affecting the Health, Efficiency and Hospital Administration of the British Army</em> (1858), escrito pela Florence, mas eu retirei essas informações do <a href="https://www.jstor.org/stable/24969329">artigo escrito por Bernard Cohen em 1984</a>.</p>
@@ -49,8 +339,8 @@
 <h2 class="anchored" data-anchor-id="grace-hopper-1906---1992">Grace Hopper (1906 - 1992)</h2>
 <div class="quarto-figure quarto-figure-left">
 <figure class="figure">
-<p><img src="https://ivana-cardoso.github.io/posts/Mulheres_na_Ciencia/Grace-Hopper.jpg" class="img-fluid quarto-figure quarto-figure-left figure-img" style="width:40.0%"></p>
-<figcaption>Vassar College©</figcaption>
+<p><img src="https://ivana-cardoso.github.io/posts/Mulheres_na_Ciencia/Grace-Hopper.jpg" class="img-fluid figure-img" style="width:40.0%"></p>
+<figcaption class="figure-caption">Vassar College©</figcaption>
 </figure>
 </div>
 <p>Grace foi uma pioneira na programação computacional e inspirou, e inspira, muitas <a href="https://www.aauw.org/resources/research/the-stem-gap/">mulheres na área STEM</a> (Science, Technology, Engineering and Matematics), que ainda é predominantemente masculina.</p>
@@ -62,8 +352,8 @@
 <h2 class="anchored" data-anchor-id="emília-snethlage-1868-1929">Emília Snethlage (1868-1929)</h2>
 <div class="quarto-figure quarto-figure-left">
 <figure class="figure">
-<p><img src="https://ivana-cardoso.github.io/posts/Mulheres_na_Ciencia/Emilia-Snethlage.png" class="img-fluid quarto-figure quarto-figure-left figure-img" style="width:40.0%"></p>
-<figcaption>Museum für Naturkunde Berlin/Historische Bild-und Schriftgutsammlungen©</figcaption>
+<p><img src="https://ivana-cardoso.github.io/posts/Mulheres_na_Ciencia/Emilia-Snethlage.png" class="img-fluid figure-img" style="width:40.0%"></p>
+<figcaption class="figure-caption">Museum für Naturkunde Berlin/Historische Bild-und Schriftgutsammlungen©</figcaption>
 </figure>
 </div>
 <p>Emília foi uma ornitóloga e naturalista, conhecida por seu trabalho na Amazônia. Ela também foi a primeira mulher a dirigir uma instituição científica na América Latina.</p>
@@ -79,7 +369,7 @@
  ]]></description>
   <category>igualdade de gênero</category>
   <category>empoderamento feminino</category>
-  <guid>https://ivana-cardoso.github.io/posts/Mulheres_na_Ciencia/</guid>
+  <guid>https://ivana-cardoso.github.io/posts/Mulheres_na_Ciencia/index.html</guid>
   <pubDate>Sun, 11 Feb 2024 03:00:00 GMT</pubDate>
   <media:content url="https://ivana-cardoso.github.io/posts/Mulheres_na_Ciencia/women_science_freepik.jpg" medium="image" type="image/jpeg"/>
 </item>
