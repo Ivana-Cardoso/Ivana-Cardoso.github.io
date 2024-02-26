@@ -12,8 +12,8 @@ execute:
 
 [Em ecologia de paisagens](https://www.scielo.br/j/bn/a/Jbchd6rjY35PGkY5BHPz63S/), uma paisagem pode ser definida como um mosaico de usos do solo que interagem entre si em uma determinada escala, e pode ser caracterizada por sua composição e configuração. A composição da paisagem diz respeito a quantidade dos diferentes elementos na paisagem, enquanto a configuração diz respeito ao arranjo espacial desses elementos. 
 
-Por exemplo, a cobertura florestal é uma medida de composição da paisagem que representa a quantidade de floresta, geralmente expressa em porcentagem, dentro da paisagem. [Maior cobertura florestal](https://onlinelibrary.wiley.com/doi/epdf/10.1111/ele.13535) pode indicar maior diversidade de espécies e disponibilidade de recursos. 
-Já o número de fragmentos é uma medida de configuração da paisagem que representa o nível de fragmentação dessa paisagem. Para um determinado valor de habitat, [mais fragmentos](https://onlinelibrary.wiley.com/doi/epdf/10.1111/ele.13535) podem facilitar a movimentação das espécies.
+Por exemplo, a cobertura florestal é uma medida de composição da paisagem que representa a quantidade de floresta, geralmente expressa em porcentagem, dentro da paisagem. Maior cobertura florestal pode indicar maior diversidade de espécies e disponibilidade de recursos [(revisado por Arroyo-Rodríguez et al., 2020)](https://onlinelibrary.wiley.com/doi/epdf/10.1111/ele.13535). 
+Já o número de fragmentos é uma medida de configuração da paisagem que representa o nível de fragmentação dessa paisagem. Para um determinado valor de habitat, mais fragmentos podem facilitar a movimentação das espécies [(revisado por Arroyo-Rodríguez et al., 2020)](https://onlinelibrary.wiley.com/doi/epdf/10.1111/ele.13535).
 
 A escala em que a composição e a configuração da paisagem são calculadas influencia fortemente a relação das espécies com a paisagem. Por isso, é indicado fazer uma análise multi-escalar para selecionar uma escala, chamada [escala de efeito](https://onlinelibrary.wiley.com/doi/pdf/10.1111/geb.12233), que produza a relação mais forte entre sua variável resposta relacionada às espécies e sua variável preditora relacionada à paisagem. Por exemplo, em um estudo com aves foi utilizada uma análise multi-escalar para avaliar a relação entre [número de espécies e quantidade de habitat disponível](https://onlinelibrary.wiley.com/doi/abs/10.1111/jbi.13499) na paisagem.
 
@@ -23,32 +23,44 @@ A área de estudo que escolhi foi a [Reserva de Desenvolvimento Sustentável (RD
 
 ## Calculando a composição da paisagem
 
-````{r, output = FALSE}
+```{r, output = FALSE}
+# Baixe os pacotes necessarios
+if (!requireNamespace(c("terra", "landscapemetrics", "sf"), quietly = TRUE)) {
+  install.packages(c("terra", "landscapemetrics", "sf"))
+}
+
 # Carregue os pacotes necessarios
-library(raster)
+library(terra)
 library(landscapemetrics)
 library(sf)
-````
-````{r}
+```
+```{r}
+#| code-overflow: wrap
+# Defina seu diretorio
+setwd("C:/Users/ivana/OneDrive/Ivana-Cardoso.github.io/posts/Composicao_paisagem") # Nao esqueca de mudar para a pasta onde voce ira salvar o raster baixado
+```
+```{r}
 # Importe o raster
-RDS <- raster("RDS_Rio_Negro.tif")
+# Você pode baixa-lo em:
+# https://github.com/Ivana-Cardoso/Ivana-Cardoso.github.io/raw/main/posts/Composicao_paisagem/RDS_Rio_Negro.tif
+RDS <- rast("RDS_Rio_Negro.tif")
 
-# Veja qual a projecao do raster
-proj4string(RDS)
-````
+# Veja qual o Sistema de Referencia de Coordenadas do raster
+crs(RDS)
+```
 O nosso raster está no datum WGS-84, no formato de saída UTM, zona 20, hemisfério sul. É importante atentar para o formato de saída, pois queremos que as unidades do mapa sejam metros, e não graus. Isso facilita a compreensão do tamanho das nossas paisagens. É mais intuitivo entender que o tamanho das paisagens é de 2000 m do que 0.018 graus, não é?
 </br>
 Lembre-se de verificar a [zona UTM](https://forest-gis.com/2016/06/um-pouco-sobre-a-projecao-utm.html/) da sua ára de estudo e garantir que seu raster esteja na projeção correta.
 </br>
 
-````{r}
+```{r}
 # Cheque o raster
 check_landscape(RDS) 
-````
+```
 Observe que nossas unidades estão em metros (coluna 'units'), nosso raster possui nove classes (coluna 'n_classes') de uso e cobertura do solo, e que o valor dessas classes é especificado por números inteiros (coluna 'class').
 </br>
 
-````{r}
+```{r}
 # Crie as coordenadas centrais das paisagens
 coordenadas <- data.frame(X = c(774310, 757581, 745481),
                           Y = c(9658335, 9670747, 9688402))
@@ -59,11 +71,11 @@ coordenadas$id <- c(1, 2, 3)
 # Transforme a tabela de coordenadas em pontos espaciais
 pontos <- st_as_sf(coordenadas, 
                         coords = c("X", "Y"), crs = crs(RDS)) 
-````
+```
 
 Se você quiser visualizar seus dados **diretamente** no R antes de iniciar as análises, você pode utilizar os comandos abaixo:
 
-````{r, output = FALSE}
+```{r, output = FALSE}
 # Crie as paisagens de 2000 m
 paisagens <- st_buffer(pontos, dist = 2000)
 
@@ -71,26 +83,27 @@ paisagens <- st_buffer(pontos, dist = 2000)
 plot(RDS, col=gray.colors(34))
 points(coordenadas, pch = 16)
 plot(paisagens, add = TRUE, color="black") 
-````
+```
 
 ![ ](RDS.png){width="60%"}
 
 Eu criei esse mapa no QGIS v.3.34.3, mas ele é essencialmente o mesmo do mapa gerado a partir dos comandos acima, com exceção das cores. Eu escolhi fazer no QGIS apenas para mudar as cores sem incluir e dificultar o código com ações que não são o objetivo desse tutorial.
 Os pontos das nossas coordenadas estão representadas no mapa pela bolinha preta com contorno branco e as paisagens de 2000 m estão representadas pelo círculo tracejado.
 
-````{r}
+```{r}
+#| code-overflow: wrap
 # Calcule a composição da paisagem
 composicao <- landscapemetrics::sample_lsm(RDS, y = pontos, size = 2000,
                                            shape = "circle", plot_id = pontos$id,
                                            what = "lsm_c_pland")
-````
+```
 Para amostrar paisagens em uma determinada escala ao redor de pontos de interesse utilizamos a função [sample_lsm](https://r-spatialecology.github.io/landscapemetrics/reference/sample_lsm.html). Dentro dessa função especificamos nosso raster (RDS), os pontos centrais de interesse (y = pontos), a escala das nossas paisagens (size = 2000), o formato das nossas paisagens (shape = "circle"), o identificador de cada paisagem (plot_id = pontos$id) e o que gostaríamos de calcular dentro dessas paisagens ("lsm_c_pland").
 A função [lsm_c_pland](https://r-spatialecology.github.io/landscapemetrics/reference/lsm_c_pland.html?q=lsm_c_pland#ref-usage) calcula a porcentagem de cada classe do raster dentro das paisagens. No nosso caso, essa função calculou a porcentagem de cada uso do solo nas paisagens.
 
-````{r}
+```{r}
 # Visualize os resultados
 composicao
-````
+```
 
 Essa tabela mostra nossos resultados. Preste atenção na coluna três, chamada "class", na coluna seis, chamada "value", e na coluna sete chamada "plot_id".
 
