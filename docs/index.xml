@@ -6,16 +6,17 @@
       version="2.0">
 <channel>
 <title>biRd blog</title>
-<link>https://ivana-cardoso.github.io/index.html</link>
+<link>https://ivana-cardoso.github.io/</link>
 <atom:link href="https://ivana-cardoso.github.io/index.xml" rel="self" type="application/rss+xml"/>
 <description>Aventuras em ornitologia, ecologia e estatística</description>
-<generator>quarto-1.3.450</generator>
-<lastBuildDate>Mon, 26 Feb 2024 03:00:00 GMT</lastBuildDate>
+<generator>quarto-1.4.553</generator>
+<lastBuildDate>Mon, 26 Feb 2024 04:00:00 GMT</lastBuildDate>
 <item>
   <title>Como calcular a composição da paisagem no R?</title>
   <dc:creator>Ivana Cardoso</dc:creator>
-  <link>https://ivana-cardoso.github.io/posts/Composicao_paisagem/index.html</link>
+  <link>https://ivana-cardoso.github.io/posts/Composicao_paisagem/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -351,15 +352,16 @@ A composição da <strong>paisagem 3</strong> é:
  ]]></description>
   <category>R</category>
   <category>ecologia de paisagem</category>
-  <guid>https://ivana-cardoso.github.io/posts/Composicao_paisagem/index.html</guid>
-  <pubDate>Mon, 26 Feb 2024 03:00:00 GMT</pubDate>
+  <guid>https://ivana-cardoso.github.io/posts/Composicao_paisagem/</guid>
+  <pubDate>Mon, 26 Feb 2024 04:00:00 GMT</pubDate>
   <media:content url="https://ivana-cardoso.github.io/posts/Composicao_paisagem/Paisagem_capa.png" medium="image" type="image/png" height="102" width="144"/>
 </item>
 <item>
   <title>Mulheres na Ciência: Quebrando barreiras e inspirando caminhos</title>
   <dc:creator>Ivana Cardoso</dc:creator>
-  <link>https://ivana-cardoso.github.io/posts/Mulheres_na_Ciencia/index.html</link>
+  <link>https://ivana-cardoso.github.io/posts/Mulheres_na_Ciencia/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -373,7 +375,7 @@ A composição da <strong>paisagem 3</strong> é:
 <div class="quarto-figure quarto-figure-left">
 <figure class="figure">
 <p><img src="https://ivana-cardoso.github.io/posts/Mulheres_na_Ciencia/Florence-Nightingale.png" class="img-fluid figure-img" style="width:40.0%"></p>
-<figcaption class="figure-caption">Santa Croce Firenze©</figcaption>
+<figcaption>Santa Croce Firenze©</figcaption>
 </figure>
 </div>
 <p>Florence foi uma enfermeira que revolucionou a enfermagem através das primeiras representações gráficas de dados estatísticos. Ela começou a trabalhar aos 33 anos e, após um ano de trabalho, foi designada como enfermeira-chefe na <a href="https://pt.wikipedia.org/wiki/Guerra_da_Crimeia">Guerra da Crimeia</a>.</p>
@@ -383,7 +385,7 @@ A composição da <strong>paisagem 3</strong> é:
 <div class="quarto-figure quarto-figure-left">
 <figure class="figure">
 <p><img src="https://ivana-cardoso.github.io/posts/Mulheres_na_Ciencia/polar-area-diagram.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Diagrama de Área Polar</figcaption>
+<figcaption>Diagrama de Área Polar</figcaption>
 </figure>
 </div>
 <p>No diagrama acima, as partes em azul representam mortes preveníveis (como aquelas causadas por doenças contagiosas), as partes em marrom representam mortes por feridas e as partes em cinza representam mortes por outras causas. Note que o pico de mortalidade foi em janeiro de 1855, totalizando 3.168 mortes - destas 2.761 de doenças contagiosas e 83 de ferimentos -. Esse diagrama está no livro <em>Notes on Matters Affecting the Health, Efficiency and Hospital Administration of the British Army</em> (1858), escrito pela Florence, mas eu retirei essas informações do <a href="https://www.jstor.org/stable/24969329">artigo escrito por Bernard Cohen em 1984</a>.</p>
@@ -393,7 +395,7 @@ A composição da <strong>paisagem 3</strong> é:
 <div class="quarto-figure quarto-figure-left">
 <figure class="figure">
 <p><img src="https://ivana-cardoso.github.io/posts/Mulheres_na_Ciencia/Grace-Hopper.jpg" class="img-fluid figure-img" style="width:40.0%"></p>
-<figcaption class="figure-caption">Vassar College©</figcaption>
+<figcaption>Vassar College©</figcaption>
 </figure>
 </div>
 <p>Grace foi uma pioneira na programação computacional e inspirou, e inspira, muitas <a href="https://www.aauw.org/resources/research/the-stem-gap/">mulheres na área STEM</a> (Science, Technology, Engineering and Matematics), que ainda é predominantemente masculina.</p>
@@ -406,7 +408,7 @@ A composição da <strong>paisagem 3</strong> é:
 <div class="quarto-figure quarto-figure-left">
 <figure class="figure">
 <p><img src="https://ivana-cardoso.github.io/posts/Mulheres_na_Ciencia/Emilia-Snethlage.png" class="img-fluid figure-img" style="width:40.0%"></p>
-<figcaption class="figure-caption">Museum für Naturkunde Berlin/Historische Bild-und Schriftgutsammlungen©</figcaption>
+<figcaption>Museum für Naturkunde Berlin/Historische Bild-und Schriftgutsammlungen©</figcaption>
 </figure>
 </div>
 <p>Emília foi uma ornitóloga e naturalista, conhecida por seu trabalho na Amazônia. Ela também foi a primeira mulher a dirigir uma instituição científica na América Latina.</p>
@@ -422,8 +424,8 @@ A composição da <strong>paisagem 3</strong> é:
  ]]></description>
   <category>igualdade de gênero</category>
   <category>empoderamento feminino</category>
-  <guid>https://ivana-cardoso.github.io/posts/Mulheres_na_Ciencia/index.html</guid>
-  <pubDate>Sun, 11 Feb 2024 03:00:00 GMT</pubDate>
+  <guid>https://ivana-cardoso.github.io/posts/Mulheres_na_Ciencia/</guid>
+  <pubDate>Sun, 11 Feb 2024 04:00:00 GMT</pubDate>
   <media:content url="https://ivana-cardoso.github.io/posts/Mulheres_na_Ciencia/women_science_freepik.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>

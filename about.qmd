@@ -5,6 +5,7 @@ about:
   template: solana
   image-shape: rectangle
 comments: false
+theme: custom.scss
 ---
 
 ## 
