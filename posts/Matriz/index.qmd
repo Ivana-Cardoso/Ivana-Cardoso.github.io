@@ -52,13 +52,9 @@ A matriz, de acordo com sua qualidade, pode:
 
 <li>Amenizar ou intensificar os efeitos de borda</li>
 
-<li>
+<li>Servir como fonte de espécies</li>
 
-Servir como fonte de espécies
-
-<li>
-
-Influenciar no fornecimento de serviços ecossistêmicos
+<li>Influenciar no fornecimento de serviços ecossistêmicos</li>
 
 </ul>
 
