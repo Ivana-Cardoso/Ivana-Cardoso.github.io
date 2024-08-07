@@ -1,0 +1,40 @@
+---
+title: "Lições e inspirações de um curso de verão"
+author: "Ivana Cardoso"
+date: "2024-08-06"
+image: "20240803_flight.jpg"
+categories: 
+  - vida acadêmica
+  - relato de experiência
+---
+
+Localizado sobre a [dorsal mesoatlântica](https://pt.wikipedia.org/wiki/Dorsal_Mesoatl%C3%A2ntica), o [arquipélago dos Açores](https://pt.wikipedia.org/wiki/A%C3%A7ores) é composto por nove ilhas vulcânicas, formadas no final do Terciário. Entre elas está a [Ilha Terceira](https://pt.wikipedia.org/wiki/Ilha_Terceira), que surgiu há cerca de 3,52 milhões de anos e possui uma área de aproximadamente 402 km². Um dos municípios de Terceira é [Angra do Heroísmo](https://pt.wikipedia.org/wiki/Angra_do_Hero%C3%ADsmo) que hoje é um patrimônio mundial da UNESCO.
+
+![Angra do Heroísmo, arquivo pessoal](20240721_angra.jpg){fig-align="left" width="60%"}
+
+Entre o final de julho e o início de agosto de 2024, esse município recebeu estudantes de várias partes do mundo para participar do curso de verão [_Island Biogeography and Macroecology_](https://gba.uac.pt/training/ver.php?id=8). Eu fui uma dessas estudantes que viajou exclusivamente para atender ao curso, sendo a única brasileira e uma das três pessoas do Sul Global. É sobre essa experiência que escreverei nas linhas abaixo.
+
+![Estudantes e professores do curso, arquivo compartilhado do curso](20240802_group_photo.jpg){fig-align="left" width="60%"}
+
+No dia 19 de julho de 2024, saí de Manaus, Amazonas, e, como diz meu coorientador, _embarquei nas asas da ciência_ para vivenciar minha primeira experiência acadêmica fora do Brasil. Naquele momento, eu não imaginava o quanto minha visão de mundo seria ampliada e quanto me inspiraria.
+
+A partir do dia 22 de julho, o curso começou e tivemos aulas com professores na fronteira do conhecimento. Discutimos teorias ecológicas e evolutivas, exploramos processos que moldam as comunidades insulares e aprendemos sobre métodos e ferramentas para calcular diferentes dimensões da diversidade.
+
+Além de aulas teóricas, também tivemos aula de campo, onde aprendemos metodologias para coleta de artrópodes, polinizadores e briófitas. Conhecemos novos ambientes, como a [floresta laurissilva](https://pt.wikipedia.org/wiki/Laurissilva), e aprendemos a reconhecer espécies endêmicas, como [_Erica azorica_](https://azoresbioportal.uac.pt/pt/especies-dos-acores/erica-azorica-10091/a), [_Laurus azorica_](https://azoresbioportal.uac.pt/pt/especies-dos-acores/laurus-azorica-10116/) e [_Juniperus brevifolia_](https://azoresbioportal.uac.pt/pt/especies-dos-acores/juniperus-brevifolia-brevifolia-6423/), e invasoras, como o [_Hedychium gardnerianum_](https://azoresbioportal.uac.pt/pt/especies-dos-acores/hedychium-gardnerianum-6413/) e a [_Hydrangea macrophylla_](https://azoresbioportal.uac.pt/pt/especies-dos-acores/hydrangea-macrophylla-6519/), que surpreendentemente ocupam grandes áreas em Terceira.
+
+![Plot permanente com armadilhas SLAM, arquivo pessoal](20240728_SLAM_trap.jpg){fig-align="left" width="60%"}
+
+![Armadilhas para polinizadores, arquivo pessoal](20240728_polinator.jpg){fig-align="left" width="60%"}
+
+
+No curso, não só adquiri conhecimentos e ferramentas que elevarão a qualidade do meu projeto de doutorado, mas também me inspirei com os projetos de pessoas incríveis, que também se dedicam a entender e defender a biodiversidade em várias partes do mundo. Compartilhamos experiências, culturas e ideias, além de soluções para desafios comuns em nossas pesquisas. Foi fascinante ver como, mesmo em um campo tão específico quanto a biogeografia de ilhas, existe uma riqueza de tópicos e perspectivas.
+
+Os professores nos proporcionaram palavras inspiradoras, ressaltando a importância da nova geração de cientistas e a necessidade de persistência diante das adversidades da ciência. Uma mensagem que ficou comigo foi a de que, mesmo frente às dificuldades, a perseverança é fundamental.
+
+Antes de embarcar nessa jornada, eu estava acompanhada pelo medo do desconhecido e pela insegurança. No entanto, ao participar do curso, experimentei um impacto pessoal e profissional transformador que eu não teria vivenciado de outra forma.
+
+Escrevo este post para registrar essa experiência e também para agradecer a todas as pessoas da minha rede de apoio que compartilharam essa alegria comigo e ao [PPGECO](http://www.ppginpa.eco.br/index.php/pt-br/) do INPA, que me possibilitou participar do curso.
+
+![Apresentação de projeto, arquivo pessoal](20240802_project.jpg){fig-align="left" width="60%"}
+
+
