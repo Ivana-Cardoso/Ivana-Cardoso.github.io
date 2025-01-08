@@ -3,7 +3,7 @@ project:
   output-dir: docs
   
 website:
-  site-url: http://birdblog.com/
+  site-url: https://ivana-cardoso.github.io/
   title: "biRd blog"
   description: "Aventuras em ornitologia, ecologia e estatística"
   navbar:
