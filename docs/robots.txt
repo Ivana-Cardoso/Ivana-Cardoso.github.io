@@ -1,1 +1,1 @@
-Sitemap: https://ivana-cardoso.github.io/sitemap.xml
+Sitemap: http://birdblog.com/sitemap.xml
