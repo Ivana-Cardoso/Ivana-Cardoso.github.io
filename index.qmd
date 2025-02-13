@@ -1,5 +1,5 @@
 ---
-title: "  "
+title: "Postagens"
 title-block-banner: true
 margin-header: subscribe.html
 listing:

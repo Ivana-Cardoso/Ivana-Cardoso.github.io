@@ -1,5 +1,5 @@
 ---
-title: " "
+title: "Ivana Cardoso"
 image: profile.jpg
 about: 
   template: trestles
@@ -16,14 +16,11 @@ about:
     - icon: researchgate
       text: ResearchGate
       href: https://www.researchgate.net/profile/Ivana-Cardoso
-    - icon: twitter
-      text: Twitter
-      href: https://twitter.com/Iv_Cardoso
     - icon: instagram
       text: Instagram
       href: https://instagram.com/waters_ivana?igsh=eHINWJ2eHgzN2V0
 comments: false
-theme: custom.scss
+theme: theme.scss
 ---
 
 ## Sobre a autora

@@ -1,6 +1,6 @@
 /*-- scss:defaults --*/
 
-$primary: #f0f0f0 !default;
+$primary: #f0f0f0 !default; 
 $navbar-bg: #f0f0f0 !default;
 $font-family-base:            'Open Sans', 'Calibri', 'Arial' !default;
 $body-color:                #252525 !default;
@@ -33,8 +33,60 @@ a {
     text-decoration: underline;
 }
 
-#title-block-header {
-  margin-block-end: -1rem;
-  position: relative;
-  margin-top: -1px;
+
+/* Estilos para os links da barra de navegação */
+.navbar-nav .nav-link {
+    color: $body-color; /* Cor padrão do texto */
+    transition: color 0.3s ease; /* Transição suave para a mudança de cor */
 }
+
+/* Quando o mouse passa por cima */
+.navbar-nav .nav-link:hover {
+    color: #fec44f; 
+}
+
+/* Quando o link está ativo/selecionado */
+.navbar-nav .nav-link.active {
+    color: #fe9929; 
+    }
+
+/* Quando o link está em foco (útil para acessibilidade) */
+.navbar-nav .nav-link:focus {
+    color: #fe9929; 
+}
+
+
+
+p {
+    line-height: 1.6; /* Melhora a legibilidade */
+    margin-bottom: 1.5rem; /* Espaçamento entre parágrafos */
+}
+
+
+@media (max-width: 768px) {
+    .navbar > .container-xxl, .navbar > .container-xl, .navbar > .container-lg, .navbar > .container-md, .navbar > .container-sm, .navbar > .container, .navbar > .container-fluid {
+        padding: 0 1rem; /* Adiciona padding em telas menores */
+    }
+
+    h1 {
+        font-size: 2rem; /* Reduz o tamanho do título em dispositivos móveis */
+    }
+}
+
+
+footer {
+    background-color: $primary;
+    padding: 1.5rem 0;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+
+a:hover {
+    color: #fe9929; /* Cor de destaque ao passar o mouse em links */
+}
+
+a:active {
+    color: darken(#fe9929, 10%); /* Cor de destaque ao clicar em links */
+}
+

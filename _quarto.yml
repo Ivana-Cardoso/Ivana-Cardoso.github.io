@@ -8,10 +8,12 @@ website:
   description: "Aventuras em ornitologia, ecologia e estatística"
   navbar:
     left:
-      - text: "Início"
+      - text: "Postagens"
         file: index.qmd
-      - text: "Sobre"
+      - text: "Sobre o blog"
         file: about.qmd
+      - text: "Sobre a autora"
+        file: about_author.qmd
     right: 
       - icon: github
         href: https://github.com/Ivana-Cardoso
@@ -23,8 +25,6 @@ format:
   html:
     theme:
       - theme.scss
-   
-
 
 editor: visual
 
