@@ -25,7 +25,7 @@ theme: theme.scss
 
 ## Sobre a autora
 
-Meu nome é Ivana Cardoso, sou aluna de doutorado em Ecologia no [Instituto Nacional de Pesquisas da Amazônia](http://ppginpa.eco.br/index.php/pt-br/) e, atualmente, estudo os efeitos espaciais e temporais da insularização sobre a biodiversidade.
+Meu nome é Ivana Cardoso, sou aluna de doutorado em Ecologia no [Instituto Nacional de Pesquisas da Amazônia](http://ppginpa.eco.br/index.php/pt-br/) e, atualmente, estudo os efeitos espaciais e temporais da insularização florestal sobre assembleias de aves e formigas.
 
 ## Educação
 

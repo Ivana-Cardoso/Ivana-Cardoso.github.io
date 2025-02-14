@@ -5,6 +5,7 @@ project:
 website:
   site-url: https://ivana-cardoso.github.io/
   title: "biRd blog"
+  image: biRd.png
   description: "Aventuras em ornitologia, ecologia e estatística"
   announcement: 
     icon: binoculars-fill
