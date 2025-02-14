@@ -16,7 +16,7 @@ O blog tem esse nome como uma junção de duas coisas que gosto muito: aves e R!
 
 Criei este blog como uma forma de compartilhar o que aprendi e, ao mesmo tempo, continuar aprendendo sobre os temas citados acima.
 
-Meu nome é Ivana Cardoso, sou bióloga e cientista. Se quiser saber mais sobre mim, você pode encontrar mais informações [aqui](#0).
+Meu nome é Ivana Cardoso, sou bióloga e cientista. Se quiser saber mais sobre mim, você pode encontrar mais informações [aqui](about_author.qmd).
 
 Espero que o biRd blog seja útil para você de alguma maneira.
 
