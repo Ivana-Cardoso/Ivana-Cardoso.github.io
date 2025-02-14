@@ -6,6 +6,12 @@ website:
   site-url: https://ivana-cardoso.github.io/
   title: "biRd blog"
   description: "Aventuras em ornitologia, ecologia e estatística"
+  announcement: 
+    icon: binoculars-fill
+    dismissable: true
+    content: "A ciência se torna ainda mais bela quando explorada em conjunto. **Seja bem-vinda(o) ao biRd blog!**"
+    type: primary
+    position: below-navbar
   navbar:
     left:
       - text: "Postagens"
@@ -17,10 +23,11 @@ website:
     right: 
       - icon: github
         href: https://github.com/Ivana-Cardoso
-      - icon: twitter
-        href: https://twitter.com/Iv_Cardoso
+      - icon: rss
+        href: index.xml
     logo: round_biRd.png
-    
+  page-footer: "Este blog foi construído com [Quarto v.1.5.57](https://quarto.org/) no [R v.4.3.2](https://www.r-project.org/)"
+
 format:
   html:
     theme:
