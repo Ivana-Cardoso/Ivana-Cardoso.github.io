@@ -13,8 +13,6 @@
 <url>https://ivana-cardoso.github.io/biRd.png</url>
 <title>biRd blog</title>
 <link>https://ivana-cardoso.github.io/</link>
-<height>125</height>
-<width>144</width>
 </image>
 <generator>quarto-1.5.57</generator>
 <lastBuildDate>Mon, 23 Sep 2024 03:00:00 GMT</lastBuildDate>
@@ -233,7 +231,7 @@ Influenciar no fornecimento de serviços ecossistêmicos
 </section>
 
  ]]></description>
-  <category>ecologia de paisagens</category>
+  <category>ecologia de paisagem</category>
   <category>alterações antrópicas no habitat</category>
   <category>conservação da biodiversidade</category>
   <guid>https://ivana-cardoso.github.io/posts/Matriz/</guid>
