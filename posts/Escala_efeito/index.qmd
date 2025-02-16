@@ -91,7 +91,7 @@ Observe a estrutura dos dados ambientais:
 
 -   **Linhas**: Cada linha representa um **sítio**.
 
--   **Colunas**: Cada coluna contém uma **característica** específica do sítio, como coordenadas geográficas e quantidade de cobertura florestal.
+-   **Colunas**: Cada coluna contém uma **característica** específica do sítio, como coordenadas geográficas e quantidade de cobertura florestal em cada escala.
 
 Estamos interessados nas colunas que representam a cobertura florestal em diferentes escalas espaciais. Por exemplo, a coluna *forest.cover.50* (coluna 4) mostra a porcentagem de cobertura florestal na paisagem em uma escala de 50 metros ao redor de cada sítio. Outras colunas, como forest.cover.100 ou forest.cover.200, seguem a mesma lógica, mas para escalas maiores (100 m, 200 m, etc.).
 
