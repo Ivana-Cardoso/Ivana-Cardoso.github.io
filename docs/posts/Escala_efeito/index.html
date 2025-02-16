@@ -217,17 +217,17 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <h2 class="anchored" data-anchor-id="o-que-é-escala-do-efeito">O que é escala do efeito?</h2>
 <p>A escala do efeito é a escala espacial em que uma determinada característica da paisagem melhor explica a variável resposta <a href="https://onlinelibrary.wiley.com/doi/full/10.1111/geb.12233">(Jackson e Fahrig, 2015)</a>. Ela pode ser determinada seguindo os passos abaixo:</p>
 <ul>
-<li><p><strong>Na coleta de dados</strong>: medindo a variável resposta em vários sítios focais em uma região (Fig.1a);</p></li>
-<li><p><strong>Na análise multiescala</strong>: medindo a característica da paisagem de interesse em múltiplas extensões espaciais ao redor de cada sítio focal (Fig. 1b);</p></li>
+<li><p><strong>Na coleta de dados</strong>: medindo a variável resposta em várias unidades amostrais em uma região (Fig.1a);</p></li>
+<li><p><strong>Na análise multiescala</strong>: medindo a característica da paisagem de interesse em múltiplas extensões espaciais ao redor de cada unidade amostral (Fig. 1b);</p></li>
 <li><p><strong>Na análise estatística</strong>: identificando a escala que apresenta maior valor do coeficiente de correlação, inclinação da regressão ou valor de informação de modelos entre a variável preditora de interesse, relacionada a estrutura paisagem, e a variável resposta de interesse (Fig. 1c).</p></li>
 </ul>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="adaptado_Jackson_Fahrig_2015.png" class="img-fluid figure-img"></p>
-<figcaption><strong>Fig. 1</strong> a. medindo a variável resposta em vários sítios em uma região; b. medindo a variável preditora de interesse em várias escalas; c.esquema determinando a escala do efeito. Baseado na Fig.1 de <a href="https://onlinelibrary.wiley.com/doi/full/10.1111/geb.12233">(Jackson e Fahrig, 2015)</a></figcaption>
+<figcaption><strong>Fig. 1</strong> a. medindo a variável resposta em várias unidades amostrais em uma região; b. medindo a variável preditora de interesse em várias escalas; c.&nbsp;esquema determinando a escala do efeito. Baseado na Fig.1 de <a href="https://onlinelibrary.wiley.com/doi/full/10.1111/geb.12233">(Jackson e Fahrig, 2015)</a></figcaption>
 </figure>
 </div>
-<p>A seleção de escalas espaciais deve considerar a biologia da espécie estudada. Por exemplo, em um estudo com aves amazônicas de sub-bosque que testou 40 intervalos, a menor escala (50 m) foi definida como intermediária entre a relutância dessas aves em atravessar clareiras de 30 m e sua capacidade de cruzar clareiras de até 70 m. Já a maior (2.000 m) correspondeu ao valor frequentemente usado em estudos sobre fragmentação do habitat <a href="https://onlinelibrary.wiley.com/doi/full/10.1111/jbi.13499?casa_token=x2rq4eXhDo8AAAAA%3AG_urffg9N329QcGEd-k3HU-D3-PXh28DJQyvl-FnTyKAeQgyL3_msiBA-pmpDag2EvWXXkZZWeDQWA">(Bueno e Peres, 2018)</a>. Por fim, além de refletir a biologia das espécies, é fundamental testar diferentes intervalos e considerar que a escala de efeito identificada em análises multiescala pode ser imprecisa se as escalas forem:</p>
+<p>A seleção de escalas espaciais deve considerar a biologia da espécie estudada. Por exemplo, em um estudo com aves amazônicas de sub-bosque que testou 40 intervalos, a menor escala (50 m) foi definida como intermediária entre a relutância dessas aves em atravessar clareiras de 30 m e sua capacidade de cruzar clareiras de até 70 m. Já a maior (2.000 m) correspondeu ao valor frequentemente usado em estudos sobre fragmentação do habitat <a href="https://onlinelibrary.wiley.com/doi/full/10.1111/jbi.13499?casa_token=x2rq4eXhDo8AAAAA%3AG_urffg9N329QcGEd-k3HU-D3-PXh28DJQyvl-FnTyKAeQgyL3_msiBA-pmpDag2EvWXXkZZWeDQWA">(Bueno e Peres, 2019)</a>. Por fim, além de refletir a biologia das espécies, é fundamental testar diferentes intervalos e considerar que a escala de efeito identificada em análises multiescala <strong>pode ser imprecisa se</strong> as escalas forem:</p>
 <ul>
 <li><p>Muito pequenas ou muito grandes;</p></li>
 <li><p>Limitadas em amplitude (i.e., apenas tamanhos intermediários);</p></li>
@@ -236,7 +236,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="como-calcular-a-escala-do-efeito" class="level2">
 <h2 class="anchored" data-anchor-id="como-calcular-a-escala-do-efeito">Como calcular a escala do efeito?</h2>
-<p>Para esse exercício, vamos utilizar os dados de <a href="https://onlinelibrary.wiley.com/doi/full/10.1111/jbi.13499?casa_token=DusuIn3clAIAAAAA%3A_dadze5I-rbSaO2VnbIWrl_MzLBRJ69oznsdkiwXJOGO7vdQJriBEErCcdLDN-9G5xMatTuBQUBAbyLbhg">Bueno e Peres (2018)</a>. Escolhi esse estudo por que os autores calcularam a cobertura florestal em <strong>diferentes escalas espaciais</strong> e identificaram a <strong>escala de efeito</strong>. Isso nos permite comparar nossa abordagem com a do estudo, garantindo que estamos calculando corretamente.</p>
+<p>Para esse exercício, vamos utilizar os dados de <a href="https://onlinelibrary.wiley.com/doi/full/10.1111/jbi.13499?casa_token=DusuIn3clAIAAAAA%3A_dadze5I-rbSaO2VnbIWrl_MzLBRJ69oznsdkiwXJOGO7vdQJriBEErCcdLDN-9G5xMatTuBQUBAbyLbhg">Bueno e Peres (2019)</a>. Escolhi esse estudo porque os autores calcularam a cobertura florestal em <strong>diferentes escalas espaciais</strong> e identificaram a <strong>escala de efeito</strong>. Isso nos permite comparar nossa abordagem com a do estudo, garantindo que estamos calculando corretamente.</p>
 <p><a href="https://onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1111%2Fjbi.13499&amp;file=jbi13499-sup-0001-Supinfo.html">No material suplementar</a> do artigo, os autores disponibilizam um código usado nas análises e na geração dos gráficos do estudo. Esse código inicia com o tratamento dos dados e resulta na tabela abaixo (birds). Caso prefira, você pode acessar o material suplementar, baixar as tabelas originais e reprocessar os dados manualmente. Entretanto, para simplificar e manter o foco deste exercício, disponibilizei a tabela já processada e filtrada, evitando incluir detalhes técnicos que não são relevantes para nosso objetivo.</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-overflow-wrap code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Carregue os pacotes necessários</span></span>
@@ -254,8 +254,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div class="cell">
 <div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Importe os dados</span></span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Você pode baixar a tabela tratada no link abaixo:</span></span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="co"># https://github.com/Ivana-Cardoso/Ivana-Cardoso.github.io/blob/main/posts/Escala_efeito/bueno_2018_insect_birds.csv</span></span>
-<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>birds <span class="ot">&lt;-</span> <span class="fu">read.csv</span>(<span class="st">"bueno_2018_insect_birds.csv"</span>, <span class="at">row.names =</span> <span class="dv">1</span>)</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="co"># https://github.com/Ivana-Cardoso/Ivana-Cardoso.github.io/blob/main/posts/Escala_efeito/bueno_2019_insect_birds.csv</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>birds <span class="ot">&lt;-</span> <span class="fu">read.csv</span>(<span class="st">"bueno_2019_insect_birds.csv"</span>, <span class="at">row.names =</span> <span class="dv">1</span>)</span>
 <span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>birds[<span class="dv">1</span><span class="sc">:</span><span class="dv">6</span>, <span class="dv">1</span><span class="sc">:</span><span class="dv">3</span>] <span class="co"># mostra as primeiras seis linhas e três colunas da tabela</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>               Automolus_infuscatus Automolus_ochrolaemus Bucco_tamatia
@@ -269,9 +269,9 @@ Beco_do_Catitu                    0                     0             0</code></
 </div>
 <p>Observe o formato dos dados da comunidade:</p>
 <ul>
-<li><p><strong>Linhas</strong>: Representam os <strong>sítios</strong> (ou local de amostragem). Cada linha corresponde a um sítio específico.</p></li>
+<li><p><strong>Linhas</strong>: Representam as <strong>unidades amostrais</strong>. Nesse estudo, as unidades amostrais são as linhas de rede de neblina utilizadas para capturar as aves. Foi usada uma linha de rede com 16 redes por ilha, assim, essas linhas são identificadas com o nome de cada ilha.</p></li>
 <li><p><strong>Colunas</strong>: Representam as <strong>espécies</strong> de aves insetívoras registradas no estudo. Cada coluna corresponde a uma espécie diferente.</p></li>
-<li><p><strong>Valores nas células</strong>: O número em cada célula indica a <strong>abundância</strong> de uma determinada espécie em um sítio específico.</p></li>
+<li><p><strong>Valores nas células</strong>: O número em cada célula indica a <strong>abundância</strong> de uma determinada espécie em cada unidade amostral.</p></li>
 </ul>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Os dados ambientais podem ser baixados em: </span></span>
@@ -289,18 +289,18 @@ Arrepiado       -1.51512       -59.73919    7.43           93.62</code></pre>
 </div>
 <p>Observe a estrutura dos dados ambientais:</p>
 <ul>
-<li><p><strong>Linhas</strong>: Cada linha representa um <strong>sítio</strong>.</p></li>
-<li><p><strong>Colunas</strong>: Cada coluna contém uma <strong>característica</strong> específica do sítio, como coordenadas geográficas e quantidade de cobertura florestal.</p></li>
+<li><p><strong>Linhas</strong>: Cada linha representa uma <strong>unidade amostral</strong>.</p></li>
+<li><p><strong>Colunas</strong>: Cada coluna contém uma <strong>característica</strong> específica de cada unidade amostral, como coordenadas geográficas e quantidade de cobertura florestal em cada escala.</p></li>
 </ul>
-<p>Estamos interessados nas colunas que representam a cobertura florestal em diferentes escalas espaciais. Por exemplo, a coluna <em>forest.cover.50</em> (coluna 4) mostra a porcentagem de cobertura florestal na paisagem em uma escala de 50 metros ao redor de cada sítio. Outras colunas, como forest.cover.100 ou forest.cover.200, seguem a mesma lógica, mas para escalas maiores (100 m, 200 m, etc.).</p>
+<p>Estamos interessados nas colunas que representam a cobertura florestal em diferentes escalas espaciais. Por exemplo, a coluna <em>forest.cover.50</em> (coluna 4) mostra a porcentagem de cobertura florestal na paisagem em uma escala de 50 metros ao redor de cada unidade amostral. Outras colunas, como forest.cover.100 ou forest.cover.200, seguem a mesma lógica, mas para escalas maiores (100 m, 200 m, etc.).</p>
 <p>Para esse exercício estamos interessados em descobrir qual a escala do efeito que melhor explica a relação entre riqueza de espécies de aves insetívoras e cobertura florestal da paisagem. Por isso, o primeiro passo é transformar os dados de abundância em dados de riqueza:</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Calcula a riqueza de especies de aves insetivoras em cada sitio</span></span>
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Calcula a riqueza de especies de aves insetivoras em cada unidade amostral</span></span>
 <span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>islands<span class="sc">$</span>richness <span class="ot">=</span> <span class="fu">rowSums</span>(<span class="fu">ifelse</span>(birds <span class="sc">&gt;</span> <span class="dv">0</span>, <span class="dv">1</span>, <span class="dv">0</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <section id="determinando-a-escala-do-efeito-usando-correlação" class="level3">
 <h3 class="anchored" data-anchor-id="determinando-a-escala-do-efeito-usando-correlação">Determinando a escala do efeito usando correlação</h3>
-<p>No estudo de <a href="https://onlinelibrary.wiley.com/doi/full/10.1111/jbi.13499?casa_token=DusuIn3clAIAAAAA%3A_dadze5I-rbSaO2VnbIWrl_MzLBRJ69oznsdkiwXJOGO7vdQJriBEErCcdLDN-9G5xMatTuBQUBAbyLbhg">Bueno e Peres (2018)</a>, as variáveis preditora (cobertura florestal) e resposta (número de espécies) são log transformadas (log10 + 1) para as análises, isso porque se trata de um estudo de relação espécie-área, analisada através de modelos lineares simples. Por isso, <strong>atente-se a como você está usando suas variáveis nas análises e certifique-se de incluí-las de maneira correta quando for calcular a escala do efeito</strong>. Para calcular a escala do efeito usando correlação utilizaremos o seguinte formato de comando:</p>
+<p>No estudo de <a href="https://onlinelibrary.wiley.com/doi/full/10.1111/jbi.13499?casa_token=DusuIn3clAIAAAAA%3A_dadze5I-rbSaO2VnbIWrl_MzLBRJ69oznsdkiwXJOGO7vdQJriBEErCcdLDN-9G5xMatTuBQUBAbyLbhg">Bueno e Peres (2019)</a>, as variáveis preditora (cobertura florestal) e resposta (número de espécies) são transformadas por log10(x + 1) para todas as análises. Por isso, utilizaremos as variáveis transformadas também para o cálculo da escala do efeito. <strong>Lembre-se de atentar-se à forma como você está usando suas variáveis nas análises e certifique-se de incluí-las corretamente ao calcular a escala do efeito</strong>. Para calcular a escala do efeito usando correlação, utilizaremos o seguinte formato de comando:</p>
 <p><em>nome do objeto &lt;- cor.test(variável preditora de interesse, variável resposta de interesse)</em></p>
 <p>Por exemplo, para calcular a correlação entre a cobertura florestal na paisagem em uma escala de 50 metros e a riqueza de espécies usaremos:</p>
 <div class="cell">
@@ -372,74 +372,10 @@ cor4    250  0.8680142 0.00000000006089560</code></pre>
 </div>
 <p>Perceba que a escala na qual a correlação entre riqueza e cobertura florestal apresentou o valor mais alto foi a de 200 metros. Lembre-se de que cada ponto representa uma escala em intervalos de 50 metros. Portanto, o quarto ponto, que é o mais alto, representa a escala de 200 metros.</p>
 </section>
-<section id="determinando-a-escala-do-efeito-usando-regressão-linear" class="level3">
-<h3 class="anchored" data-anchor-id="determinando-a-escala-do-efeito-usando-regressão-linear">Determinando a escala do efeito usando regressão linear</h3>
-<p>Como discutimos anteriormente, existem várias maneiras de determinar a escala do efeito. Uma delas é a correlação, já apresentada, e outra é a regressão linear. A seguir, veremos como determinar a escala do efeito utilizando regressão linear. Para isso, usaremos o seguinte formato de comando:</p>
-<p><em>nome do objeto &lt;- lm(variável resposta de interesse ~ variável preditora de interesse)</em></p>
-<p>Assim, nosso loop for ficará da seguinte forma:</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Criando um vetor com as escalas desejadas (de 50 a 2000, de 50 em 50)</span></span>
-<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>escalas <span class="ot">&lt;-</span> <span class="fu">seq</span>(<span class="dv">50</span>, <span class="dv">2000</span>, <span class="at">by =</span> <span class="dv">50</span>)</span>
-<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Criando um data frame vazio para armazenar os resultados</span></span>
-<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a>resultados <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(<span class="at">Escala =</span> <span class="fu">numeric</span>(), <span class="at">R2 =</span> <span class="fu">numeric</span>(), <span class="at">Pvalor =</span> <span class="fu">numeric</span>())</span>
-<span id="cb12-6"><a href="#cb12-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb12-7"><a href="#cb12-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Loop para calcular a regressao em cada escala</span></span>
-<span id="cb12-8"><a href="#cb12-8" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> (escala <span class="cf">in</span> escalas) {</span>
-<span id="cb12-9"><a href="#cb12-9" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Criando o nome da coluna dinamicamente</span></span>
-<span id="cb12-10"><a href="#cb12-10" aria-hidden="true" tabindex="-1"></a>  nome_coluna <span class="ot">&lt;-</span> <span class="fu">paste0</span>(<span class="st">"forest.cover."</span>, escala)</span>
-<span id="cb12-11"><a href="#cb12-11" aria-hidden="true" tabindex="-1"></a>  </span>
-<span id="cb12-12"><a href="#cb12-12" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Verificando se a coluna existe no dataframe</span></span>
-<span id="cb12-13"><a href="#cb12-13" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span> (nome_coluna <span class="sc">%in%</span> <span class="fu">colnames</span>(islands)) {</span>
-<span id="cb12-14"><a href="#cb12-14" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Ajustando a regressao linear</span></span>
-<span id="cb12-15"><a href="#cb12-15" aria-hidden="true" tabindex="-1"></a>    modelo <span class="ot">&lt;-</span> <span class="fu">lm</span>(<span class="fu">log10</span>(islands<span class="sc">$</span>richness<span class="sc">+</span><span class="dv">1</span>) <span class="sc">~</span> <span class="fu">log10</span>(islands[[nome_coluna]]<span class="sc">+</span><span class="dv">1</span>))</span>
-<span id="cb12-16"><a href="#cb12-16" aria-hidden="true" tabindex="-1"></a>    </span>
-<span id="cb12-17"><a href="#cb12-17" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Extraindo R2 e p-valor</span></span>
-<span id="cb12-18"><a href="#cb12-18" aria-hidden="true" tabindex="-1"></a>    r2 <span class="ot">&lt;-</span> <span class="fu">summary</span>(modelo)<span class="sc">$</span>r.squared</span>
-<span id="cb12-19"><a href="#cb12-19" aria-hidden="true" tabindex="-1"></a>    p_valor <span class="ot">&lt;-</span> <span class="fu">summary</span>(modelo)<span class="sc">$</span>coefficients[<span class="dv">2</span>, <span class="dv">4</span>]  <span class="co"># valor de p do coeficiente da variável explicativa</span></span>
-<span id="cb12-20"><a href="#cb12-20" aria-hidden="true" tabindex="-1"></a>    </span>
-<span id="cb12-21"><a href="#cb12-21" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Adicionando os resultados ao data frame</span></span>
-<span id="cb12-22"><a href="#cb12-22" aria-hidden="true" tabindex="-1"></a>    resultados <span class="ot">&lt;-</span> <span class="fu">rbind</span>(resultados, <span class="fu">data.frame</span>(</span>
-<span id="cb12-23"><a href="#cb12-23" aria-hidden="true" tabindex="-1"></a>      <span class="at">Escala =</span> escala,</span>
-<span id="cb12-24"><a href="#cb12-24" aria-hidden="true" tabindex="-1"></a>      <span class="at">R2 =</span> r2,</span>
-<span id="cb12-25"><a href="#cb12-25" aria-hidden="true" tabindex="-1"></a>      <span class="at">Pvalor =</span> p_valor</span>
-<span id="cb12-26"><a href="#cb12-26" aria-hidden="true" tabindex="-1"></a>    ))</span>
-<span id="cb12-27"><a href="#cb12-27" aria-hidden="true" tabindex="-1"></a>  }</span>
-<span id="cb12-28"><a href="#cb12-28" aria-hidden="true" tabindex="-1"></a>}</span>
-<span id="cb12-29"><a href="#cb12-29" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb12-30"><a href="#cb12-30" aria-hidden="true" tabindex="-1"></a>resultados[<span class="dv">1</span><span class="sc">:</span><span class="dv">5</span>,] <span class="co"># mostra as primeiras cinco linhas e todas as colunas do objeto</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>  Escala        R2              Pvalor
-1     50 0.5001606 0.00000419514851270
-2    100 0.6357321 0.00000002791826298
-3    150 0.7139845 0.00000000062347696
-4    200 0.7626913 0.00000000003349166
-5    250 0.7534486 0.00000000006089560</code></pre>
-</div>
-</div>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb14"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>plot2 <span class="ot">&lt;-</span></span>
-<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>(resultados, <span class="fu">aes</span>(<span class="at">x =</span> Escala, <span class="at">y =</span> R2)) <span class="sc">+</span></span>
-<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>() <span class="sc">+</span></span>
-<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>() <span class="sc">+</span></span>
-<span id="cb14-5"><a href="#cb14-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">x =</span> <span class="st">"Tamanho da escala (m)"</span>,</span>
-<span id="cb14-6"><a href="#cb14-6" aria-hidden="true" tabindex="-1"></a>       <span class="at">y =</span> <span class="st">"r² da regressão linear entre riqueza e </span></span>
-<span id="cb14-7"><a href="#cb14-7" aria-hidden="true" tabindex="-1"></a><span class="st">cobertura florestal"</span>) <span class="sc">+</span></span>
-<span id="cb14-8"><a href="#cb14-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_bw</span>(<span class="at">base_size =</span> <span class="dv">16</span>) <span class="sc">+</span></span>
-<span id="cb14-9"><a href="#cb14-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">panel.grid =</span> <span class="fu">element_blank</span>(),</span>
-<span id="cb14-10"><a href="#cb14-10" aria-hidden="true" tabindex="-1"></a>        <span class="at">panel.border =</span> <span class="fu">element_rect</span>(<span class="at">colour =</span> <span class="st">"black"</span>),</span>
-<span id="cb14-11"><a href="#cb14-11" aria-hidden="true" tabindex="-1"></a>        <span class="at">plot.margin =</span> <span class="fu">margin</span>(<span class="fl">0.5</span>, <span class="fl">1.5</span>, <span class="fl">0.5</span>, <span class="fl">1.5</span>, <span class="st">"cm"</span>))</span>
-<span id="cb14-12"><a href="#cb14-12" aria-hidden="true" tabindex="-1"></a>plot2</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="index_files/figure-html/unnamed-chunk-9-1.png" class="img-fluid figure-img" width="672"></p>
-</figure>
-</div>
-</div>
-</div>
-<p>Utilizando regressão linear também é possível notar que a escala do efeito é 200 metros.</p>
-<p>Espero que este post tenha esclarecido a importância da escala e como ela pode influenciar os resultados de pesquisas. Agradeço por me acompanhar até aqui e desejo sucesso em suas futuras análises! Até a próxima!</p>
+<section id="conclusão" class="level3">
+<h3 class="anchored" data-anchor-id="conclusão">Conclusão</h3>
+<p>Como mencionamos anteriormente, existem diferentes formas de determinar a escala do efeito, dependendo do objetivo da pesquisa e da análise utilizada. Por isso, o primeiro passo é escolher a análise mais apropriada, considerando a pergunta, os dados coletados e o delineamento da pesquisa. Em seguida, aplicamos essa análise em diferentes escalas e identificamos aquela em que a relação entre as variáveis resposta e preditora é mais forte – ou seja, <strong>a escala do efeito.</strong></p>
+<p>Espero que esta postagem tenha ajudado a entender o que é e como calcular a escala do efeito. Agradeço por acompanhar até aqui e desejo sucesso em suas análises futuras! Até a próxima!</p>
 
 
 </section>

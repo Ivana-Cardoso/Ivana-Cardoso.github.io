@@ -39,17 +39,17 @@
 <h2 class="anchored" data-anchor-id="o-que-é-escala-do-efeito">O que é escala do efeito?</h2>
 <p>A escala do efeito é a escala espacial em que uma determinada característica da paisagem melhor explica a variável resposta <a href="https://onlinelibrary.wiley.com/doi/full/10.1111/geb.12233">(Jackson e Fahrig, 2015)</a>. Ela pode ser determinada seguindo os passos abaixo:</p>
 <ul>
-<li><p><strong>Na coleta de dados</strong>: medindo a variável resposta em vários sítios focais em uma região (Fig.1a);</p></li>
-<li><p><strong>Na análise multiescala</strong>: medindo a característica da paisagem de interesse em múltiplas extensões espaciais ao redor de cada sítio focal (Fig. 1b);</p></li>
+<li><p><strong>Na coleta de dados</strong>: medindo a variável resposta em várias unidades amostrais em uma região (Fig.1a);</p></li>
+<li><p><strong>Na análise multiescala</strong>: medindo a característica da paisagem de interesse em múltiplas extensões espaciais ao redor de cada unidade amostral (Fig. 1b);</p></li>
 <li><p><strong>Na análise estatística</strong>: identificando a escala que apresenta maior valor do coeficiente de correlação, inclinação da regressão ou valor de informação de modelos entre a variável preditora de interesse, relacionada a estrutura paisagem, e a variável resposta de interesse (Fig. 1c).</p></li>
 </ul>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://ivana-cardoso.github.io/posts/Escala_efeito/adaptado_Jackson_Fahrig_2015.png" class="img-fluid figure-img"></p>
-<figcaption><strong>Fig. 1</strong> a. medindo a variável resposta em vários sítios em uma região; b. medindo a variável preditora de interesse em várias escalas; c.esquema determinando a escala do efeito. Baseado na Fig.1 de <a href="https://onlinelibrary.wiley.com/doi/full/10.1111/geb.12233">(Jackson e Fahrig, 2015)</a></figcaption>
+<figcaption><strong>Fig. 1</strong> a. medindo a variável resposta em várias unidades amostrais em uma região; b. medindo a variável preditora de interesse em várias escalas; c.&nbsp;esquema determinando a escala do efeito. Baseado na Fig.1 de <a href="https://onlinelibrary.wiley.com/doi/full/10.1111/geb.12233">(Jackson e Fahrig, 2015)</a></figcaption>
 </figure>
 </div>
-<p>A seleção de escalas espaciais deve considerar a biologia da espécie estudada. Por exemplo, em um estudo com aves amazônicas de sub-bosque que testou 40 intervalos, a menor escala (50 m) foi definida como intermediária entre a relutância dessas aves em atravessar clareiras de 30 m e sua capacidade de cruzar clareiras de até 70 m. Já a maior (2.000 m) correspondeu ao valor frequentemente usado em estudos sobre fragmentação do habitat <a href="https://onlinelibrary.wiley.com/doi/full/10.1111/jbi.13499?casa_token=x2rq4eXhDo8AAAAA%3AG_urffg9N329QcGEd-k3HU-D3-PXh28DJQyvl-FnTyKAeQgyL3_msiBA-pmpDag2EvWXXkZZWeDQWA">(Bueno e Peres, 2018)</a>. Por fim, além de refletir a biologia das espécies, é fundamental testar diferentes intervalos e considerar que a escala de efeito identificada em análises multiescala pode ser imprecisa se as escalas forem:</p>
+<p>A seleção de escalas espaciais deve considerar a biologia da espécie estudada. Por exemplo, em um estudo com aves amazônicas de sub-bosque que testou 40 intervalos, a menor escala (50 m) foi definida como intermediária entre a relutância dessas aves em atravessar clareiras de 30 m e sua capacidade de cruzar clareiras de até 70 m. Já a maior (2.000 m) correspondeu ao valor frequentemente usado em estudos sobre fragmentação do habitat <a href="https://onlinelibrary.wiley.com/doi/full/10.1111/jbi.13499?casa_token=x2rq4eXhDo8AAAAA%3AG_urffg9N329QcGEd-k3HU-D3-PXh28DJQyvl-FnTyKAeQgyL3_msiBA-pmpDag2EvWXXkZZWeDQWA">(Bueno e Peres, 2019)</a>. Por fim, além de refletir a biologia das espécies, é fundamental testar diferentes intervalos e considerar que a escala de efeito identificada em análises multiescala <strong>pode ser imprecisa se</strong> as escalas forem:</p>
 <ul>
 <li><p>Muito pequenas ou muito grandes;</p></li>
 <li><p>Limitadas em amplitude (i.e., apenas tamanhos intermediários);</p></li>
@@ -58,7 +58,7 @@
 </section>
 <section id="como-calcular-a-escala-do-efeito" class="level2">
 <h2 class="anchored" data-anchor-id="como-calcular-a-escala-do-efeito">Como calcular a escala do efeito?</h2>
-<p>Para esse exercício, vamos utilizar os dados de <a href="https://onlinelibrary.wiley.com/doi/full/10.1111/jbi.13499?casa_token=DusuIn3clAIAAAAA%3A_dadze5I-rbSaO2VnbIWrl_MzLBRJ69oznsdkiwXJOGO7vdQJriBEErCcdLDN-9G5xMatTuBQUBAbyLbhg">Bueno e Peres (2018)</a>. Escolhi esse estudo por que os autores calcularam a cobertura florestal em <strong>diferentes escalas espaciais</strong> e identificaram a <strong>escala de efeito</strong>. Isso nos permite comparar nossa abordagem com a do estudo, garantindo que estamos calculando corretamente.</p>
+<p>Para esse exercício, vamos utilizar os dados de <a href="https://onlinelibrary.wiley.com/doi/full/10.1111/jbi.13499?casa_token=DusuIn3clAIAAAAA%3A_dadze5I-rbSaO2VnbIWrl_MzLBRJ69oznsdkiwXJOGO7vdQJriBEErCcdLDN-9G5xMatTuBQUBAbyLbhg">Bueno e Peres (2019)</a>. Escolhi esse estudo porque os autores calcularam a cobertura florestal em <strong>diferentes escalas espaciais</strong> e identificaram a <strong>escala de efeito</strong>. Isso nos permite comparar nossa abordagem com a do estudo, garantindo que estamos calculando corretamente.</p>
 <p><a href="https://onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1111%2Fjbi.13499&amp;file=jbi13499-sup-0001-Supinfo.html">No material suplementar</a> do artigo, os autores disponibilizam um código usado nas análises e na geração dos gráficos do estudo. Esse código inicia com o tratamento dos dados e resulta na tabela abaixo (birds). Caso prefira, você pode acessar o material suplementar, baixar as tabelas originais e reprocessar os dados manualmente. Entretanto, para simplificar e manter o foco deste exercício, disponibilizei a tabela já processada e filtrada, evitando incluir detalhes técnicos que não são relevantes para nosso objetivo.</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-overflow-wrap code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="co" style="color: #5E5E5E;
@@ -112,14 +112,14 @@ background-color: null;
 font-style: inherit;"># Você pode baixar a tabela tratada no link abaixo:</span></span>
 <span id="cb2-3"><span class="co" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;"># https://github.com/Ivana-Cardoso/Ivana-Cardoso.github.io/blob/main/posts/Escala_efeito/bueno_2018_insect_birds.csv</span></span>
+font-style: inherit;"># https://github.com/Ivana-Cardoso/Ivana-Cardoso.github.io/blob/main/posts/Escala_efeito/bueno_2019_insect_birds.csv</span></span>
 <span id="cb2-4">birds <span class="ot" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">read.csv</span>(<span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"bueno_2018_insect_birds.csv"</span>, <span class="at" style="color: #657422;
+font-style: inherit;">"bueno_2019_insect_birds.csv"</span>, <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">row.names =</span> <span class="dv" style="color: #AD0000;
 background-color: null;
@@ -151,9 +151,9 @@ Beco_do_Catitu                    0                     0             0</code></
 </div>
 <p>Observe o formato dos dados da comunidade:</p>
 <ul>
-<li><p><strong>Linhas</strong>: Representam os <strong>sítios</strong> (ou local de amostragem). Cada linha corresponde a um sítio específico.</p></li>
+<li><p><strong>Linhas</strong>: Representam as <strong>unidades amostrais</strong>. Nesse estudo, as unidades amostrais são as linhas de rede de neblina utilizadas para capturar as aves. Foi usada uma linha de rede com 16 redes por ilha, assim, essas linhas são identificadas com o nome de cada ilha.</p></li>
 <li><p><strong>Colunas</strong>: Representam as <strong>espécies</strong> de aves insetívoras registradas no estudo. Cada coluna corresponde a uma espécie diferente.</p></li>
-<li><p><strong>Valores nas células</strong>: O número em cada célula indica a <strong>abundância</strong> de uma determinada espécie em um sítio específico.</p></li>
+<li><p><strong>Valores nas células</strong>: O número em cada célula indica a <strong>abundância</strong> de uma determinada espécie em cada unidade amostral.</p></li>
 </ul>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><span class="co" style="color: #5E5E5E;
@@ -213,15 +213,15 @@ Arrepiado       -1.51512       -59.73919    7.43           93.62</code></pre>
 </div>
 <p>Observe a estrutura dos dados ambientais:</p>
 <ul>
-<li><p><strong>Linhas</strong>: Cada linha representa um <strong>sítio</strong>.</p></li>
-<li><p><strong>Colunas</strong>: Cada coluna contém uma <strong>característica</strong> específica do sítio, como coordenadas geográficas e quantidade de cobertura florestal.</p></li>
+<li><p><strong>Linhas</strong>: Cada linha representa uma <strong>unidade amostral</strong>.</p></li>
+<li><p><strong>Colunas</strong>: Cada coluna contém uma <strong>característica</strong> específica de cada unidade amostral, como coordenadas geográficas e quantidade de cobertura florestal em cada escala.</p></li>
 </ul>
-<p>Estamos interessados nas colunas que representam a cobertura florestal em diferentes escalas espaciais. Por exemplo, a coluna <em>forest.cover.50</em> (coluna 4) mostra a porcentagem de cobertura florestal na paisagem em uma escala de 50 metros ao redor de cada sítio. Outras colunas, como forest.cover.100 ou forest.cover.200, seguem a mesma lógica, mas para escalas maiores (100 m, 200 m, etc.).</p>
+<p>Estamos interessados nas colunas que representam a cobertura florestal em diferentes escalas espaciais. Por exemplo, a coluna <em>forest.cover.50</em> (coluna 4) mostra a porcentagem de cobertura florestal na paisagem em uma escala de 50 metros ao redor de cada unidade amostral. Outras colunas, como forest.cover.100 ou forest.cover.200, seguem a mesma lógica, mas para escalas maiores (100 m, 200 m, etc.).</p>
 <p>Para esse exercício estamos interessados em descobrir qual a escala do efeito que melhor explica a relação entre riqueza de espécies de aves insetívoras e cobertura florestal da paisagem. Por isso, o primeiro passo é transformar os dados de abundância em dados de riqueza:</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb6" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><span class="co" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;"># Calcula a riqueza de especies de aves insetivoras em cada sitio</span></span>
+font-style: inherit;"># Calcula a riqueza de especies de aves insetivoras em cada unidade amostral</span></span>
 <span id="cb6-2">islands<span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">$</span>richness <span class="ot" style="color: #003B4F;
@@ -242,7 +242,7 @@ font-style: inherit;">0</span>))</span></code></pre></div>
 </div>
 <section id="determinando-a-escala-do-efeito-usando-correlação" class="level3">
 <h3 class="anchored" data-anchor-id="determinando-a-escala-do-efeito-usando-correlação">Determinando a escala do efeito usando correlação</h3>
-<p>No estudo de <a href="https://onlinelibrary.wiley.com/doi/full/10.1111/jbi.13499?casa_token=DusuIn3clAIAAAAA%3A_dadze5I-rbSaO2VnbIWrl_MzLBRJ69oznsdkiwXJOGO7vdQJriBEErCcdLDN-9G5xMatTuBQUBAbyLbhg">Bueno e Peres (2018)</a>, as variáveis preditora (cobertura florestal) e resposta (número de espécies) são log transformadas (log10 + 1) para as análises, isso porque se trata de um estudo de relação espécie-área, analisada através de modelos lineares simples. Por isso, <strong>atente-se a como você está usando suas variáveis nas análises e certifique-se de incluí-las de maneira correta quando for calcular a escala do efeito</strong>. Para calcular a escala do efeito usando correlação utilizaremos o seguinte formato de comando:</p>
+<p>No estudo de <a href="https://onlinelibrary.wiley.com/doi/full/10.1111/jbi.13499?casa_token=DusuIn3clAIAAAAA%3A_dadze5I-rbSaO2VnbIWrl_MzLBRJ69oznsdkiwXJOGO7vdQJriBEErCcdLDN-9G5xMatTuBQUBAbyLbhg">Bueno e Peres (2019)</a>, as variáveis preditora (cobertura florestal) e resposta (número de espécies) são transformadas por log10(x + 1) para todas as análises. Por isso, utilizaremos as variáveis transformadas também para o cálculo da escala do efeito. <strong>Lembre-se de atentar-se à forma como você está usando suas variáveis nas análises e certifique-se de incluí-las corretamente ao calcular a escala do efeito</strong>. Para calcular a escala do efeito usando correlação, utilizaremos o seguinte formato de comando:</p>
 <p><em>nome do objeto &lt;- cor.test(variável preditora de interesse, variável resposta de interesse)</em></p>
 <p>Por exemplo, para calcular a correlação entre a cobertura florestal na paisagem em uma escala de 50 metros e a riqueza de espécies usaremos:</p>
 <div class="cell">
@@ -511,265 +511,10 @@ font-style: inherit;">"cm"</span>))</span>
 </div>
 <p>Perceba que a escala na qual a correlação entre riqueza e cobertura florestal apresentou o valor mais alto foi a de 200 metros. Lembre-se de que cada ponto representa uma escala em intervalos de 50 metros. Portanto, o quarto ponto, que é o mais alto, representa a escala de 200 metros.</p>
 </section>
-<section id="determinando-a-escala-do-efeito-usando-regressão-linear" class="level3">
-<h3 class="anchored" data-anchor-id="determinando-a-escala-do-efeito-usando-regressão-linear">Determinando a escala do efeito usando regressão linear</h3>
-<p>Como discutimos anteriormente, existem várias maneiras de determinar a escala do efeito. Uma delas é a correlação, já apresentada, e outra é a regressão linear. A seguir, veremos como determinar a escala do efeito utilizando regressão linear. Para isso, usaremos o seguinte formato de comando:</p>
-<p><em>nome do objeto &lt;- lm(variável resposta de interesse ~ variável preditora de interesse)</em></p>
-<p>Assim, nosso loop for ficará da seguinte forma:</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb12" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><span class="co" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;"># Criando um vetor com as escalas desejadas (de 50 a 2000, de 50 em 50)</span></span>
-<span id="cb12-2">escalas <span class="ot" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">seq</span>(<span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">50</span>, <span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">2000</span>, <span class="at" style="color: #657422;
-background-color: null;
-font-style: inherit;">by =</span> <span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">50</span>)</span>
-<span id="cb12-3"></span>
-<span id="cb12-4"><span class="co" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;"># Criando um data frame vazio para armazenar os resultados</span></span>
-<span id="cb12-5">resultados <span class="ot" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">data.frame</span>(<span class="at" style="color: #657422;
-background-color: null;
-font-style: inherit;">Escala =</span> <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">numeric</span>(), <span class="at" style="color: #657422;
-background-color: null;
-font-style: inherit;">R2 =</span> <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">numeric</span>(), <span class="at" style="color: #657422;
-background-color: null;
-font-style: inherit;">Pvalor =</span> <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">numeric</span>())</span>
-<span id="cb12-6"></span>
-<span id="cb12-7"><span class="co" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;"># Loop para calcular a regressao em cada escala</span></span>
-<span id="cb12-8"><span class="cf" style="color: #003B4F;
-background-color: null;
-font-weight: bold;
-font-style: inherit;">for</span> (escala <span class="cf" style="color: #003B4F;
-background-color: null;
-font-weight: bold;
-font-style: inherit;">in</span> escalas) {</span>
-<span id="cb12-9">  <span class="co" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;"># Criando o nome da coluna dinamicamente</span></span>
-<span id="cb12-10">  nome_coluna <span class="ot" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">paste0</span>(<span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"forest.cover."</span>, escala)</span>
-<span id="cb12-11">  </span>
-<span id="cb12-12">  <span class="co" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;"># Verificando se a coluna existe no dataframe</span></span>
-<span id="cb12-13">  <span class="cf" style="color: #003B4F;
-background-color: null;
-font-weight: bold;
-font-style: inherit;">if</span> (nome_coluna <span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">%in%</span> <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">colnames</span>(islands)) {</span>
-<span id="cb12-14">    <span class="co" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;"># Ajustando a regressao linear</span></span>
-<span id="cb12-15">    modelo <span class="ot" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">lm</span>(<span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">log10</span>(islands<span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">$</span>richness<span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">+</span><span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">1</span>) <span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">~</span> <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">log10</span>(islands[[nome_coluna]]<span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">+</span><span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">1</span>))</span>
-<span id="cb12-16">    </span>
-<span id="cb12-17">    <span class="co" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;"># Extraindo R2 e p-valor</span></span>
-<span id="cb12-18">    r2 <span class="ot" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">summary</span>(modelo)<span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">$</span>r.squared</span>
-<span id="cb12-19">    p_valor <span class="ot" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">summary</span>(modelo)<span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">$</span>coefficients[<span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">2</span>, <span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">4</span>]  <span class="co" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;"># valor de p do coeficiente da variável explicativa</span></span>
-<span id="cb12-20">    </span>
-<span id="cb12-21">    <span class="co" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;"># Adicionando os resultados ao data frame</span></span>
-<span id="cb12-22">    resultados <span class="ot" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">rbind</span>(resultados, <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">data.frame</span>(</span>
-<span id="cb12-23">      <span class="at" style="color: #657422;
-background-color: null;
-font-style: inherit;">Escala =</span> escala,</span>
-<span id="cb12-24">      <span class="at" style="color: #657422;
-background-color: null;
-font-style: inherit;">R2 =</span> r2,</span>
-<span id="cb12-25">      <span class="at" style="color: #657422;
-background-color: null;
-font-style: inherit;">Pvalor =</span> p_valor</span>
-<span id="cb12-26">    ))</span>
-<span id="cb12-27">  }</span>
-<span id="cb12-28">}</span>
-<span id="cb12-29"></span>
-<span id="cb12-30">resultados[<span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">1</span><span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">:</span><span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">5</span>,] <span class="co" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;"># mostra as primeiras cinco linhas e todas as colunas do objeto</span></span></code></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>  Escala        R2              Pvalor
-1     50 0.5001606 0.00000419514851270
-2    100 0.6357321 0.00000002791826298
-3    150 0.7139845 0.00000000062347696
-4    200 0.7626913 0.00000000003349166
-5    250 0.7534486 0.00000000006089560</code></pre>
-</div>
-</div>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb14" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb14-1">plot2 <span class="ot" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">&lt;-</span></span>
-<span id="cb14-2">  <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">ggplot</span>(resultados, <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">aes</span>(<span class="at" style="color: #657422;
-background-color: null;
-font-style: inherit;">x =</span> Escala, <span class="at" style="color: #657422;
-background-color: null;
-font-style: inherit;">y =</span> R2)) <span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">+</span></span>
-<span id="cb14-3">  <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">geom_line</span>() <span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">+</span></span>
-<span id="cb14-4">  <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">geom_point</span>() <span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">+</span></span>
-<span id="cb14-5">  <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">labs</span>(<span class="at" style="color: #657422;
-background-color: null;
-font-style: inherit;">x =</span> <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"Tamanho da escala (m)"</span>,</span>
-<span id="cb14-6">       <span class="at" style="color: #657422;
-background-color: null;
-font-style: inherit;">y =</span> <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"r² da regressão linear entre riqueza e </span></span>
-<span id="cb14-7"><span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">cobertura florestal"</span>) <span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">+</span></span>
-<span id="cb14-8">  <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">theme_bw</span>(<span class="at" style="color: #657422;
-background-color: null;
-font-style: inherit;">base_size =</span> <span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">16</span>) <span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">+</span></span>
-<span id="cb14-9">  <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">theme</span>(<span class="at" style="color: #657422;
-background-color: null;
-font-style: inherit;">panel.grid =</span> <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">element_blank</span>(),</span>
-<span id="cb14-10">        <span class="at" style="color: #657422;
-background-color: null;
-font-style: inherit;">panel.border =</span> <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">element_rect</span>(<span class="at" style="color: #657422;
-background-color: null;
-font-style: inherit;">colour =</span> <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"black"</span>),</span>
-<span id="cb14-11">        <span class="at" style="color: #657422;
-background-color: null;
-font-style: inherit;">plot.margin =</span> <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">margin</span>(<span class="fl" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">0.5</span>, <span class="fl" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">1.5</span>, <span class="fl" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">0.5</span>, <span class="fl" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">1.5</span>, <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"cm"</span>))</span>
-<span id="cb14-12">plot2</span></code></pre></div>
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="https://ivana-cardoso.github.io/posts/Escala_efeito/index_files/figure-html/unnamed-chunk-9-1.png" class="img-fluid figure-img" width="672"></p>
-</figure>
-</div>
-</div>
-</div>
-<p>Utilizando regressão linear também é possível notar que a escala do efeito é 200 metros.</p>
-<p>Espero que este post tenha esclarecido a importância da escala e como ela pode influenciar os resultados de pesquisas. Agradeço por me acompanhar até aqui e desejo sucesso em suas futuras análises! Até a próxima!</p>
+<section id="conclusão" class="level3">
+<h3 class="anchored" data-anchor-id="conclusão">Conclusão</h3>
+<p>Como mencionamos anteriormente, existem diferentes formas de determinar a escala do efeito, dependendo do objetivo da pesquisa e da análise utilizada. Por isso, o primeiro passo é escolher a análise mais apropriada, considerando a pergunta, os dados coletados e o delineamento da pesquisa. Em seguida, aplicamos essa análise em diferentes escalas e identificamos aquela em que a relação entre as variáveis resposta e preditora é mais forte – ou seja, <strong>a escala do efeito.</strong></p>
+<p>Espero que esta postagem tenha ajudado a entender o que é e como calcular a escala do efeito. Agradeço por acompanhar até aqui e desejo sucesso em suas análises futuras! Até a próxima!</p>
 
 
 </section>
