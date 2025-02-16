@@ -1,6 +1,5 @@
 ---
 title: "O que é escala do efeito e como identificá-la?"
-draft: true
 author: "Ivana Cardoso"
 date: "2025-02-16"
 image: "capa.png"
@@ -31,7 +30,7 @@ A escala do efeito é a escala espacial em que uma determinada característica d
 
 -   **Na análise estatística**: identificando a escala que apresenta maior valor do coeficiente de correlação, inclinação da regressão ou valor de informação de modelos entre a variável preditora de interesse, relacionada a estrutura paisagem, e a variável resposta de interesse (Fig. 1c).
 
-![**Fig. 1** a. medindo a variável resposta em vários sítios em uma região; b. medindo a variável preditora de interesse em várias escalas; c. determinando a escala do efeito. Baseado na Fig.1 de [(Jackson e Fahrig, 2015)](https://onlinelibrary.wiley.com/doi/full/10.1111/geb.12233)](adaptado_Jackson_Fahrig_2015.png)
+![**Fig. 1** a. medindo a variável resposta em vários sítios em uma região; b. medindo a variável preditora de interesse em várias escalas; c.esquema determinando a escala do efeito. Baseado na Fig.1 de [(Jackson e Fahrig, 2015)](https://onlinelibrary.wiley.com/doi/full/10.1111/geb.12233)](adaptado_Jackson_Fahrig_2015.png)
 
 A seleção de escalas espaciais deve considerar a biologia da espécie estudada. Por exemplo, em um estudo com aves amazônicas de sub-bosque que testou 40 intervalos, a menor escala (50 m) foi definida como intermediária entre a relutância dessas aves em atravessar clareiras de 30 m e sua capacidade de cruzar clareiras de até 70 m. Já a maior (2.000 m) correspondeu ao valor frequentemente usado em estudos sobre fragmentação do habitat [(Bueno e Peres, 2018)](https://onlinelibrary.wiley.com/doi/full/10.1111/jbi.13499?casa_token=x2rq4eXhDo8AAAAA%3AG_urffg9N329QcGEd-k3HU-D3-PXh28DJQyvl-FnTyKAeQgyL3_msiBA-pmpDag2EvWXXkZZWeDQWA). Por fim, além de refletir a biologia das espécies, é fundamental testar diferentes intervalos e considerar que a escala de efeito identificada em análises multiescala pode ser imprecisa se as escalas forem:
 
@@ -66,7 +65,7 @@ setwd("C:/Users/ivana/OneDrive/Ivana-Cardoso.github.io/posts/Escala_efeito") # N
 ```{r}
 # Importe os dados
 # Você pode baixar a tabela tratada no link abaixo:
-# https://github.com/Ivana-Cardoso/Ivana-Cardoso.github.io/raw/main/posts/Escala_efeito/bueno_2018_insect_birds.csv
+# https://github.com/Ivana-Cardoso/Ivana-Cardoso.github.io/blob/main/posts/Escala_efeito/bueno_2018_insect_birds.csv
 birds <- read.csv("bueno_2018_insect_birds.csv", row.names = 1)
 birds[1:6, 1:3] # mostra as primeiras seis linhas e três colunas da tabela
 ```
@@ -93,9 +92,9 @@ Observe a estrutura dos dados ambientais:
 
 -   **Colunas**: Cada coluna contém uma **característica** específica do sítio, como coordenadas geográficas e quantidade de cobertura florestal.
 
-Estamos interessados nas colunas que representam a cobertura florestal em diferentes escalas espaciais. Por exemplo, a coluna *forest.cover.50* (coluna 4) mostra a porcentagem de cobertura florestal dentro de um buffer de 50 metros ao redor de cada sítio. Outras colunas, como forest.cover.100 ou forest.cover.200, seguem a mesma lógica, mas para buffers maiores (100 m, 200 m, etc.).
+Estamos interessados nas colunas que representam a cobertura florestal em diferentes escalas espaciais. Por exemplo, a coluna *forest.cover.50* (coluna 4) mostra a porcentagem de cobertura florestal na paisagem em uma escala de 50 metros ao redor de cada sítio. Outras colunas, como forest.cover.100 ou forest.cover.200, seguem a mesma lógica, mas para escalas maiores (100 m, 200 m, etc.).
 
-Para esse exercício estamos interessados em descobrir qual a escala do efeito que melhor explica a relação entre riqueza de espécies de aves insetívoras e cobertura florestal. Por isso, o primeiro passo é transformar os dados de abundância em dados de riqueza:
+Para esse exercício estamos interessados em descobrir qual a escala do efeito que melhor explica a relação entre riqueza de espécies de aves insetívoras e cobertura florestal da paisagem. Por isso, o primeiro passo é transformar os dados de abundância em dados de riqueza:
 
 ```{r}
 # Calcula a riqueza de especies de aves insetivoras em cada sitio
@@ -108,7 +107,7 @@ No estudo de [Bueno e Peres (2018)](https://onlinelibrary.wiley.com/doi/full/10.
 
 *nome do objeto \<- cor.test(variável preditora de interesse, variável resposta de interesse)*
 
-Por exemplo, para calcular a correlação entre a cobertura florestal em escalas de 50 metros e a riqueza de espécies:
+Por exemplo, para calcular a correlação entre a cobertura florestal na paisagem em uma escala de 50 metros e a riqueza de espécies usaremos:
 
 ```{r}
 cor50 <- cor.test(log10(islands$forest.cover.50 + 1), log10(islands$richness + 1))
