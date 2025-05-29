@@ -5,7 +5,7 @@ account: waters-ivana
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 14847160
-bundleId: 10362589
+bundleId: 10363620
 url: https://waters-ivana.shinyapps.io/visual_data/
 version: 1
 asMultiple: FALSE
