@@ -13,6 +13,8 @@
 <url>https://ivana-cardoso.github.io/biRd.png</url>
 <title>biRd blog</title>
 <link>https://ivana-cardoso.github.io/</link>
+<height>125</height>
+<width>144</width>
 </image>
 <generator>quarto-1.5.57</generator>
 <lastBuildDate>Sun, 16 Feb 2025 03:00:00 GMT</lastBuildDate>
@@ -513,8 +515,9 @@ font-style: inherit;">"cm"</span>))</span>
 </section>
 <section id="conclusão" class="level3">
 <h3 class="anchored" data-anchor-id="conclusão">Conclusão</h3>
-<p>Como mencionamos anteriormente, existem diferentes formas de determinar a escala do efeito, dependendo do objetivo da pesquisa e da análise utilizada. Por isso, o primeiro passo é escolher a análise mais apropriada, considerando a pergunta, os dados coletados e o delineamento da pesquisa. Em seguida, aplicamos essa análise em diferentes escalas e identificamos aquela em que a relação entre as variáveis resposta e preditora é mais forte – ou seja, <strong>a escala do efeito.</strong></p>
-<p>Espero que esta postagem tenha ajudado a entender o que é e como calcular a escala do efeito. Agradeço por acompanhar até aqui e desejo sucesso em suas análises futuras! Até a próxima!</p>
+<p>Como mencionei anteriormente, existem diferentes formas de determinar a escala do efeito, dependendo do objetivo da pesquisa e da análise utilizada. Por isso, o primeiro passo é escolher a análise mais apropriada, considerando a pergunta, os dados coletados e o delineamento da pesquisa. Em seguida, aplicamos essa análise em diferentes escalas e identificamos aquela em que a relação entre as variáveis resposta e preditora é mais forte – ou seja, <strong>a escala do efeito.</strong></p>
+<p>Espero que esta postagem tenha ajudado a entender o que é e como calcular a escala do efeito. Agradeço por acompanhar até aqui e desejo sucesso em suas análises futuras!</p>
+<p>Até a próxima!</p>
 
 
 </section>

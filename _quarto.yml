@@ -21,6 +21,8 @@ website:
         file: about.qmd
       - text: "Sobre a autora"
         file: about_author.qmd
+      - text: "App"
+        file: app.qmd
     right: 
       - icon: github
         href: https://github.com/Ivana-Cardoso

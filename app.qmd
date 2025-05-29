@@ -1,0 +1,6 @@
+---
+title: "Visualizando a biodiversidade dos ambientes"
+format: html
+---
+
+<iframe src="https://waters-ivana.shinyapps.io/visual_data/" width="100%" height="800px" style="border:none;"></iframe>
