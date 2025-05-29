@@ -41,7 +41,8 @@ ui <- fluidPage(
     sidebarPanel(
       uiOutput("inputs_ui"),
       actionButton("add_env", "Adicionar Ambiente"),
-      checkboxInput("show_species_names", "Mostrar nomes das espécies no gráfico de ranqueamento", value = FALSE)
+      checkboxInput("show_species_names", "Mostrar nomes das espécies no gráfico de ranqueamento", value = FALSE),
+      checkboxInput("fix_y_rank", "Manter os mesmos valores no eixo Y no gráfico de ranqueamento", value = FALSE)
     ),
     mainPanel(
       h4("Informações por ambiente"),
@@ -212,7 +213,7 @@ server <- function(input, output, session) {
     
     p <- ggplot(df_rank, aes(x = Rank, y = Abundancia)) +
       geom_col(fill = "#969696") +
-      facet_wrap(~Ambiente, scales = "free_y") +
+      facet_wrap(~Ambiente, scales = ifelse(input$fix_y_rank, "fixed", "free_y")) +
       xlab("Espécies ranqueadas (1º = mais abundante)") +
       ylab("Abundância") +
       theme_bw(base_size = 20) +
