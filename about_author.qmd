@@ -33,7 +33,7 @@ Instituto Federal Farroupilha \| Júlio de Castilhos, RS **Licenciatura em Ciên
 
 Universidade Estadual de Santa Cruz \| Ilhéus, BA **Mestrado em Ecologia e Conservação da Biodiversidade** \| 2020 - 2022
 
-Instituto Nacional de Pesquisas da Amazônia \| Manaus, AM **Doutorado em Ecologia** \| 2023 -
+Instituto Nacional de Pesquisas da Amazônia \| Manaus, AM **Doutorado em Ecologia** \| 2023 - atual
 
 ## Prêmios
 
@@ -41,4 +41,6 @@ Instituto Nacional de Pesquisas da Amazônia \| Manaus, AM **Doutorado em Ecolog
 
 ## Produção bibliográfica
 
-CARDOSO, I.; BUENO, A. S.; MORANTE-FILHO, J. C. [Number of forest fragments and understory plants exert opposite effects on multiple facets of bird diversity in eucalypt plantations](https://link.springer.com/article/10.1007/s10980-023-01601-5) Landscape Ecology, v.3, p.1 - 15, 2023.
+Amarante, Rayssa T.; **Cardoso, I.**; Amarante, Raquel T.; Brum, F.; Bueno, A.S. [Tree plantations inserted in a benign environmental context can contribute to the maintenance of forest avifauna](https://www.sciencedirect.com/science/article/abs/pii/S0378112725004931). *Forest Ecology and Management*, v.595, p.122985, **2025**.
+
+**Cardoso, I.**; Bueno, A. S.; Morante-Filho, J. C. [Number of forest fragments and understory plants exert opposite effects on multiple facets of bird diversity in eucalypt plantations](https://link.springer.com/article/10.1007/s10980-023-01601-5) *Landscape Ecology*, v.3, p.1 - 15, **2023**.
