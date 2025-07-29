@@ -6,6 +6,11 @@ image: "women_science_freepik.jpg"
 categories: 
   - igualdade de gênero
   - empoderamento feminino
+metadata:
+  open-graph:
+    image: women_science_freepik.jpg
+  twitter-card:
+    image: women_science_freepik.jpg  
 ---
 
 Mulheres enfrentaram desafios e discriminação, especialmente na busca por educação e reconhecimento na ciência. Fomos consideradas intelectualmente inferiores e afastadas de espaços de produção científica durante muito tempo na história.

@@ -7,6 +7,11 @@ categories:
   - ecologia de paisagem
   - alterações antrópicas no habitat
   - conservação da biodiversidade
+metadata:
+  open-graph:
+    image: fragmented_landscape.png
+  twitter-card:
+    image: fragmented_landscape.png
 ---
 
 ::: column-margin

@@ -6,6 +6,11 @@ image: "capa.png"
 categories: 
   - R
   - ecologia de paisagem
+metadata:
+  open-graph:
+    image: capa.png
+  twitter-card:
+    image: capa.png
 execute:
   freeze: auto
 ---
@@ -105,7 +110,7 @@ islands$richness = rowSums(ifelse(birds > 0, 1, 0))
 
 No estudo de [Bueno e Peres (2019)](https://onlinelibrary.wiley.com/doi/full/10.1111/jbi.13499?casa_token=DusuIn3clAIAAAAA%3A_dadze5I-rbSaO2VnbIWrl_MzLBRJ69oznsdkiwXJOGO7vdQJriBEErCcdLDN-9G5xMatTuBQUBAbyLbhg), as variáveis preditora (cobertura florestal) e resposta (número de espécies) são transformadas por log10(x + 1) para todas as análises. Por isso, utilizaremos as variáveis transformadas também para o cálculo da escala do efeito. **Lembre-se de atentar-se à forma como você está usando suas variáveis nas análises e certifique-se de incluí-las corretamente ao calcular a escala do efeito**. Para calcular a escala do efeito usando correlação, utilizaremos o seguinte formato de comando:
 
-*nome do objeto <- cor.test(variável preditora de interesse, variável resposta de interesse)*
+*nome do objeto \<- cor.test(variável preditora de interesse, variável resposta de interesse)*
 
 Por exemplo, para calcular a correlação entre a cobertura florestal na paisagem em uma escala de 50 metros e a riqueza de espécies usaremos:
 
@@ -168,6 +173,6 @@ Perceba que a escala na qual a correlação entre riqueza e cobertura florestal 
 
 Como mencionei anteriormente, existem diferentes formas de determinar a escala do efeito, dependendo do objetivo da pesquisa e da análise utilizada. Por isso, o primeiro passo é escolher a análise mais apropriada, considerando a pergunta, os dados coletados e o delineamento da pesquisa. Em seguida, aplicamos essa análise em diferentes escalas e identificamos aquela em que a relação entre as variáveis resposta e preditora é mais forte – ou seja, **a escala do efeito.**
 
-Espero que esta postagem tenha ajudado a entender o que é e como calcular a escala do efeito. Agradeço por acompanhar até aqui e desejo sucesso em suas análises futuras! 
+Espero que esta postagem tenha ajudado a entender o que é e como calcular a escala do efeito. Agradeço por acompanhar até aqui e desejo sucesso em suas análises futuras!
 
 Até a próxima!

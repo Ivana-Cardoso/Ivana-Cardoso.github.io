@@ -6,6 +6,11 @@ image: "capa.jpg"
 categories: 
   - vida acadêmica
   - relato de experiência
+metadata:
+  open-graph:
+    image: capa.jpg
+  twitter-card:
+    image: capa.jpg
 ---
 
 Engana-se quem pensa que fazer trabalho de campo (em algumas situações, como a nossa) seja apenas resistir a meses sem luz, chuveiro e geladeira. O trabalho de campo também envolve lidar com situações e pessoas, e isso pode ensinar bastante sobre inteligência emocional, social e relações interpessoais. O texto de hoje abordará um pouco do que enfrentei sendo uma mulher à frente de um projeto de pesquisa.

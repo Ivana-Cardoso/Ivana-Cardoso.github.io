@@ -6,6 +6,11 @@ image: "Paisagem_capa.png"
 categories: 
   - R
   - ecologia de paisagem
+metadata:
+  open-graph:
+    image: Paisagem_capa.png
+  twitter-card:
+    image: Paisagem_capa.png
 execute:
   freeze: auto
 ---
