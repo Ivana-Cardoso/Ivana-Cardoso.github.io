@@ -7,6 +7,11 @@ categories:
   - ecologia de comunidades
   - ornitologia
   - publicação científica
+metadata:
+  open-graph:
+    image: capa.jpg
+  twitter-card:
+    image: capa.jpg
 ---
 <p class="texto-secundario">
 *O post de hoje é para compartilhar um marco muito especial: publicamos nosso primeiro artigo em uma revista internacional qualis A1 escrito e liderado por alunos (atuais e egressos) do Instituto Federal Farroupilha – Campus Júlio de Castilhos. Essa é a instituição onde me formei e onde, com muita alegria, atuo hoje como colaboradora no Núcleo de Pesquisas em Ciências Biológicas (NPCBio). Um detalhe que torna esse trabalho ainda mais significativo é o fato de ser uma pesquisa local, realizada no Rio Grande do Sul por pessoas da própria região. Lembro bem do momento, há cinco anos, em que os primeiros piquetes do sítio de pesquisa permanente – um RAPELD modificado (Magnusson, 2005) – foram instalados na Floresta Nacional de Passo Fundo, onde o estudo foi conduzido. Este artigo representa a primeira publicação fruto desse esforço coletivo. A seguir, compartilho os principais resultados do estudo.*
