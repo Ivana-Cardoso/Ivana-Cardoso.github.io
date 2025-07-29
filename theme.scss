@@ -15,7 +15,6 @@ $headings-font-family:        'Open Sans', 'Calibri', 'Arial' !default;
 
 }
 
-
 div.quarto-post .listing-categories .listing-category {
     color: $body-color;
     background-color: $primary;
@@ -104,4 +103,12 @@ a:active {
   height: 300px;      /* altura fixa */
   object-fit: cover;  /* corta a imagem para preencher a área sem distorcer */
   object-position: center center; /* centra o corte */
+}
+
+
+.listing-title {
+  font-weight: 700 !important;
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+  color: $body-color;
 }
