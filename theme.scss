@@ -106,9 +106,6 @@ a:active {
 }
 
 
-.listing-title {
+div.quarto-post h3.listing-title a {
   font-weight: 700 !important;
-  font-size: 1.3rem;
-  margin-bottom: 0.5rem;
-  color: $body-color;
 }
