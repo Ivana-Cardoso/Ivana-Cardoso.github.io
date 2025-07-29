@@ -4,6 +4,7 @@ $primary: #f0f0f0 !default;
 $navbar-bg: #f0f0f0 !default;
 $font-family-base:            'Open Sans', 'Calibri', 'Arial' !default;
 $body-color:                #252525 !default;
+$secondary-color: #fe9929 !default;
 $headings-font-family:        'Open Sans', 'Calibri', 'Arial' !default;
 
 
@@ -94,3 +95,13 @@ a:active {
     color: darken(#fe9929, 10%); /* Cor de destaque ao clicar em links */
 }
 
+.texto-secundario {
+  color: $secondary-color !important;
+}
+
+.uniform-img {
+  width: 400px;       /* largura fixa */
+  height: 300px;      /* altura fixa */
+  object-fit: cover;  /* corta a imagem para preencher a área sem distorcer */
+  object-position: center center; /* centra o corte */
+}

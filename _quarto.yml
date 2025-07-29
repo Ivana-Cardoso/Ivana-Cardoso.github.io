@@ -10,7 +10,7 @@ website:
   announcement: 
     icon: binoculars-fill
     dismissable: true
-    content: "A ciência se torna ainda mais bela quando explorada em conjunto. **Seja bem-vinda(o) ao biRd blog!**"
+    content: "Ciência se constrói junto. **Seja bem-vinda(o) ao biRd blog!**"
     type: primary
     position: below-navbar
   navbar:
@@ -29,7 +29,7 @@ website:
       - icon: rss
         href: index.xml
     logo: round_biRd.png
-  page-footer: "Este blog foi construído com [Quarto v.1.5.57](https://quarto.org/) no [R v.4.3.2](https://www.r-project.org/)"
+  page-footer: "Este blog foi construído com [Quarto v.1.6.42](https://quarto.org/) no [R v.4.3.2](https://www.r-project.org/)"
 
 format:
   html:
