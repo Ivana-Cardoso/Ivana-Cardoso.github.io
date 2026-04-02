@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="pt" xml:lang="pt"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.6.42">
+<meta name="generator" content="quarto-1.8.25">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -32,15 +32,17 @@ ul.task-list li input[type="checkbox"] {
 <meta name="quarto:offset" content="./">
 <script src="site_libs/quarto-listing/list.min.js"></script>
 <script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-018f5dc787c9a3567fab8c965bc39bd1.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-3e950f2bb094bceff8d60342b451d398.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -112,7 +114,7 @@ const typesetMath = (el) => {
     var macros = [];
     for (var i = 0; i < mathElements.length; i++) {
       var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
         window.katex.render(texText.data, mathElements[i], {
           displayMode: mathElements[i].classList.contains('display'),
           throwOnError: false,
@@ -130,7 +132,7 @@ window.Quarto = {
 
 <link rel="alternate" type="application/rss+xml" title="biRd blog" href="index.xml" data-external="1"></head>
 
-<body class="nav-fixed">
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
@@ -138,7 +140,8 @@ window.Quarto = {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./round_biRd.png" alt="" class="navbar-logo">
+    <img src="./round_biRd.png" alt="" class="navbar-logo light-content">
+    <img src="./round_biRd.png" alt="" class="navbar-logo dark-content">
     </a>
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">biRd blog</span>
@@ -1105,54 +1108,82 @@ window.Quarto = {
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="listing-actions-group">
    <div class="input-group input-group-sm quarto-listing-sort">
-     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-     <select id="listing-listing-sort" class="form-select" aria-label="Ordenar por" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-       <option value="" disabled="" selected="" hidden="">Ordenar por</option>
-       <option value="index" data-direction="asc">Pré-selecionado</option>
-         <option value="listing-title" data-direction="asc">
-          Título
-        </option>
-         <option value="listing-date-sort" data-direction="asc">
-          Data - Mais velho
-        </option>
-         <option value="listing-date-sort" data-direction="desc">
-          Data - O mais novo
-        </option>
-         <option value="listing-author" data-direction="asc">
-          Autor
-        </option>
-     </select>
+    <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+    <select id="listing-listing-sort" class="form-select" aria-label="Ordenar por" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+      <option value="" disabled="" selected="" hidden="">Ordenar por</option>
+      <option value="index" data-direction="asc">Pré-selecionado</option>
+      <option value="listing-title" data-direction="asc">
+        Título
+      </option>
+      <option value="listing-date-sort" data-direction="asc">
+        Data - Mais velho
+      </option>
+      <option value="listing-date-sort" data-direction="desc">
+        Data - O mais novo
+      </option>
+      <option value="listing-author" data-direction="asc">
+        Autor
+      </option>
+    </select>
   </div>
 </div>
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="ZWNvbG9naWElMjBkZSUyMGNvbXVuaWRhZGVzJTJDb3JuaXRvbG9naWElMkNwdWJsaWNhJUMzJUE3JUMzJUEzbyUyMGNpZW50JUMzJUFEZmljYQ==" data-listing-date-sort="1753758000000" data-listing-file-modified-sort="1753835115867" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="832">
-<div class="thumbnail">
-<p><a href="./posts/Paper_FORECO/index.html" class="no-external"></a></p><a href="./posts/Paper_FORECO/index.html" class="no-external">
-<p><img loading="lazy" src="./posts/Paper_FORECO/capa.jpg" class="thumbnail-image"></p>
-</a><p><a href="./posts/Paper_FORECO/index.html" class="no-external"></a></p>
+<div class="quarto-post image-right" data-index="0" data-categories="dmlkYSUyMGFjYWQlQzMlQUFtaWNhJTJDcmVsYXRvJTIwZGUlMjBleHBlcmklQzMlQUFuY2lh" data-listing-date-sort="1775102400000" data-listing-file-modified-sort="1775172141251" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="546">
+<div class="thumbnail"><a href="./posts/Peso_conquistas_invisiveis/index.html" class="no-external">
+
+<img loading="lazy" src="./posts/Peso_conquistas_invisiveis/woman_hourglass_freepik.png" class="thumbnail-image">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/Peso_conquistas_invisiveis/index.html" class="no-external">O peso das conquistas invisíveis</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('dmlkYSUyMGFjYWQlQzMlQUFtaWNh'); return false;">vida acadêmica</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('cmVsYXRvJTIwZGUlMjBleHBlcmklQzMlQUFuY2lh'); return false;">relato de experiência</div>
+
 </div>
+<div class="delink listing-description"><a href="./posts/Peso_conquistas_invisiveis/index.html" class="no-external">
+Hoje escrevo este post porque (1) esse tema tem surgido com frequência nos meus círculos de convivência, tanto no Brasil quanto aqui no Canadá, dentro e fora da Ecologia, e…
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/Peso_conquistas_invisiveis/index.html" class="no-external">
+<div class="listing-date">
+2 de abr. de 2026
+</div>
+<div class="listing-author">
+Ivana Cardoso
+</div>
+<div class="listing-reading-time">3 minutos</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="ZWNvbG9naWElMjBkZSUyMGNvbXVuaWRhZGVzJTJDb3JuaXRvbG9naWElMkNwdWJsaWNhJUMzJUE3JUMzJUEzbyUyMGNpZW50JUMzJUFEZmljYQ==" data-listing-date-sort="1753761600000" data-listing-file-modified-sort="1753835115867" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="832">
+<div class="thumbnail"><a href="./posts/Paper_FORECO/index.html" class="no-external">
+
+<img loading="lazy" src="./posts/Paper_FORECO/capa.jpg" class="thumbnail-image">
+
+</a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/Paper_FORECO/index.html" class="no-external">Como as plantações de árvores podem ajudar na conservação de aves florestais?</a>
 </h3>
-<div class="listing-subtitle">
-<a href="./posts/Paper_FORECO/index.html" class="no-external"></a>
-</div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('ZWNvbG9naWElMjBkZSUyMGNvbXVuaWRhZGVz'); return false;">
-ecologia de comunidades
+
+<div class="listing-category" onclick="window.quartoListingCategory('ZWNvbG9naWElMjBkZSUyMGNvbXVuaWRhZGVz'); return false;">ecologia de comunidades</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('b3JuaXRvbG9naWE='); return false;">ornitologia</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('cHVibGljYSVDMyVBNyVDMyVBM28lMjBjaWVudCVDMyVBRGZpY2E='); return false;">publicação científica</div>
+
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('b3JuaXRvbG9naWE='); return false;">
-ornitologia
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('cHVibGljYSVDMyVBNyVDMyVBM28lMjBjaWVudCVDMyVBRGZpY2E='); return false;">
-publicação científica
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/Paper_FORECO/index.html" class="no-external">
-<em>O post de hoje é para compartilhar um marco muito especial: publicamos nosso primeiro artigo em uma revista internacional Qualis A1 escrito e liderado por alunos (atuais e…</em></a>
-</div>
+<div class="delink listing-description"><a href="./posts/Paper_FORECO/index.html" class="no-external">
+
+<em>O post de hoje é para compartilhar um marco muito especial: publicamos nosso primeiro artigo em uma revista internacional Qualis A1 escrito e liderado por alunos (atuais e…</em>
+</a></div>
 </div>
 <div class="metadata">
 <a href="./posts/Paper_FORECO/index.html" class="no-external">
@@ -1162,36 +1193,30 @@ publicação científica
 <div class="listing-author">
 Ivana Cardoso
 </div>
-<div class="listing-reading-time">
-5 minutos
-</div>
+<div class="listing-reading-time">5 minutos</div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="UiUyQ2Vjb2xvZ2lhJTIwZGUlMjBwYWlzYWdlbQ==" data-listing-date-sort="1739674800000" data-listing-file-modified-sort="1753832045305" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1598">
-<div class="thumbnail">
-<p><a href="./posts/Escala_efeito/index.html" class="no-external"></a></p><a href="./posts/Escala_efeito/index.html" class="no-external">
-<p><img loading="lazy" src="./posts/Escala_efeito/capa.png" class="thumbnail-image"></p>
-</a><p><a href="./posts/Escala_efeito/index.html" class="no-external"></a></p>
-</div>
+<div class="quarto-post image-right" data-index="2" data-categories="UiUyQ2Vjb2xvZ2lhJTIwZGUlMjBwYWlzYWdlbQ==" data-listing-date-sort="1739682000000" data-listing-file-modified-sort="1753832045305" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1598">
+<div class="thumbnail"><a href="./posts/Escala_efeito/index.html" class="no-external">
+
+<img loading="lazy" src="./posts/Escala_efeito/capa.png" class="thumbnail-image">
+
+</a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/Escala_efeito/index.html" class="no-external">O que é escala do efeito e como identificá-la?</a>
 </h3>
-<div class="listing-subtitle">
-<a href="./posts/Escala_efeito/index.html" class="no-external"></a>
-</div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Ug=='); return false;">
-R
+
+<div class="listing-category" onclick="window.quartoListingCategory('Ug=='); return false;">R</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('ZWNvbG9naWElMjBkZSUyMHBhaXNhZ2Vt'); return false;">ecologia de paisagem</div>
+
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('ZWNvbG9naWElMjBkZSUyMHBhaXNhZ2Vt'); return false;">
-ecologia de paisagem
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/Escala_efeito/index.html" class="no-external">A escala é um conceito central no planejamento de pesquisas e na interpretação de padrões ecológicos. Ela define a lente pela qual observamos fenômenos naturais e é composta…</a>
-</div>
+<div class="delink listing-description"><a href="./posts/Escala_efeito/index.html" class="no-external">
+A escala é um conceito central no planejamento de pesquisas e na interpretação de padrões ecológicos. Ela define a lente pela qual observamos fenômenos naturais e é composta…
+</a></div>
 </div>
 <div class="metadata">
 <a href="./posts/Escala_efeito/index.html" class="no-external">
@@ -1201,36 +1226,30 @@ ecologia de paisagem
 <div class="listing-author">
 Ivana Cardoso
 </div>
-<div class="listing-reading-time">
-8 minutos
-</div>
+<div class="listing-reading-time">8 minutos</div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-categories="dmlkYSUyMGFjYWQlQzMlQUFtaWNhJTJDcmVsYXRvJTIwZGUlMjBleHBlcmklQzMlQUFuY2lh" data-listing-date-sort="1727060400000" data-listing-file-modified-sort="1753831908145" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="702">
-<div class="thumbnail">
-<p><a href="./posts/Reflexoes_pesquisa_campo/index.html" class="no-external"></a></p><a href="./posts/Reflexoes_pesquisa_campo/index.html" class="no-external">
-<p><img loading="lazy" src="./posts/Reflexoes_pesquisa_campo/capa.jpg" class="thumbnail-image"></p>
-</a><p><a href="./posts/Reflexoes_pesquisa_campo/index.html" class="no-external"></a></p>
-</div>
+<div class="quarto-post image-right" data-index="3" data-categories="dmlkYSUyMGFjYWQlQzMlQUFtaWNhJTJDcmVsYXRvJTIwZGUlMjBleHBlcmklQzMlQUFuY2lh" data-listing-date-sort="1727064000000" data-listing-file-modified-sort="1753831908145" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="702">
+<div class="thumbnail"><a href="./posts/Reflexoes_pesquisa_campo/index.html" class="no-external">
+
+<img loading="lazy" src="./posts/Reflexoes_pesquisa_campo/capa.jpg" class="thumbnail-image">
+
+</a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/Reflexoes_pesquisa_campo/index.html" class="no-external">Reflexões de uma mulher na pesquisa de campo</a>
 </h3>
-<div class="listing-subtitle">
-<a href="./posts/Reflexoes_pesquisa_campo/index.html" class="no-external"></a>
-</div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('dmlkYSUyMGFjYWQlQzMlQUFtaWNh'); return false;">
-vida acadêmica
+
+<div class="listing-category" onclick="window.quartoListingCategory('dmlkYSUyMGFjYWQlQzMlQUFtaWNh'); return false;">vida acadêmica</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('cmVsYXRvJTIwZGUlMjBleHBlcmklQzMlQUFuY2lh'); return false;">relato de experiência</div>
+
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('cmVsYXRvJTIwZGUlMjBleHBlcmklQzMlQUFuY2lh'); return false;">
-relato de experiência
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/Reflexoes_pesquisa_campo/index.html" class="no-external">Engana-se quem pensa que fazer trabalho de campo (em algumas situações, como a nossa) seja apenas resistir a meses sem luz, chuveiro e geladeira. O trabalho de campo também…</a>
-</div>
+<div class="delink listing-description"><a href="./posts/Reflexoes_pesquisa_campo/index.html" class="no-external">
+Engana-se quem pensa que fazer trabalho de campo (em algumas situações, como a nossa) seja apenas resistir a meses sem luz, chuveiro e geladeira. O trabalho de campo também…
+</a></div>
 </div>
 <div class="metadata">
 <a href="./posts/Reflexoes_pesquisa_campo/index.html" class="no-external">
@@ -1240,36 +1259,30 @@ relato de experiência
 <div class="listing-author">
 Ivana Cardoso
 </div>
-<div class="listing-reading-time">
-4 minutos
-</div>
+<div class="listing-reading-time">4 minutos</div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="3" data-categories="dmlkYSUyMGFjYWQlQzMlQUFtaWNhJTJDcmVsYXRvJTIwZGUlMjBleHBlcmklQzMlQUFuY2lh" data-listing-date-sort="1722913200000" data-listing-file-modified-sort="1753831877575" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="478">
-<div class="thumbnail">
-<p><a href="./posts/Relato_curso_verao/index.html" class="no-external"></a></p><a href="./posts/Relato_curso_verao/index.html" class="no-external">
-<p><img loading="lazy" src="./posts/Relato_curso_verao/20240803_flight.jpg" class="thumbnail-image"></p>
-</a><p><a href="./posts/Relato_curso_verao/index.html" class="no-external"></a></p>
-</div>
+<div class="quarto-post image-right" data-index="4" data-categories="dmlkYSUyMGFjYWQlQzMlQUFtaWNhJTJDcmVsYXRvJTIwZGUlMjBleHBlcmklQzMlQUFuY2lh" data-listing-date-sort="1722916800000" data-listing-file-modified-sort="1753831877575" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="478">
+<div class="thumbnail"><a href="./posts/Relato_curso_verao/index.html" class="no-external">
+
+<img loading="lazy" src="./posts/Relato_curso_verao/20240803_flight.jpg" class="thumbnail-image">
+
+</a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/Relato_curso_verao/index.html" class="no-external">Lições e inspirações de um curso de verão</a>
 </h3>
-<div class="listing-subtitle">
-<a href="./posts/Relato_curso_verao/index.html" class="no-external"></a>
-</div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('dmlkYSUyMGFjYWQlQzMlQUFtaWNh'); return false;">
-vida acadêmica
+
+<div class="listing-category" onclick="window.quartoListingCategory('dmlkYSUyMGFjYWQlQzMlQUFtaWNh'); return false;">vida acadêmica</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('cmVsYXRvJTIwZGUlMjBleHBlcmklQzMlQUFuY2lh'); return false;">relato de experiência</div>
+
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('cmVsYXRvJTIwZGUlMjBleHBlcmklQzMlQUFuY2lh'); return false;">
-relato de experiência
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/Relato_curso_verao/index.html" class="no-external">Localizado sobre a dorsal mesoatlântica, o arquipélago dos Açores é composto por nove ilhas vulcânicas, formadas no final do Terciário. Entre elas está a Ilha Terceira, que…</a>
-</div>
+<div class="delink listing-description"><a href="./posts/Relato_curso_verao/index.html" class="no-external">
+Localizado sobre a dorsal mesoatlântica, o arquipélago dos Açores é composto por nove ilhas vulcânicas, formadas no final do Terciário. Entre elas está a Ilha Terceira, que…
+</a></div>
 </div>
 <div class="metadata">
 <a href="./posts/Relato_curso_verao/index.html" class="no-external">
@@ -1279,39 +1292,32 @@ relato de experiência
 <div class="listing-author">
 Ivana Cardoso
 </div>
-<div class="listing-reading-time">
-3 minutos
-</div>
+<div class="listing-reading-time">3 minutos</div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="4" data-categories="ZWNvbG9naWElMjBkZSUyMHBhaXNhZ2VtJTJDYWx0ZXJhJUMzJUE3JUMzJUI1ZXMlMjBhbnRyJUMzJUIzcGljYXMlMjBubyUyMGhhYml0YXQlMkNjb25zZXJ2YSVDMyVBNyVDMyVBM28lMjBkYSUyMGJpb2RpdmVyc2lkYWRl" data-listing-date-sort="1721271600000" data-listing-file-modified-sort="1753831994419" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1469">
-<div class="thumbnail">
-<p><a href="./posts/Matriz/index.html" class="no-external"></a></p><a href="./posts/Matriz/index.html" class="no-external">
-<p><img loading="lazy" src="./posts/Matriz/fragmented_landscape.png" class="thumbnail-image"></p>
-</a><p><a href="./posts/Matriz/index.html" class="no-external"></a></p>
-</div>
+<div class="quarto-post image-right" data-index="5" data-categories="ZWNvbG9naWElMjBkZSUyMHBhaXNhZ2VtJTJDYWx0ZXJhJUMzJUE3JUMzJUI1ZXMlMjBhbnRyJUMzJUIzcGljYXMlMjBubyUyMGhhYml0YXQlMkNjb25zZXJ2YSVDMyVBNyVDMyVBM28lMjBkYSUyMGJpb2RpdmVyc2lkYWRl" data-listing-date-sort="1721275200000" data-listing-file-modified-sort="1753831994419" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1469">
+<div class="thumbnail"><a href="./posts/Matriz/index.html" class="no-external">
+
+<img loading="lazy" src="./posts/Matriz/fragmented_landscape.png" class="thumbnail-image">
+
+</a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/Matriz/index.html" class="no-external">O papel da matriz em paisagens modificadas</a>
 </h3>
-<div class="listing-subtitle">
-<a href="./posts/Matriz/index.html" class="no-external"></a>
-</div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('ZWNvbG9naWElMjBkZSUyMHBhaXNhZ2Vt'); return false;">
-ecologia de paisagem
+
+<div class="listing-category" onclick="window.quartoListingCategory('ZWNvbG9naWElMjBkZSUyMHBhaXNhZ2Vt'); return false;">ecologia de paisagem</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('YWx0ZXJhJUMzJUE3JUMzJUI1ZXMlMjBhbnRyJUMzJUIzcGljYXMlMjBubyUyMGhhYml0YXQ='); return false;">alterações antrópicas no habitat</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Y29uc2VydmElQzMlQTclQzMlQTNvJTIwZGElMjBiaW9kaXZlcnNpZGFkZQ=='); return false;">conservação da biodiversidade</div>
+
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('YWx0ZXJhJUMzJUE3JUMzJUI1ZXMlMjBhbnRyJUMzJUIzcGljYXMlMjBubyUyMGhhYml0YXQ='); return false;">
-alterações antrópicas no habitat
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Y29uc2VydmElQzMlQTclQzMlQTNvJTIwZGElMjBiaW9kaXZlcnNpZGFkZQ=='); return false;">
-conservação da biodiversidade
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/Matriz/index.html" class="no-external">A expansão das atividades humanas tem, cada vez mais, levado à perda e fragmentação de diferentes ambientes naturais (e.g., florestas, mangues, campos), que são habitat para…</a>
-</div>
+<div class="delink listing-description"><a href="./posts/Matriz/index.html" class="no-external">
+A expansão das atividades humanas tem, cada vez mais, levado à perda e fragmentação de diferentes ambientes naturais (e.g., florestas, mangues, campos), que são habitat para…
+</a></div>
 </div>
 <div class="metadata">
 <a href="./posts/Matriz/index.html" class="no-external">
@@ -1321,36 +1327,30 @@ conservação da biodiversidade
 <div class="listing-author">
 Ivana Cardoso
 </div>
-<div class="listing-reading-time">
-8 minutos
-</div>
+<div class="listing-reading-time">8 minutos</div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="5" data-categories="UiUyQ2Vjb2xvZ2lhJTIwZGUlMjBwYWlzYWdlbQ==" data-listing-date-sort="1708916400000" data-listing-file-modified-sort="1753832083191" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1180">
-<div class="thumbnail">
-<p><a href="./posts/Composicao_paisagem/index.html" class="no-external"></a></p><a href="./posts/Composicao_paisagem/index.html" class="no-external">
-<p><img loading="lazy" src="./posts/Composicao_paisagem/Paisagem_capa.png" class="thumbnail-image"></p>
-</a><p><a href="./posts/Composicao_paisagem/index.html" class="no-external"></a></p>
-</div>
+<div class="quarto-post image-right" data-index="6" data-categories="UiUyQ2Vjb2xvZ2lhJTIwZGUlMjBwYWlzYWdlbQ==" data-listing-date-sort="1708923600000" data-listing-file-modified-sort="1753832083191" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1180">
+<div class="thumbnail"><a href="./posts/Composicao_paisagem/index.html" class="no-external">
+
+<img loading="lazy" src="./posts/Composicao_paisagem/Paisagem_capa.png" class="thumbnail-image">
+
+</a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/Composicao_paisagem/index.html" class="no-external">Como calcular a composição da paisagem no R?</a>
 </h3>
-<div class="listing-subtitle">
-<a href="./posts/Composicao_paisagem/index.html" class="no-external"></a>
-</div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Ug=='); return false;">
-R
+
+<div class="listing-category" onclick="window.quartoListingCategory('Ug=='); return false;">R</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('ZWNvbG9naWElMjBkZSUyMHBhaXNhZ2Vt'); return false;">ecologia de paisagem</div>
+
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('ZWNvbG9naWElMjBkZSUyMHBhaXNhZ2Vt'); return false;">
-ecologia de paisagem
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/Composicao_paisagem/index.html" class="no-external">Em ecologia de paisagens, uma paisagem pode ser definida como um mosaico de usos do solo que interagem entre si em uma determinada escala, e pode ser caracterizada por sua…</a>
-</div>
+<div class="delink listing-description"><a href="./posts/Composicao_paisagem/index.html" class="no-external">
+Em ecologia de paisagens, uma paisagem pode ser definida como um mosaico de usos do solo que interagem entre si em uma determinada escala, e pode ser caracterizada por sua…
+</a></div>
 </div>
 <div class="metadata">
 <a href="./posts/Composicao_paisagem/index.html" class="no-external">
@@ -1360,36 +1360,30 @@ ecologia de paisagem
 <div class="listing-author">
 Ivana Cardoso
 </div>
-<div class="listing-reading-time">
-6 minutos
-</div>
+<div class="listing-reading-time">6 minutos</div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="6" data-categories="aWd1YWxkYWRlJTIwZGUlMjBnJUMzJUFBbmVybyUyQ2VtcG9kZXJhbWVudG8lMjBmZW1pbmlubw==" data-listing-date-sort="1707620400000" data-listing-file-modified-sort="1753831949983" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="910">
-<div class="thumbnail">
-<p><a href="./posts/Mulheres_na_Ciencia/index.html" class="no-external"></a></p><a href="./posts/Mulheres_na_Ciencia/index.html" class="no-external">
-<p><img loading="lazy" src="./posts/Mulheres_na_Ciencia/women_science_freepik.jpg" class="thumbnail-image"></p>
-</a><p><a href="./posts/Mulheres_na_Ciencia/index.html" class="no-external"></a></p>
-</div>
+<div class="quarto-post image-right" data-index="7" data-categories="aWd1YWxkYWRlJTIwZGUlMjBnJUMzJUFBbmVybyUyQ2VtcG9kZXJhbWVudG8lMjBmZW1pbmlubw==" data-listing-date-sort="1707627600000" data-listing-file-modified-sort="1753831949983" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="910">
+<div class="thumbnail"><a href="./posts/Mulheres_na_Ciencia/index.html" class="no-external">
+
+<img loading="lazy" src="./posts/Mulheres_na_Ciencia/women_science_freepik.jpg" class="thumbnail-image">
+
+</a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/Mulheres_na_Ciencia/index.html" class="no-external">Mulheres na Ciência: Quebrando barreiras e inspirando caminhos</a>
 </h3>
-<div class="listing-subtitle">
-<a href="./posts/Mulheres_na_Ciencia/index.html" class="no-external"></a>
-</div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('aWd1YWxkYWRlJTIwZGUlMjBnJUMzJUFBbmVybw=='); return false;">
-igualdade de gênero
+
+<div class="listing-category" onclick="window.quartoListingCategory('aWd1YWxkYWRlJTIwZGUlMjBnJUMzJUFBbmVybw=='); return false;">igualdade de gênero</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('ZW1wb2RlcmFtZW50byUyMGZlbWluaW5v'); return false;">empoderamento feminino</div>
+
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('ZW1wb2RlcmFtZW50byUyMGZlbWluaW5v'); return false;">
-empoderamento feminino
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/Mulheres_na_Ciencia/index.html" class="no-external">Mulheres enfrentaram desafios e discriminação, especialmente na busca por educação e reconhecimento na ciência. Fomos consideradas intelectualmente inferiores e afastadas de…</a>
-</div>
+<div class="delink listing-description"><a href="./posts/Mulheres_na_Ciencia/index.html" class="no-external">
+Mulheres enfrentaram desafios e discriminação, especialmente na busca por educação e reconhecimento na ciência. Fomos consideradas intelectualmente inferiores e afastadas de…
+</a></div>
 </div>
 <div class="metadata">
 <a href="./posts/Mulheres_na_Ciencia/index.html" class="no-external">
@@ -1399,248 +1393,251 @@ empoderamento feminino
 <div class="listing-author">
 Ivana Cardoso
 </div>
-<div class="listing-reading-time">
-5 minutos
-</div>
+<div class="listing-reading-time">5 minutos</div>
 </a>
 </div>
 </div>
 </div>
-<div class="listing-no-matching d-none">
-Nenhum item correspondente
-</div>
+<div class="listing-no-matching d-none">Nenhum item correspondente</div>
 </div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
-window.document.addEventListener("DOMContentLoaded", function (event) {
-  const toggleBodyColorMode = (bsSheetEl) => {
-    const mode = bsSheetEl.getAttribute("data-mode");
-    const bodyEl = window.document.querySelector("body");
-    if (mode === "dark") {
-      bodyEl.classList.add("quarto-dark");
-      bodyEl.classList.remove("quarto-light");
-    } else {
-      bodyEl.classList.add("quarto-light");
-      bodyEl.classList.remove("quarto-dark");
-    }
-  }
-  const toggleBodyColorPrimary = () => {
-    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
-    if (bsSheetEl) {
-      toggleBodyColorMode(bsSheetEl);
-    }
-  }
-  toggleBodyColorPrimary();  
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
-  const isCodeAnnotation = (el) => {
-    for (const clz of el.classList) {
-      if (clz.startsWith('code-annotation-')) {                     
-        return true;
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
       }
+      return false;
     }
-    return false;
-  }
-  const onCopySuccess = function(e) {
-    // button target
-    const button = e.trigger;
-    // don't keep focus
-    button.blur();
-    // flash "checked"
-    button.classList.add('code-copy-button-checked');
-    var currentTitle = button.getAttribute("title");
-    button.setAttribute("title", "Copiada");
-    let tooltip;
-    if (window.bootstrap) {
-      button.setAttribute("data-bs-toggle", "tooltip");
-      button.setAttribute("data-bs-placement", "left");
-      button.setAttribute("data-bs-title", "Copiada");
-      tooltip = new bootstrap.Tooltip(button, 
-        { trigger: "manual", 
-          customClass: "code-copy-button-tooltip",
-          offset: [0, -8]});
-      tooltip.show();    
-    }
-    setTimeout(function() {
-      if (tooltip) {
-        tooltip.hide();
-        button.removeAttribute("data-bs-title");
-        button.removeAttribute("data-bs-toggle");
-        button.removeAttribute("data-bs-placement");
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copiada");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copiada");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
       }
-      button.setAttribute("title", currentTitle);
-      button.classList.remove('code-copy-button-checked');
-    }, 1000);
-    // clear code selection
-    e.clearSelection();
-  }
-  const getTextToCopy = function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
       for (const childEl of codeEl.children) {
         if (isCodeAnnotation(childEl)) {
           childEl.remove();
         }
       }
       return codeEl.innerText;
-  }
-  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
-    text: getTextToCopy
-  });
-  clipboard.on('success', onCopySuccess);
-  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
-      text: getTextToCopy,
-      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
     });
-    clipboardModal.on('success', onCopySuccess);
-  }
-    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-    var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/ivana-cardoso\.github\.io\/");
-    var isInternal = (href) => {
-        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
     }
-    // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
-    for (var i=0; i<links.length; i++) {
-      const link = links[i];
-      if (!isInternal(link.href)) {
-        // undo the damage that might have been done by quarto-nav.js in the case of
-        // links that we want to consider external
-        if (link.dataset.originalHref !== undefined) {
-          link.href = link.dataset.originalHref;
-        }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/ivana-cardoso\.github\.io\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
-    }
-  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
-    const config = {
-      allowHTML: true,
-      maxWidth: 500,
-      delay: 100,
-      arrow: false,
-      appendTo: function(el) {
-          return el.parentElement;
-      },
-      interactive: true,
-      interactiveBorder: 10,
-      theme: 'quarto',
-      placement: 'bottom-start',
-    };
-    if (contentFn) {
-      config.content = contentFn;
-    }
-    if (onTriggerFn) {
-      config.onTrigger = onTriggerFn;
-    }
-    if (onUntriggerFn) {
-      config.onUntrigger = onUntriggerFn;
-    }
-    window.tippy(el, config); 
-  }
-  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
-  for (var i=0; i<noterefs.length; i++) {
-    const ref = noterefs[i];
-    tippyHover(ref, function() {
-      // use id or data attribute instead here
-      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
-      try { href = new URL(href).hash; } catch {}
-      const id = href.replace(/^#\/?/, "");
-      const note = window.document.getElementById(id);
-      if (note) {
-        return note.innerHTML;
-      } else {
-        return "";
-      }
-    });
-  }
-  const xrefs = window.document.querySelectorAll('a.quarto-xref');
-  const processXRef = (id, note) => {
-    // Strip column container classes
-    const stripColumnClz = (el) => {
-      el.classList.remove("page-full", "page-columns");
-      if (el.children) {
-        for (const child of el.children) {
-          stripColumnClz(child);
-        }
-      }
-    }
-    stripColumnClz(note)
-    if (id === null || id.startsWith('sec-')) {
-      // Special case sections, only their first couple elements
-      const container = document.createElement("div");
-      if (note.children && note.children.length > 2) {
-        container.appendChild(note.children[0].cloneNode(true));
-        for (let i = 1; i < note.children.length; i++) {
-          const child = note.children[i];
-          if (child.tagName === "P" && child.innerText === "") {
-            continue;
-          } else {
-            container.appendChild(child.cloneNode(true));
-            break;
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
           }
         }
-        if (window.Quarto?.typesetMath) {
-          window.Quarto.typesetMath(container);
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
         }
-        return container.innerHTML
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
       } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
         if (window.Quarto?.typesetMath) {
           window.Quarto.typesetMath(note);
         }
-        return note.innerHTML;
-      }
-    } else {
-      // Remove any anchor links if they are present
-      const anchorLink = note.querySelector('a.anchorjs-link');
-      if (anchorLink) {
-        anchorLink.remove();
-      }
-      if (window.Quarto?.typesetMath) {
-        window.Quarto.typesetMath(note);
-      }
-      if (note.classList.contains("callout")) {
-        return note.outerHTML;
-      } else {
-        return note.innerHTML;
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
       }
     }
-  }
-  for (var i=0; i<xrefs.length; i++) {
-    const xref = xrefs[i];
-    tippyHover(xref, undefined, function(instance) {
-      instance.disable();
-      let url = xref.getAttribute('href');
-      let hash = undefined; 
-      if (url.startsWith('#')) {
-        hash = url;
-      } else {
-        try { hash = new URL(url).hash; } catch {}
-      }
-      if (hash) {
-        const id = hash.replace(/^#\/?/, "");
-        const note = window.document.getElementById(id);
-        if (note !== null) {
-          try {
-            const html = processXRef(id, note.cloneNode(true));
-            instance.setContent(html);
-          } finally {
-            instance.enable();
-            instance.show();
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
           }
         } else {
-          // See if we can fetch this
-          fetch(url.split('#')[0])
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
           .then(res => res.text())
           .then(html => {
             const parser = new DOMParser();
             const htmlDoc = parser.parseFromString(html, "text/html");
-            const note = htmlDoc.getElementById(id);
+            const note = htmlDoc.querySelector('main.content');
             if (note !== null) {
-              const html = processXRef(id, note);
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
               instance.setContent(html);
             } 
           }).finally(() => {
@@ -1648,185 +1645,161 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             instance.show();
           });
         }
-      } else {
-        // See if we can fetch a full url (with no hash to target)
-        // This is a special case and we should probably do some content thinning / targeting
-        fetch(url)
-        .then(res => res.text())
-        .then(html => {
-          const parser = new DOMParser();
-          const htmlDoc = parser.parseFromString(html, "text/html");
-          const note = htmlDoc.querySelector('main.content');
-          if (note !== null) {
-            // This should only happen for chapter cross references
-            // (since there is no id in the URL)
-            // remove the first header
-            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
-              note.children[0].remove();
-            }
-            const html = processXRef(null, note);
-            instance.setContent(html);
-          } 
-        }).finally(() => {
-          instance.enable();
-          instance.show();
-        });
-      }
-    }, function(instance) {
-    });
-  }
-      let selectedAnnoteEl;
-      const selectorForAnnotation = ( cell, annotation) => {
-        let cellAttr = 'data-code-cell="' + cell + '"';
-        let lineAttr = 'data-code-annotation="' +  annotation + '"';
-        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
-        return selector;
-      }
-      const selectCodeLines = (annoteEl) => {
-        const doc = window.document;
-        const targetCell = annoteEl.getAttribute("data-target-cell");
-        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
-        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
-        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
-        const lineIds = lines.map((line) => {
-          return targetCell + "-" + line;
-        })
-        let top = null;
-        let height = null;
-        let parent = null;
-        if (lineIds.length > 0) {
-            //compute the position of the single el (top and bottom and make a div)
-            const el = window.document.getElementById(lineIds[0]);
-            top = el.offsetTop;
-            height = el.offsetHeight;
-            parent = el.parentElement.parentElement;
-          if (lineIds.length > 1) {
-            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
-            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
-            height = bottom - top;
-          }
-          if (top !== null && height !== null && parent !== null) {
-            // cook up a div (if necessary) and position it 
-            let div = window.document.getElementById("code-annotation-line-highlight");
-            if (div === null) {
-              div = window.document.createElement("div");
-              div.setAttribute("id", "code-annotation-line-highlight");
-              div.style.position = 'absolute';
-              parent.appendChild(div);
-            }
-            div.style.top = top - 2 + "px";
-            div.style.height = height + 4 + "px";
-            div.style.left = 0;
-            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
-            if (gutterDiv === null) {
-              gutterDiv = window.document.createElement("div");
-              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
-              gutterDiv.style.position = 'absolute';
-              const codeCell = window.document.getElementById(targetCell);
-              const gutter = codeCell.querySelector('.code-annotation-gutter');
-              gutter.appendChild(gutterDiv);
-            }
-            gutterDiv.style.top = top - 2 + "px";
-            gutterDiv.style.height = height + 4 + "px";
-          }
-          selectedAnnoteEl = annoteEl;
-        }
-      };
-      const unselectCodeLines = () => {
-        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
-        elementsIds.forEach((elId) => {
-          const div = window.document.getElementById(elId);
-          if (div) {
-            div.remove();
-          }
-        });
-        selectedAnnoteEl = undefined;
-      };
-        // Handle positioning of the toggle
-    window.addEventListener(
-      "resize",
-      throttle(() => {
-        elRect = undefined;
-        if (selectedAnnoteEl) {
-          selectCodeLines(selectedAnnoteEl);
-        }
-      }, 10)
-    );
-    function throttle(fn, ms) {
-    let throttle = false;
-    let timer;
-      return (...args) => {
-        if(!throttle) { // first call gets through
-            fn.apply(this, args);
-            throttle = true;
-        } else { // all the others get throttled
-            if(timer) clearTimeout(timer); // cancel #2
-            timer = setTimeout(() => {
-              fn.apply(this, args);
-              timer = throttle = false;
-            }, ms);
-        }
-      };
-    }
-      // Attach click handler to the DT
-      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
-      for (const annoteDlNode of annoteDls) {
-        annoteDlNode.addEventListener('click', (event) => {
-          const clickedEl = event.target;
-          if (clickedEl !== selectedAnnoteEl) {
-            unselectCodeLines();
-            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
-            if (activeEl) {
-              activeEl.classList.remove('code-annotation-active');
-            }
-            selectCodeLines(clickedEl);
-            clickedEl.classList.add('code-annotation-active');
-          } else {
-            // Unselect the line
-            unselectCodeLines();
-            clickedEl.classList.remove('code-annotation-active');
-          }
-        });
-      }
-  const findCites = (el) => {
-    const parentEl = el.parentElement;
-    if (parentEl) {
-      const cites = parentEl.dataset.cites;
-      if (cites) {
-        return {
-          el,
-          cites: cites.split(' ')
-        };
-      } else {
-        return findCites(el.parentElement)
-      }
-    } else {
-      return undefined;
-    }
-  };
-  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
-  for (var i=0; i<bibliorefs.length; i++) {
-    const ref = bibliorefs[i];
-    const citeInfo = findCites(ref);
-    if (citeInfo) {
-      tippyHover(citeInfo.el, function() {
-        var popup = window.document.createElement('div');
-        citeInfo.cites.forEach(function(cite) {
-          var citeDiv = window.document.createElement('div');
-          citeDiv.classList.add('hanging-indent');
-          citeDiv.classList.add('csl-entry');
-          var biblioDiv = window.document.getElementById('ref-' + cite);
-          if (biblioDiv) {
-            citeDiv.innerHTML = biblioDiv.innerHTML;
-          }
-          popup.appendChild(citeDiv);
-        });
-        return popup.innerHTML;
+      }, function(instance) {
       });
     }
-  }
-});
-</script>
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
