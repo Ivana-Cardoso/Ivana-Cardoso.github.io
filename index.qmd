@@ -4,6 +4,7 @@ title-block-banner: true
 margin-header: subscribe.html
 body-header: 20230417114303_IMG_2062.jpg
 listing:
+  id: listing
   contents: posts
   sort: "date desc"
   type: default
@@ -17,3 +18,10 @@ lang: pt
 ---
 
 ![](20230417114303_IMG_2062.jpg)
+
+::: {#listing}
+:::
+
+```{=html}
+{{< include subscribe-mobile.html >}}
+```
