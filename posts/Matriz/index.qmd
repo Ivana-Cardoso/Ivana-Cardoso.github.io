@@ -2,16 +2,16 @@
 title: "O papel da matriz em paisagens modificadas"
 author: "Ivana Cardoso"
 date: "2024-07-18"
-image: "fragmented_landscape.png"
+image: "fragmented_landscape.jpg"
 categories: 
   - ecologia de paisagem
   - alterações antrópicas no habitat
   - conservação da biodiversidade
 metadata:
   open-graph:
-    image: fragmented_landscape.png
+    image: fragmented_landscape.jpg
   twitter-card:
-    image: fragmented_landscape.png
+    image: fragmented_landscape.jpg
 ---
 
 ::: column-margin

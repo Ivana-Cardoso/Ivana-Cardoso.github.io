@@ -2,15 +2,15 @@
 title: "O peso das conquistas invisíveis"
 author: "Ivana Cardoso"
 date: "2026-04-02"
-image: "woman_hourglass_freepik.png"
+image: "woman_hourglass_freepik.jpg"
 categories: 
   - vida acadêmica
   - relato de experiência
 metadata:
   open-graph:
-    image: "woman_hourglass_freepik.png"
+    image: "woman_hourglass_freepik.jpg"
   twitter-card:
-    image: "woman_hourglass_freepik.png"
+    image: "woman_hourglass_freepik.jpg"
 ---
 
 Hoje escrevo este post porque (1) esse tema tem surgido com frequência nos meus círculos de convivência, tanto no Brasil quanto aqui no Canadá, dentro e fora da Ecologia, e (2) porque sinto que é uma reflexão necessária para mim neste momento.

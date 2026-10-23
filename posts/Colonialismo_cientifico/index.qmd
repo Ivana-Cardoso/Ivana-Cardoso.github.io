@@ -1,0 +1,90 @@
+---
+title: "O que é colonialismo científico?"
+author: "Ivana Cardoso"
+date: "2026-10-23"
+image: "caravela_freepik.jpg"
+categories: 
+  - vida acadêmica
+  - equidade na pesquisa
+metadata:
+  open-graph:
+    image: "caravela_freepik.jpg"
+  twitter-card:
+    image: "caravela_freepik.jpg"
+---
+
+O Brasil vai às urnas neste domingo (25/10/2026) para o [segundo turno das eleições presidenciais](https://www.tse.jus.br/comunicacao/noticias/2026/Outubro/flavio-bolsonaro-e-lula-vao-disputar-o-2o-turno-para-a-presidencia-da-republica). Em meio a um debate que envolve a soberania nacional, e diante da ameaça de um projeto que aceita um [Brasil subalterno e disponibiliza nossas riquezas aos Estados Unidos](https://youtu.be/F0aBW8GcAtE?si=os__5q4rAjhGwZh1), considero importante discutir também outra forma de colonialismo: o colonialismo científico. Antes de falar sobre o colonialismo científico, precisamos relembrar o que é [colonialismo](https://sites.unipampa.edu.br/lehmai/o-que-e-colonialismo/).
+
+## O que é colonialismo?
+
+[Colonialismo](https://pt.wikipedia.org/wiki/Colonialismo) é o domínio de um território por outro país, contra a vontade de seus habitantes, com o objetivo de explorar suas riquezas, controlar sua população e, muitas vezes, impor sua cultura. Um exemplo bem conhecido por nós, brasileiros, é a relação entre [Portugal e Brasil colônia (1500-1822)](https://pt.wikipedia.org/wiki/Brasil_Col%C3%B4nia#Economia_e_sociedade_colonial). Nesse período, os portugueses exploraram aqui produtos de alto valor, como o [pau-brasil](https://pt.wikipedia.org/wiki/Ciclo_do_pau-brasil), a [cana-de-açúcar](https://pt.wikipedia.org/wiki/Ciclo_do_a%C3%A7%C3%BAcar) e o [ouro](https://pt.wikipedia.org/wiki/Ciclo_do_ouro), com o [trabalho escravo de indígenas e africanos](https://www.tst.jus.br/memoriaviva/-/asset_publisher/LGQDwoJD0LV2/content/ev-jt-80-02). Enquanto Portugal lucrava com as nossas riquezas, os povos indígenas do Brasil sofriam com a violência e a perda das suas terras, sua língua, sua religião e sua cultura.
+
+O colonialismo ainda é debatido em alguns contextos atualmente. Por exemplo, [Porto Rico](https://www.brasildefato.com.br/podcast/brasil-de-fato-entrevista/2026/02/23/porto-rico-nunca-foi-plenamente-autonomo-professor-analisa-status-colonial-da-ilha-movimentos-por-soberania-e-resistencia-cultural-de-bad-bunny/) é um território dos Estados Unidos, mas seus habitantes [não votam para presidente, não elegem senadores e têm na Câmara apenas um representante sem direito a voto no plenário](https://en-wikipedia-org.translate.goog/wiki/Federal_voting_rights_in_Puerto_Rico?_x_tr_sl=en&_x_tr_tl=pt&_x_tr_hl=pt&_x_tr_pto=tc). Já a pressão que os Estados Unidos exercem sobre países independentes, como [Cuba](https://www.brasildefato.com.br/2026/08/25/cubanos-nao-querem-voltar-a-ser-colonia-dos-estados-unidos-reporter-do-bdf-conta-o-que-viu-em-cuba-durante-gravacoes-de-documentario-sobre-fidel/) e [Venezuela](https://www.brasildefato.com.br/2025/12/17/a-venezuela-jamais-voltara-a-ser-colonia-de-imperio-algum-diz-venezuela-sobre-cerco-dos-eua/), pode ser considerada [neocolonialismo](https://pt.wikipedia.org/wiki/Neocolonialismo). Esse conceito se refere ao controle ou à influência de uma potência sobre outro país por meios econômicos e políticos.
+
+**Os conceitos de colonialismo e neocolonialismo também estão presentes na ciência.**
+
+## O que é colonialismo científico?
+
+Com as expedições naturalistas, que se tornaram mais comuns nos séculos XVII e XVIII, naturalistas europeus viajavam até outras regiões do mundo e coletavam os mais variados tipos de material, como animais, [plantas](https://pt.wikipedia.org/wiki/Expedi%C3%A7%C3%B5es_bot%C3%A2nicas), [fósseis](https://portal.sbpcnet.org.br/noticias/a-luta-contra-o-colonialismo-cientifico/) e [artefatos indígenas](https://piaui.uol.com.br/web/volta-do-manto-tupinamba/). Esses materiais eram, então, enviados para seus países de origem para serem estudados e, mais frequentemente, colecionados. [No Brasil passaram muitos naturalistas](https://revistacienciaecultura.org.br/?artigos=as-expedicoes-naturalistas-no-brasil-no-seculo-xix), entre eles os alemães Johann-Baptist Spix e Carl Martius entre 1817 e 1820. Nessa expedição, eles levaram daqui milhares de plantas, animais e, inclusive (!), [crianças indígenas](https://www.bbc.com/portuguese/articles/cll4zdq3n00o). Nesse sentido, colonialismo científico é "o processo pelo qual o centro de aquisição de conhecimento sobre uma nação está fora da própria nação" [(Galtung, 1967)](https://www.jstor.org/stable/2934342?seq=4).
+
+Ligados ao colonialismo científico estão dois conceitos: a [ciência de paraquedas](https://www.sciencearena.org/noticias/ciencia-paraquedas/) e a [ciência de helicóptero](https://revistapesquisa.fapesp.br/desigualdade-em-colaboracoes-e-questao-de-integridade-cientifica-aponta-conferencia-mundial/). Já ligada ao neocolonialismo científico está a [ciência de controle remoto](https://onlinelibrary.wiley.com/doi/10.1111/ele.70227). Esses três conceitos descrevem formas de fazer ciência que marginalizam pesquisadores do Sul global e de regiões de menor renda, e que **podem ocorrer tanto entre países quanto dentro de um mesmo país**.
+
+## O que é ciência de paraquedas?
+
+A ciência de paraquedas acontece quando pesquisadores de países ou regiões de alta renda coletam amostras em visitas curtas, voltam para casa para analisar e publicar os resultados e, em geral, não dão crédito aos colaboradores locais. É como se o pesquisador "caísse" de paraquedas, coletasse os dados e fosse embora.
+
+Sei bem como isso funciona, porque já passei por isso. No primeiro semestre de 2024, eu, então estudante de doutorado, fui convidada a apresentar minha área de estudo a uma equipe de cientistas estadunidenses. O convite me foi apresentado como uma oportunidade de parceria, networking e internacionalização. Aceitei. Eles diziam querer conhecer o local e testar a eficiência de drones para coletar dados biológicos. Esse primeiro contato durou cerca de duas semanas. Já faz dois anos e nunca mais tive notícia dos dados nem dos pesquisadores. Só com o tempo entendi que o que eles chamaram de teste era, na prática, coleta de dados. E a internacionalização prometida nunca se concretizou.
+
+## O que é ciência de helicóptero?
+
+A ciência de helicóptero acontece quando há campanhas de campo esporádicas e parcerias superficiais. É como se o pesquisador sobrevoasse de helicóptero, pousasse de vez em quando para coletar dados e voltasse para casa sem construir uma relação duradoura, ignorando com frequência o contexto local.
+
+Para ilustrar, quero refletir sobre uma situação que aconteceu dentro do Brasil. Em agosto deste ano, foi publicada uma [reportagem](https://agencia.fapesp.br/expedicao-inedita-vai-mapear-a-biodiversidade-do-topo-da-serra-do-araca-no-norte-do-amazonas/59032) sobre uma expedição científica de coleta na Serra do Aracá, no Amazonas, descrita como inédita. Ela envolveu 16 pesquisadores das seguintes instituições: Universidade de São Paulo (USP), Universidade Federal de São Carlos (UFSCar), Instituto Nacional de Pesquisas da Amazônia (INPA), Instituto Federal do Amazonas (IFAM), Universidade de Toulouse (França), Universidade Autônoma de Madri (Espanha), Museu de História Natural de Oslo (Noruega) e Jardim Botânico do Missouri (Estados Unidos). Entre eles, havia apenas [uma pesquisadora do INPA](http://lattes.cnpq.br/2682066078532807) e um [pesquisador do IFAM](http://lattes.cnpq.br/2565691074120686). Acho curioso que ambos tenham feito pós-doutorado na USP e, mais curioso ainda, que a pesquisadora do INPA não conste na [página da FAPESP com as informações sobre o financiamento do projeto](https://bv.fapesp.br/pt/auxilios/116069/a-biodiversidade-desconhecida-das-montanhas-da-amazonia/). Além disso, a expedição não é tão inédita assim: [uma busca rápida no Google Scholar](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=serra+do+arac%C3%A1+biodiversity&btnG=) retorna artigos sobre a biodiversidade na Serra do Aracá. [Um deles foi escrito por Sergio Borges](https://www.scielo.br/j/zool/a/5T6gybMp5ZTvC49PzG9dDkG/?lang=en), que estudou aves na região e hoje é professor da Universidade Federal do Amazonas (UFAM). Esse exemplo ilustra parcerias superficiais, em que a aquisição de conhecimento sobre a Amazônia fica fora da Amazônia.
+
+## O que é ciência de controle remoto?
+
+A ciência de controle remoto ocorre principalmente por meio da coordenação digital. Nesse modelo, pesquisadores do Norte global ou de regiões de alta renda não precisam sequer visitar o local de estudo, mas mantém o poder de decisão sobre as perguntas de pesquisa, os métodos, o financiamento e as publicações. Enquanto isso, os colaboradores do Sul global ou de regiões de menor renda ficam encarregados da coleta de dados e de etapas operacionais da análise. A comunicação ocorre por e-mail ou reuniões virtuais, enquanto equipamentos e outros materiais são enviados por transportadora. Então, é como se pesquisadores colaboradores locais fossem comandados à distância, por controle remoto, por pesquisadores de regiões de maior renda.
+
+Para pensar na ciência de controle remoto, quero trazer as [ideias de Deliane Penha](https://www.nature.com/articles/s44185-026-00131-y), pesquisadora amazônida e professora na Universidade Federal do Oeste do Pará (UFOPA), sobre ciência decolonial na Amazônia.
+
+Segundo ela, a Amazônia está hoje no centro da atenção global e, com isso, aumentaram os investimentos e os projetos de pesquisa na região. [Mas o poder de definir agendas e prioridades científicas continua, em geral, concentrado fora da Amazônia](https://theconversation.com/amazonia-em-debate-mais-do-que-promessas-regiao-precisa-de-uma-ciencia-decolonial-integrada-e-estavel-285908). Ela também destaca que, quando pesquisadores locais participam desses projetos, a parceria costuma ser apresentada como uma forma de capacitação. Na prática, cientistas e estudantes da região acabam ficando responsáveis pela coleta de dados e pela logística de campo, enquanto têm menos espaço para liderar as pesquisas. Isso mantém desigualdades históricas e dificulta o crescimento profissional desses pesquisadores.
+
+## O que pode ser feito para enfrentar essas práticas?
+
+Para refletir sobre os caminhos possíveis no enfrentamento do colonialismo e do neocolonialismo científico, trago novamente as palavras de [Deliane Penha](https://www.nature.com/articles/s44185-026-00131-y):
+
+> Uma abordagem decolonial da ciência exige mais do que denúncia. Exige consciência dessas práticas e coragem para desafiá-las.[...] E para fazer essa ciência precisamos cocriar pesquisas e práticas reparativas, assegurar uma participação equitativa e reconhecer cientistas amazônicos e populações locais como coprodutores de conhecimento. Isso pressupõe uma autoridade compartilhada.
+
+Complemento com cinco recomendações-chave para enfrentar práticas antiéticas e desiguais perpetuadas pelo neocolonialismo, segundo [Dáttilo e Rivera-Núñez (2025)](https://onlinelibrary.wiley.com/doi/10.1111/ele.70227):
+
+> 1. **Envolvimento precoce e profundo de cientistas locais**: Pesquisadores locais devem participar desde o planejamento da pesquisa e ajudar a decidir o que será estudado, como o estudo será realizado e quais serão as prioridades. Eles não devem apenas executar tarefas, mas também compartilhar a liderança e as decisões do projeto.
+
+> 2. **Reconhecimento e integração do conhecimento ecológico local**: Sempre que for relevante, as pesquisas devem reconhecer e valorizar tanto o conhecimento ecológico tradicional quanto o conhecimento científico produzido na própria região. Esses saberes devem ser considerados na análise dos resultados e nas conclusões dos estudos.
+
+> 3. **Reconhecimento justo de autoria e responsabilidade editorial**: Pesquisadores locais que contribuem para a coleta, análise, interpretação e redação de dados devem ser reconhecidos como autores principais, e não relegados a agradecimentos ou posições marginais.
+
+> 4. **Capacitação e compartilhamento de conhecimento**: Fortalecer a ciência local exige investimentos contínuos na formação de pesquisadores, nas instituições e na infraestrutura. Além de oferecer treinamento técnico, é importante criar oportunidades para que pesquisadores locais liderem projetos, desenvolvam suas próprias linhas de pesquisa e fortaleçam suas instituições.
+
+> 5. **Estruturas de financiamento mais adequadas**: Agências de fomento e governos precisam rever as regras que favorecem a ciência de controle remoto. Para mudar esse cenário, é possível exigir a participação de instituições do Sul global na liderança dos projetos, destinar recursos à infraestrutura e aos salários das equipes locais e criar editais para pesquisas internacionais lideradas por pesquisadores dessas regiões.
+
+No fim, construir uma ciência mais justa não se resume a incluir pesquisadores locais nos projetos. É preciso compartilhar as decisões, valorizar diferentes formas de conhecimento e garantir que cientistas da própria região tenham condições de liderar suas pesquisas.
+
+Para que essas mudanças se tornem realidade, também é preciso investir em ciência. E isso passa pelas escolhas que fazemos nas urnas, já que as decisões políticas definem prioridades e influenciam os investimentos e as oportunidades nas áreas de pesquisa, educação e desenvolvimento nacional.
+
+Mudar a nossa própria postura é importante, mas não basta. As decisões que definem o futuro da ciência no país também são coletivas e passam pelo voto, o nosso e o de quem escolhemos para nos representar. Enquanto tem um candidato querendo entregar o Brasil, temos outro lutando por um Brasil soberano, que não é quintal de ninguém. Para nos libertarmos dessa lógica colonial, precisamos também de líderes comprometidos com essa visão. Por isso, dia 25 é Lula 13!
+
+Espero que este texto tenha feito você refletir de alguma forma.
+
+Nos encontramos nas urnas.
+
+Até a próxima.
+
+
+
+### Sugestões de leitura
+
+1.  [Remote-Control Science in Ecology: A Hidden Face of Scientific Neocolonialism](https://onlinelibrary.wiley.com/doi/10.1111/ele.70227)
+
+2.  [Decolonial science in the Amazon demands active and equitable seats at the table](https://www.nature.com/articles/s44185-026-00131-y)
+
+3.  [Beyond more inclusive and equitable research in ecology and conservation: on the practical implications of expanding authorship to local data collectors](https://link.springer.com/article/10.1007/s44353-024-00005-z)
