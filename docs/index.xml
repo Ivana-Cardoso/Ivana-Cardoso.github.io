@@ -13,6 +13,8 @@
 <url>https://ivana-cardoso.github.io/biRd.png</url>
 <title>biRd blog</title>
 <link>https://ivana-cardoso.github.io/</link>
+<height>125</height>
+<width>144</width>
 </image>
 <generator>quarto-1.9.38</generator>
 <lastBuildDate>Fri, 23 Oct 2026 03:00:00 GMT</lastBuildDate>
@@ -957,6 +959,116 @@ font-style: inherit;">"cm"</span>))</span>
   <guid>https://ivana-cardoso.github.io/posts/Relato_curso_verao/</guid>
   <pubDate>Tue, 06 Aug 2024 03:00:00 GMT</pubDate>
   <media:content url="https://ivana-cardoso.github.io/posts/Relato_curso_verao/20240803_flight.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>The role of the matrix in modified landscapes</title>
+  <dc:creator>Ivana Cardoso</dc:creator>
+  <link>https://ivana-cardoso.github.io/en/posts/matrix/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+
+<div class="no-row-height column-margin column-container"><div class="">
+<div style="border: 2px solid #ccc; padding: 10px;width: 150%;">
+<h4 style="margin-top: 0;" class="anchored"><b>Glossary</b></h4>
+<b> 1. Habitat </b> - An environment with the conditions and resources necessary for the survival, establishment, and reproduction of a specific organism.
+<br>
+<b> 2. Complementary habitat </b> - An environment with the conditions and resources needed to complete a species' life cycle.
+<br>
+<b> 3. Supplementary habitat </b> - An additional environment that provides extra resources, which are not essential to a species' life cycle.
+<br>
+<b> 4. Matrix </b> - The environment adjacent to habitat fragments, such as pasture or secondary forests. 
+<br>
+<b> 5. Edge </b> - The area where the fragment and the matrix meet.
+<br>
+<b> 6. Edge effects </b> - Changes in biotic and abiotic conditions at the edges that influence species and ecological processes.
+<br>
+<b> 7. <i> Stepping stones</i> </b> - Intermediate areas that work as "stepping stones" connecting main habitats or larger fragments, such as small forest patches.
+</div>
+</div></div><p>The expansion of human activities has increasingly led to the loss and fragmentation of different natural environments (e.g., forests, mangroves, grasslands) that are habitat for many species. Activities such as agriculture and livestock farming, the overexploitation of natural resources, and even urban expansion are ubiquitous (see <a href="https://www.nature.com/articles/536143a">Maxwell et al., 2016</a>) and affect species in different ways.</p>
+<p>While habitat loss is characterized by a reduction in the total amount of habitat available to species, fragmentation is the division of that habitat into smaller fragments without changing the total amount of habitat available in the landscape (<a href="https://www.annualreviews.org/content/journals/10.1146/annurev.ecolsys.34.011802.132419">Fahrig, 2003</a>).</p>
+<p>These two processes often occur simultaneously, transforming landscapes of continuous natural habitat into modified landscapes made up of habitat fragments surrounded by a different environment, known as the matrix (Fig. 1; <a href="https://www.science.org/doi/full/10.1126/sciadv.1500052">Haddad et al., 2015</a>). Understanding the role of the matrix in these modified landscapes is crucial for developing effective conservation strategies that integrate biodiversity preservation with tangible economic benefits for people.</p>
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><img src="https://ivana-cardoso.github.io/en/posts/matrix/landscape_itens.jpg" class="img-fluid figure-img" style="width:60.0%"></p>
+<figcaption>Fig. 1: Elements that make up a modified landscape.</figcaption>
+</figure>
+</div>
+<p>The matrix, also called non-habitat, is the environment adjacent to the fragments and can have different degrees of structural similarity to them (Fig. 2). The type of matrix surrounding the fragments is important (<a href="https://link.springer.com/article/10.1007/s10531-009-9750-z">Prevedello and Vieira, 2010</a>) because the more structurally similar the matrix is to the fragments (e.g., secondary forests, tree plantations), the higher its quality. Factors such as vegetation type, degree of human disturbance, and the presence of natural elements, such as riparian corridors, influence this quality.</p>
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><img src="https://ivana-cardoso.github.io/en/posts/matrix/similaridade_estrutural.jpg" class="img-fluid figure-img" style="width:90.0%"></p>
+<figcaption>Fig. 2: Structural similarity between the matrix and the fragments</figcaption>
+</figure>
+</div>
+<p>Depending on its quality, the matrix can:</p>
+<ul>
+<li>
+Influence the movement of species across the landscape
+</li>
+<li>
+Act as supplementary or complementary habitat for species
+</li>
+<li>
+Mitigate or intensify edge effects
+</li>
+<li>
+Serve as a source of species
+</li>
+<li>
+Influence the provision of ecosystem services
+</li>
+</ul>
+<section id="species-movement-across-the-landscape" class="level4">
+<h4 class="anchored" data-anchor-id="species-movement-across-the-landscape">Species movement across the landscape</h4>
+<p>Species movement is directly linked to landscape connectivity. Connectivity, in turn, is influenced by the quality of the matrix surrounding forest fragments and by the presence of natural and semi-natural structures that facilitate movement, such as smaller fragments, trees scattered across the matrix, hedgerows, and corridors. If the matrix is structurally contrasting (i.e., of low quality), such as pasture, and there are no <em>stepping stones</em>, the movement of forest species is limited (<a href="https://www.sciencedirect.com/science/article/pii/S0006320720309563?casa_token=FwK3PZ2kB2IAAAAA:UmQOBP51z4xWrXeu0EsrO2sU1hiSmMrQwmvCFrMVsu1g0kHkc33y6UgUUM_Ks4FcfBHxNEI4MBg">Boesing et al., 2021</a>).</p>
+<p>This happens because many forest bird species avoid crossing open areas (see <a href="https://esajournals.onlinelibrary.wiley.com/doi/abs/10.2307/2265818">Stouffer and Bierregaard, 1995</a>). Open matrices pose a higher risk of predation due to the lack of protective cover and the greater density of predators (<a href="https://www.sciencedirect.com/science/article/pii/S1679007316301530">Biz et al., 2017</a>). For this reason, in these matrices birds tend to move quickly and take direct paths toward the nearest forest fragment. In contrast, in matrices that are more similar to the fragments, such as tree plantations, birds stay longer and make greater use of the available resources (see <a href="https://www.sciencedirect.com/science/article/pii/S1679007316301530">Biz et al., 2017</a>).</p>
+</section>
+<section id="supplementary-andor-complementary-habitat-for-species" class="level4">
+<h4 class="anchored" data-anchor-id="supplementary-andor-complementary-habitat-for-species">Supplementary and/or complementary habitat for species</h4>
+<p>A species may seek supplementary and/or complementary habitat for several reasons, since these habitats offer a variety of resources, such as food, nesting sites, and shelter. Among these reasons is the fact that, when habitat is altered, a species can still survive by using other available habitats. Thus, using multiple habitats increases a species’ resilience to these changes.</p>
+<p>For forest birds, understory vegetation is considered an important predictor of the diversity of this group (<a href="https://www.cambridge.org/core/journals/bird-conservation-international/article/changes-in-bird-communities-following-conversion-of-lowland-forest-to-oil-palm-and-rubber-plantations-in-southern-thailand/69E82B0976E48415F8FE2B9FC6C0555E">Aratrakorn et al., 2006</a>), because it is where many birds can find food, shelter, and nesting sites. Therefore, matrices that are more structurally similar to the fragments and have more understory will support greater bird diversity (see <a href="https://link.springer.com/10.1007/s10980-023-01601-5">Cardoso et al., 2023</a>). In contrast, matrices that are structurally more different will offer fewer resources, which may result in lower bird diversity in forest fragments surrounded by these matrices (<a href="https://linkinghub.elsevier.com/retrieve/pii/S2530064417300172">de Camargo Barbosa et al., 2017</a>).</p>
+</section>
+<section id="edge-effects" class="level4">
+<h4 class="anchored" data-anchor-id="edge-effects">Edge effects</h4>
+<p>The matrix surrounding the fragments can also influence the intensity of edge effects that penetrate the fragments, depending on its structural similarity to them. If the matrix is structurally similar, the intensity of edge effects may be reduced. Edge effects, such as microclimatic changes, tree mortality, and edge avoidance by understory birds, are all reduced when fragments are surrounded by regenerating secondary forests, compared with fragments surrounded by pasture (see <a href="https://onlinelibrary.wiley.com/doi/10.1111/brv.12343">Laurance et al., 2017</a>).</p>
+<p>When the matrix is structurally dissimilar and edge effects are intensified, many species cannot tolerate the new abiotic and biotic conditions in the fragments and disappear. An example is the fragments of the Biological Dynamics of Forest Fragments Project (BDFFP), where many understory insectivorous forest birds disappeared when the fragments were surrounded by pasture, but returned when the matrix became regenerating <em>Cecropia</em> secondary forest (see <a href="https://esajournals.onlinelibrary.wiley.com/doi/abs/10.2307/2265818">Stouffer and Bierregaard, 1995</a>).</p>
+</section>
+<section id="source-of-species" class="level4">
+<h4 class="anchored" data-anchor-id="source-of-species">Source of species</h4>
+<p>Just as forest fragments (i.e., forest) are habitat for some species, the surrounding matrix may be the habitat of others. For example, forest is the habitat of the <a href="https://www.wikiaves.com/wiki/papa-formiga-de-topete">white-plumed antbird</a>, while grasslands are the habitat of the <a href="https://www.wikiaves.com/wiki/tico-tico-do-campo">grassland sparrow</a>. There are also habitat generalist birds, such as the <a href="https://www.wikiaves.com/wiki/corruira">southern house wren</a>, which can live in more than one type of habitat.</p>
+<p>When the environment is altered and the matrix is imposed, a new environment is created where the matrix and the fragment meet, called the edge. The edge can be an area of higher species richness, as it can receive species from both the matrix and the fragment interior (see <a href="https://esajournals.onlinelibrary.wiley.com/doi/full/10.1890/0012-9658%282007%2988%5B96%3ASIBEAA%5D2.0.CO%3B2?casa_token=bY0GyaY2xBYAAAAA%3AHwbA7A20YfB1cDTEcuL58iNhgLG20KQdPVJmXavFWmKV2RdmqfwANAAr9Z1Q6z7_3xrk9v7y70qSpFM">Ewers et al., 2007</a>; <a href="https://doi.org/10.1016/S0378-1127(00)00654-X">Magura, 2002</a>). However, other scenarios are possible at the edge, depending on the similarity between the matrix and the fragments.</p>
+<p>In some cases, the edge initially has higher richness, but over time, species that cannot tolerate the conditions (i.e., edge effects) in this environment disappear and are replaced by more adapted species (<a href="https://doi.org/10.1007/s10531-016-1056-3">Russildi et al., 2016</a>). These scenarios can occur when the matrix is pasture, as in the studies cited above.</p>
+<p>On the other hand, it is also possible for sensitive species to disappear without being replaced, resulting in an impoverished edge. This is expected when the matrix is even more dissimilar and hostile to species, as in the case of an aquatic matrix (<a href="https://doi.org/10.1046/j.1365-2699.2002.00726.x">Watson, 2002</a>).</p>
+</section>
+<section id="ecosystem-services" class="level4">
+<h4 class="anchored" data-anchor-id="ecosystem-services">Ecosystem services</h4>
+<p>Birds provide several ecosystem services. For example, insectivorous birds help control pests, frugivorous birds disperse seeds, and nectarivorous birds contribute to pollination.</p>
+<p>In fragments surrounded by different matrices, edge conditions vary, which influences the provision of these ecosystem services by birds.</p>
+<p>Fragments surrounded by pasture show greater structural contrast, with edges more exposed to light. These conditions may favor certain plants that offer greater availability of fruits and flowers, attracting more frugivorous and nectarivorous birds. These birds, in turn, provide seed dispersal and pollination. On the other hand, when fragments are surrounded by matrices that are more similar to the fragment, such as eucalyptus plantations, there may be a redundancy of resources. In this case, the resources available in the forest will also be present in the matrix, which may not result in a significant increase in the provision of ecosystem services (see <a href="https://link.springer.com/article/10.1007/s10980-019-00812-z">Barros et al., 2019</a>). <br></p>
+</section>
+<section id="how-can-we-increase-matrix-quality" class="level4">
+<h4 class="anchored" data-anchor-id="how-can-we-increase-matrix-quality">How can we increase matrix quality?</h4>
+<p><a href="https://onlinelibrary.wiley.com/doi/10.1111/ele.13535">Arroyo-Rodriguez et al.&nbsp;(2020)</a> suggest that, to increase matrix quality, it is necessary to maintain less contrasting matrices, such as agroforests and secondary forests, as well as to preserve scattered trees in the matrix and maintain a large number of small fragments. This will facilitate species movement across the landscape, minimize edge effects, and promote the use of the matrix by forest species.</p>
+<p>In this same article, the authors show how it is possible to plan landscapes that pursue both biodiversity conservation and benefits for us. One example is the presence of agroforestry matrices, such as <a href="https://www.parquedasaves.com.br/blog/conheca-a-cabruca-cultivo-de-cacau-que-protege-a-mata-atlantica/">cabrucas</a> (shade-grown cacao agroforests in Brazil’s Atlantic Forest), in modified landscapes. In addition to contributing to biodiversity conservation, these matrices also bring profit to producers.</p>
+</section>
+<section id="conclusion" class="level3">
+<h3 class="anchored" data-anchor-id="conclusion">Conclusion</h3>
+<p>The matrix plays a crucial role in fragmented landscapes. Its quality can significantly influence the richness, composition, and movement of species across the landscape, as well as the provision of ecosystem services. Considering the matrix as a key element in conservation strategies is essential for creating resilient and sustainable landscapes.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>landscape ecology</category>
+  <category>anthropogenic habitat change</category>
+  <category>biodiversity conservation</category>
+  <guid>https://ivana-cardoso.github.io/en/posts/matrix/</guid>
+  <pubDate>Thu, 18 Jul 2024 03:00:00 GMT</pubDate>
+  <media:content url="https://ivana-cardoso.github.io/en/posts/matrix/fragmented_landscape.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>O papel da matriz em paisagens modificadas</title>

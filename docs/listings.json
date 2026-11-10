@@ -10,6 +10,7 @@
       "/posts/Escala_efeito/index.html",
       "/posts/Reflexoes_pesquisa_campo/index.html",
       "/posts/Relato_curso_verao/index.html",
+      "/en/posts/matrix/index.html",
       "/posts/Matriz/index.html",
       "/posts/Composicao_paisagem/index.html",
       "/posts/Mulheres_na_Ciencia/index.html"
@@ -21,6 +22,8 @@
   },
   {
     "listing": "/en/index.html",
-    "items": []
+    "items": [
+      "/en/posts/matrix/index.html"
+    ]
   }
 ]

@@ -24,6 +24,10 @@ website:
       - text: "App"
         file: app.qmd
     right: 
+      - text: "PT"
+        file: index.qmd
+      - text: "EN"
+        file: en/index.qmd
       - icon: github
         href: https://github.com/Ivana-Cardoso
       - icon: rss
