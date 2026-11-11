@@ -10,7 +10,6 @@
       "/posts/Escala_efeito/index.html",
       "/posts/Reflexoes_pesquisa_campo/index.html",
       "/posts/Relato_curso_verao/index.html",
-      "/en/posts/matrix/index.html",
       "/posts/Matriz/index.html",
       "/posts/Composicao_paisagem/index.html",
       "/posts/Mulheres_na_Ciencia/index.html"
@@ -23,7 +22,12 @@
   {
     "listing": "/en/index.html",
     "items": [
-      "/en/posts/matrix/index.html"
+      "/en/posts/scientific_colonialism/index.html",
+      "/en/posts/insularization/index.html",
+      "/en/posts/paper_rsos/index.html",
+      "/en/posts/paper_foreco/index.html",
+      "/en/posts/matrix/index.html",
+      "/en/posts/women_in_science/index.html"
     ]
   }
 ]
