@@ -1,11 +1,11 @@
 ---
-title: "Como calcular a composição da paisagem no R?"
+title: "How to calculate landscape composition in R?"
 author: "Ivana Cardoso"
 date: "2024-02-26"
 image: "Paisagem_capa.jpg"
 categories: 
   - R
-  - ecologia de paisagem
+  - landscape ecology
 metadata:
   open-graph:
     image: Paisagem_capa.jpg
@@ -15,25 +15,25 @@ execute:
   freeze: auto
 ---
 
-[Em ecologia de paisagens](https://www.scielo.br/j/bn/a/Jbchd6rjY35PGkY5BHPz63S/), uma paisagem pode ser definida como um mosaico de usos do solo que interagem entre si em uma determinada escala, e pode ser caracterizada por sua composição e configuração. A composição da paisagem diz respeito a quantidade dos diferentes elementos na paisagem, enquanto a configuração diz respeito ao arranjo espacial desses elementos.
+[In landscape ecology](https://www.scielo.br/j/bn/a/Jbchd6rjY35PGkY5BHPz63S/), a landscape can be defined as a mosaic of land uses that interact with each other at a given scale, and it can be characterized by its composition and configuration. Landscape composition refers to the amount of the different elements in the landscape, while configuration refers to the spatial arrangement of these elements.
 
-Por exemplo, a cobertura florestal é uma medida de composição da paisagem que representa a quantidade de floresta, geralmente expressa em porcentagem, dentro da paisagem. Maior cobertura florestal pode indicar maior diversidade de espécies e disponibilidade de recursos [(revisado por Arroyo-Rodríguez et al., 2020)](https://onlinelibrary.wiley.com/doi/epdf/10.1111/ele.13535). Já o número de fragmentos é uma medida de configuração da paisagem que representa o nível de fragmentação dessa paisagem. Para um determinado valor de habitat, mais fragmentos podem facilitar a movimentação das espécies [(revisado por Arroyo-Rodríguez et al., 2020)](https://onlinelibrary.wiley.com/doi/epdf/10.1111/ele.13535).
+For example, forest cover is a measure of landscape composition that represents the amount of forest, usually expressed as a percentage, within the landscape. Greater forest cover can indicate greater species diversity and resource availability [(reviewed by Arroyo-Rodríguez et al., 2020)](https://onlinelibrary.wiley.com/doi/epdf/10.1111/ele.13535). The number of fragments, on the other hand, is a measure of landscape configuration that represents the level of fragmentation of that landscape. For a given amount of habitat, more fragments can facilitate species movement [(reviewed by Arroyo-Rodríguez et al., 2020)](https://onlinelibrary.wiley.com/doi/epdf/10.1111/ele.13535).
 
-A escala em que a composição e a configuração da paisagem são calculadas influencia fortemente a relação das espécies com a paisagem. Por isso, é indicado fazer uma análise multi-escalar para selecionar uma escala, chamada [escala de efeito](https://onlinelibrary.wiley.com/doi/pdf/10.1111/geb.12233), que produza a relação mais forte entre sua variável resposta relacionada às espécies e sua variável preditora relacionada à paisagem. Por exemplo, em um estudo com aves foi utilizada uma análise multi-escalar para avaliar a relação entre [número de espécies e quantidade de habitat disponível](https://onlinelibrary.wiley.com/doi/abs/10.1111/jbi.13499) na paisagem.
+The scale at which landscape composition and configuration are calculated strongly influences the relationship between species and the landscape. For this reason, it is advisable to carry out a multi-scale analysis to select a scale, called the [scale of effect](https://onlinelibrary.wiley.com/doi/pdf/10.1111/geb.12233), that produces the strongest relationship between your species-related response variable and your landscape-related predictor variable. For example, a study on birds used a multi-scale analysis to evaluate the relationship between [the number of species and the amount of available habitat](https://onlinelibrary.wiley.com/doi/abs/10.1111/jbi.13499) in the landscape.
 
-No post de hoje, vamos aprender a calcular a composição da paisagem no software R utilizando o pacote [landscapemetrics](https://r-spatialecology.github.io/landscapemetrics/index.html). Para isso, utilizaremos, para fins didáticos, poucas paisagens e apenas uma escala de 2000 m. No entanto, lembre-se de avaliar se uma análise multi-escalar seria adequada para o seu caso.
+In today's post, we will learn how to calculate landscape composition in the R software using the [landscapemetrics](https://r-spatialecology.github.io/landscapemetrics/index.html) package. For this, we will use, for didactic purposes, only a few landscapes and a single scale of 2000 m. However, remember to evaluate whether a multi-scale analysis would be appropriate for your case.
 
-A área de estudo que escolhi foi a [Reserva de Desenvolvimento Sustentável (RDS) do Rio Negro](https://ppbio.inpa.gov.br/sitios/RDS_Rio_Negro), no Amazonas. Então, baixei o raster de cobertura e uso do solo da área no [MAPBIOMAS](https://brasil.mapbiomas.org/colecoes-mapbiomas/) para o ano de 2022 (coleção 8). O arquivo está disponível no meu [GitHub](https://github.com/Ivana-Cardoso/Ivana-Cardoso.github.io/tree/main/posts/Composicao_paisagem), mas caso prefira baixar diretamente do site original, sugiro utilizar o [Toolkit](https://www.youtube.com/watch?v=OBqaoSuLGbk&ab_channel=MapBiomasBrasil) no Google Engine e prestar atenção ao Sistema de Referência de Coordenadas (CRS) escolhido.
+The study area I chose was the [Rio Negro Sustainable Development Reserve (RDS)](https://ppbio.inpa.gov.br/sitios/RDS_Rio_Negro), in Amazonas. I downloaded the land use and land cover raster for the area from [MAPBIOMAS](https://brasil.mapbiomas.org/colecoes-mapbiomas/) for the year 2022 (collection 8). The file is available on my [GitHub](https://github.com/Ivana-Cardoso/Ivana-Cardoso.github.io/tree/main/posts/Composicao_paisagem), but if you prefer to download it directly from the original website, I suggest using the [Toolkit](https://www.youtube.com/watch?v=OBqaoSuLGbk&ab_channel=MapBiomasBrasil) in Google Earth Engine and paying attention to the Coordinate Reference System (CRS) you choose.
 
-## Calculando a composição da paisagem
+## Calculating landscape composition
 
 ```{r, output = FALSE}
-# Baixe os pacotes necessarios
+# Install the necessary packages
 if (!requireNamespace(c("terra", "landscapemetrics", "sf"), quietly = TRUE)) {
   install.packages(c("terra", "landscapemetrics", "sf"))
 }
 
-# Carregue os pacotes necessarios
+# Load the necessary packages
 library(terra)
 library(landscapemetrics)
 library(sf)
@@ -41,49 +41,49 @@ library(sf)
 
 ```{r}
 #| code-overflow: wrap
-# Defina seu diretorio
-setwd("C:/Users/ivana/OneDrive/Ivana-Cardoso.github.io/posts/Composicao_paisagem") # Nao esqueca de mudar para a pasta onde voce ira salvar o raster baixado
+# Set your working directory
+setwd("C:/Users/ivana/OneDrive/Ivana-Cardoso.github.io/posts/Composicao_paisagem") # Don't forget to change this to the folder where you will save the downloaded raster
 ```
 
 ```{r}
-# Importe o raster
-# Você pode baixa-lo em:
+# Import the raster
+# You can download it at:
 # https://github.com/Ivana-Cardoso/Ivana-Cardoso.github.io/raw/main/posts/Composicao_paisagem/RDS_Rio_Negro.tif
 RDS <- rast("RDS_Rio_Negro.tif")
 
-# Veja qual o Sistema de Referencia de Coordenadas do raster
+# Check the raster's Coordinate Reference System
 crs(RDS)
 ```
 
-O nosso raster está no datum WGS-84, no formato de saída UTM, zona 20, hemisfério sul. É importante atentar para o formato de saída, pois queremos que as unidades do mapa sejam metros, e não graus. Isso facilita a compreensão do tamanho das nossas paisagens. É mais intuitivo entender que o tamanho das paisagens é de 2000 m do que 0.018 graus, não é? </br> Lembre-se de verificar a [zona UTM](https://forest-gis.com/2016/06/um-pouco-sobre-a-projecao-utm.html/) da sua ára de estudo e garantir que seu raster esteja na projeção correta. </br>
+Our raster is in the WGS-84 datum, in the UTM output format, zone 20, southern hemisphere. It is important to pay attention to the output format, because we want the map units to be meters, not degrees. This makes it easier to understand the size of our landscapes. It is more intuitive to understand that the landscapes are 2000 m in size than 0.018 degrees, isn't it? </br> Remember to check the [UTM zone](https://forest-gis.com/2016/06/um-pouco-sobre-a-projecao-utm.html/) of your study area and make sure your raster is in the correct projection. </br>
 
 ```{r}
-# Cheque o raster
+# Check the raster
 check_landscape(RDS) 
 ```
 
-Observe que nossas unidades estão em metros (coluna 'units'), nosso raster possui nove classes (coluna 'n_classes') de uso e cobertura do solo, e que o valor dessas classes é especificado por números inteiros (coluna 'class'). </br>
+Note that our units are in meters ('units' column), our raster has nine land use and land cover classes ('n_classes' column), and the values of these classes are specified by integers ('class' column). </br>
 
 ```{r}
-# Crie as coordenadas centrais das paisagens
+# Create the central coordinates of the landscapes
 coordenadas <- data.frame(X = c(774310, 757581, 745481),
                           Y = c(9658335, 9670747, 9688402))
 
-# Identifique as paisagens
+# Identify the landscapes
 coordenadas$id <- c(1, 2, 3)
 
-# Transforme a tabela de coordenadas em pontos espaciais
+# Convert the coordinates table into spatial points
 pontos <- st_as_sf(coordenadas, 
                         coords = c("X", "Y"), crs = crs(RDS)) 
 ```
 
-Se você quiser visualizar seus dados **diretamente** no R antes de iniciar as análises, você pode utilizar os comandos abaixo:
+If you want to visualize your data **directly** in R before starting the analyses, you can use the commands below:
 
 ```{r, output = FALSE}
-# Crie as paisagens de 2000 m
+# Create the 2000 m landscapes
 paisagens <- st_buffer(pontos, dist = 2000)
 
-# Visualize os dados
+# Visualize the data
 plot(RDS, col=gray.colors(34))
 points(coordenadas, pch = 16)
 plot(paisagens, add = TRUE, color="black") 
@@ -91,78 +91,78 @@ plot(paisagens, add = TRUE, color="black")
 
 ![](RDS.png){width="60%"}
 
-Eu criei esse mapa no QGIS v.3.34.3, mas ele é essencialmente o mesmo do mapa gerado a partir dos comandos acima, com exceção das cores. Eu escolhi fazer no QGIS apenas para mudar as cores sem incluir e dificultar o código com ações que não são o objetivo desse tutorial. Os pontos das nossas coordenadas estão representadas no mapa pela bolinha preta com contorno branco e as paisagens de 2000 m estão representadas pelo círculo tracejado.
+I created this map in QGIS v.3.34.3, but it is essentially the same as the map generated by the commands above, except for the colors. I chose to make it in QGIS just to change the colors without adding to and complicating the code with actions that are not the goal of this tutorial. The points of our coordinates are represented on the map by the black dot with a white outline, and the 2000 m landscapes are represented by the dashed circle.
 
 ```{r}
 #| code-overflow: wrap
-# Calcule a composição da paisagem
+# Calculate landscape composition
 composicao <- landscapemetrics::sample_lsm(RDS, y = pontos, size = 2000,
                                            shape = "circle", plot_id = pontos$id,
                                            what = "lsm_c_pland")
 ```
 
-Para amostrar paisagens em uma determinada escala ao redor de pontos de interesse utilizamos a função [sample_lsm](https://r-spatialecology.github.io/landscapemetrics/reference/sample_lsm.html). Dentro dessa função especificamos nosso raster (RDS), os pontos centrais de interesse (y = pontos), a escala das nossas paisagens (size = 2000), o formato das nossas paisagens (shape = "circle"), o identificador de cada paisagem (plot_id = pontos\$id) e o que gostaríamos de calcular dentro dessas paisagens ("lsm_c_pland"). A função [lsm_c_pland](https://r-spatialecology.github.io/landscapemetrics/reference/lsm_c_pland.html?q=lsm_c_pland#ref-usage) calcula a porcentagem de cada classe do raster dentro das paisagens. No nosso caso, essa função calculou a porcentagem de cada uso do solo nas paisagens.
+To sample landscapes at a given scale around points of interest, we use the [sample_lsm](https://r-spatialecology.github.io/landscapemetrics/reference/sample_lsm.html) function. Within this function, we specify our raster (RDS), the central points of interest (y = pontos), the scale of our landscapes (size = 2000), the shape of our landscapes (shape = "circle"), the identifier of each landscape (plot_id = pontos\$id), and what we would like to calculate within these landscapes ("lsm_c_pland"). The [lsm_c_pland](https://r-spatialecology.github.io/landscapemetrics/reference/lsm_c_pland.html?q=lsm_c_pland#ref-usage) function calculates the percentage of each raster class within the landscapes. In our case, this function calculated the percentage of each land use in the landscapes.
 
 ```{r}
-# Visualize os resultados
+# View the results
 composicao
 ```
 
-Essa tabela mostra nossos resultados. Preste atenção na coluna três, chamada "class", na coluna seis, chamada "value", e na coluna sete chamada "plot_id".
+This table shows our results. Pay attention to the third column, called "class", the sixth column, called "value", and the seventh column, called "plot_id".
 
-A coluna três indica os valores dos pixels que representam as classes. Já que utilizamos o raster do MAPBIOMAS, temos que consultar o [código de legenda](https://brasil.mapbiomas.org/wp-content/uploads/sites/4/2023/08/Legenda-Colecao-8-LEGEND-CODE.pdf) para entender o que é cada classe do raster.
+The third column indicates the values of the pixels that represent the classes. Since we used the MAPBIOMAS raster, we have to consult the [legend code](https://brasil.mapbiomas.org/wp-content/uploads/sites/4/2023/08/Legenda-Colecao-8-LEGEND-CODE.pdf) to understand what each class in the raster is.
 
-A coluna seis indica o valor, em porcentagem, de cada classe na paisagem.
+The sixth column indicates the value, in percentage, of each class in the landscape.
 
-A coluna sete indica a qual paisagem pertencem os valores. Com nossos resultados podemos concluir que:
+The seventh column indicates which landscape the values belong to. From our results we can conclude that:
 
-A composição da **paisagem 1** é:
+The composition of **landscape 1** is:
 
 </ul>
 
-- 74.4% de Formação Florestal (classe 3),
+- 74.4% Forest Formation (class 3),
 
-- 6.75% de Floresta Alagável (classe 6),
+- 6.75% Flooded Forest (class 6),
 
-- 1.23% Campo Alagado e Área Pantanosa (classe 11),
+- 1.23% Wetland (class 11),
 
-- 0.0352% de Formação Campestre (classe 12),
+- 0.0352% Grassland (class 12),
 
-- 0.458% de Pastagem (classe 15),
+- 0.458% Pasture (class 15),
 
-- 17.2% de Rio (classe 33).
+- 17.2% River (class 33).
 
   </ul>
 
-A composição da **paisagem 2** é:
+The composition of **landscape 2** is:
 
 </ul>
 
-- 97.8% de Formação Florestal (classe 3),
+- 97.8% Forest Formation (class 3),
 
-- 1.06% de Floresta Alagável (classe 6),
+- 1.06% Flooded Forest (class 6),
 
-- 0.810% de Pastagem (classe 15),
+- 0.810% Pasture (class 15),
 
-- 0.374% de Rio (classe 33).
+- 0.374% River (class 33).
 
   </ul>
 
-A composição da **paisagem 3** é:
+The composition of **landscape 3** is:
 
 </ul>
 
-- 68.1% de Formação Florestal (classe 3),
+- 68.1% Forest Formation (class 3),
 
-- 2.26% de Floresta Alagável (classe 6),
+- 2.26% Flooded Forest (class 6),
 
-- 2.18% Campo Alagado e Área Pantanosa (classe 11),
+- 2.18% Wetland (class 11),
 
-- 0.507% de Formação Campestre (classe 12),
+- 0.507% Grassland (class 12),
 
-- 9.73% de Pastagem (classe 15),
+- 9.73% Pasture (class 15),
 
-- 17.2% de Rio (classe 33).
+- 17.2% River (class 33).
 
   </ul>
 
