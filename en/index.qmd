@@ -14,7 +14,7 @@ listing:
 page-layout: full
 ---
 
-![](../20230417114303_IMG_2062.JPG)
+![](20230417114303_IMG_2062.JPG)
 
 ::: {#listing}
 :::
