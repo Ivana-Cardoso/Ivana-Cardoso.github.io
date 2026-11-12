@@ -1,6 +1,7 @@
 ---
 title: "Posts"
 title-block-banner: true
+margin-header: subscribe.html
 listing:
   id: listing
   contents: posts
@@ -18,3 +19,7 @@ page-layout: full
 
 ::: {#listing}
 :::
+
+```{=html}
+{{< include subscribe-mobile.html >}}
+```
