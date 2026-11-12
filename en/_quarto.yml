@@ -18,6 +18,8 @@ website:
     left:
       - text: "Posts"
         file: index.qmd
+      - text: "About the blog"
+        file: about.qmd
       - text: "About the author"
         file: about_author.qmd
     right:
