@@ -1,0 +1,23 @@
+---
+title: "About this blog"
+image: biRd.png
+about:
+  template: solana
+  image-shape: rectangle
+comments: false
+theme: theme.scss
+---
+
+##
+
+Welcome to the biRd blog!
+
+The blog is named as a mix of two things I really like: birds and R! Here I publish texts related to science, ecology, ornithology, and also statistics in the R environment.
+
+I created this blog as a way to share what I have learned and, at the same time, keep learning about the topics mentioned above.
+
+My name is Ivana Cardoso, and I am a biologist and scientist. If you want to know more about me, you can find more information [here](about_author.qmd).
+
+I hope the biRd blog is useful to you in some way.
+
+Happy reading!

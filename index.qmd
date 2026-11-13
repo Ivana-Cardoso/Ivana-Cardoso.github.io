@@ -5,7 +5,7 @@ margin-header: subscribe.html
 body-header: 20230417114303_IMG_2062.jpg
 listing:
   id: listing
-  contents: posts
+  contents: "/posts/*/index.qmd"
   sort: "date desc"
   type: default
   categories: false

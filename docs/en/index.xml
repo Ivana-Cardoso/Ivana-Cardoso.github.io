@@ -8,8 +8,1483 @@
 <title>biRd blog</title>
 <link>https://ivana-cardoso.github.io/en/</link>
 <atom:link href="https://ivana-cardoso.github.io/en/index.xml" rel="self" type="application/rss+xml"/>
-<description>Aventuras em ornitologia, ecologia e estatística</description>
-<generator>quarto-1.5.57</generator>
-<lastBuildDate>Thu, 13 Feb 2025 21:03:33 GMT</lastBuildDate>
+<description>Adventures in ornithology, ecology, and statistics</description>
+<image>
+<url>https://ivana-cardoso.github.io/en/biRd.png</url>
+<title>biRd blog</title>
+<link>https://ivana-cardoso.github.io/en/</link>
+<height>125</height>
+<width>144</width>
+</image>
+<generator>quarto-1.9.38</generator>
+<lastBuildDate>Fri, 23 Oct 2026 03:00:00 GMT</lastBuildDate>
+<item>
+  <title>What is scientific colonialism?</title>
+  <dc:creator>Ivana Cardoso</dc:creator>
+  <link>https://ivana-cardoso.github.io/en/posts/scientific_colonialism/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Brazil goes to the polls this Sunday (October 25, 2026) for the <a href="https://www.tse.jus.br/comunicacao/noticias/2026/Outubro/flavio-bolsonaro-e-lula-vao-disputar-o-2o-turno-para-a-presidencia-da-republica">presidential runoff</a>. Amid a debate about national sovereignty, and facing the threat of a project that accepts a <a href="https://youtu.be/F0aBW8GcAtE?si=os__5q4rAjhGwZh1">subaltern Brazil and hands our wealth over to the United States</a>, I think it is important to also discuss another form of colonialism: scientific colonialism. Before talking about scientific colonialism, we need to recall what <a href="https://sites.unipampa.edu.br/lehmai/o-que-e-colonialismo/">colonialism</a> is.</p>
+<section id="what-is-colonialism" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-colonialism">What is colonialism?</h2>
+<p><a href="https://pt.wikipedia.org/wiki/Colonialismo">Colonialism</a> is the domination of one territory by another country, against the will of its inhabitants, in order to exploit its wealth, control its population, and often impose its culture. A well-known example for us Brazilians is the relationship between <a href="https://pt.wikipedia.org/wiki/Brasil_Col%C3%B4nia#Economia_e_sociedade_colonial">Portugal and colonial Brazil (1500-1822)</a>. During this period, the Portuguese exploited high-value products here, such as <a href="https://pt.wikipedia.org/wiki/Ciclo_do_pau-brasil">brazilwood</a>, <a href="https://pt.wikipedia.org/wiki/Ciclo_do_a%C3%A7%C3%BAcar">sugarcane</a>, and <a href="https://pt.wikipedia.org/wiki/Ciclo_do_ouro">gold</a>, using the <a href="https://www.tst.jus.br/memoriaviva/-/asset_publisher/LGQDwoJD0LV2/content/ev-jt-80-02">enslaved labor of Indigenous and African peoples</a>. While Portugal profited from our wealth, the Indigenous peoples of Brazil suffered violence and the loss of their lands, languages, religions, and cultures.</p>
+<p>Colonialism is still debated in some contexts today. For example, <a href="https://www.brasildefato.com.br/podcast/brasil-de-fato-entrevista/2026/02/23/porto-rico-nunca-foi-plenamente-autonomo-professor-analisa-status-colonial-da-ilha-movimentos-por-soberania-e-resistencia-cultural-de-bad-bunny/">Puerto Rico</a> is a United States territory, but its residents <a href="https://en.wikipedia.org/wiki/Federal_voting_rights_in_Puerto_Rico">do not vote for president, do not elect senators, and have only one representative in the House who has no vote on the floor</a>. The pressure that the United States exerts on independent countries such as <a href="https://www.brasildefato.com.br/2026/08/25/cubanos-nao-querem-voltar-a-ser-colonia-dos-estados-unidos-reporter-do-bdf-conta-o-que-viu-em-cuba-durante-gravacoes-de-documentario-sobre-fidel/">Cuba</a> and <a href="https://www.brasildefato.com.br/2025/12/17/a-venezuela-jamais-voltara-a-ser-colonia-de-imperio-algum-diz-venezuela-sobre-cerco-dos-eua/">Venezuela</a>, in turn, can be considered <a href="https://pt.wikipedia.org/wiki/Neocolonialismo">neocolonialism</a>. This concept refers to the control or influence of one power over another country through economic and political means.</p>
+<p><strong>The concepts of colonialism and neocolonialism are also present in science.</strong></p>
+</section>
+<section id="what-is-scientific-colonialism" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-scientific-colonialism">What is scientific colonialism?</h2>
+<p>With the naturalist expeditions that became more common in the 17th and 18th centuries, European naturalists traveled to other regions of the world and collected all kinds of material, such as animals, <a href="https://pt.wikipedia.org/wiki/Expedi%C3%A7%C3%B5es_bot%C3%A2nicas">plants</a>, <a href="https://portal.sbpcnet.org.br/noticias/a-luta-contra-o-colonialismo-cientifico/">fossils</a>, and <a href="https://piaui.uol.com.br/web/volta-do-manto-tupinamba/">Indigenous artifacts</a>. This material was then sent to their home countries to be studied and, more often, collected. <a href="https://revistacienciaecultura.org.br/?artigos=as-expedicoes-naturalistas-no-brasil-no-seculo-xix">Many naturalists passed through Brazil</a>, among them the Germans Johann-Baptist Spix and Carl Martius, between 1817 and 1820. On that expedition, they took from here thousands of plants, animals, and even (!) <a href="https://www.bbc.com/portuguese/articles/cll4zdq3n00o">Indigenous children</a>. In this sense, scientific colonialism is “the process by which the center of knowledge acquisition about a nation is located outside the nation itself” <a href="https://www.jstor.org/stable/2934342?seq=4">(Galtung, 1967)</a>.</p>
+<p>Two concepts are linked to scientific colonialism: <a href="https://www.sciencearena.org/noticias/ciencia-paraquedas/">parachute science</a> and <a href="https://revistapesquisa.fapesp.br/desigualdade-em-colaboracoes-e-questao-de-integridade-cientifica-aponta-conferencia-mundial/">helicopter science</a>. Linked to scientific neocolonialism, in turn, is <a href="https://onlinelibrary.wiley.com/doi/10.1111/ele.70227">remote-control science</a>. These three concepts describe ways of doing science that marginalize researchers from the Global South and from lower-income regions, and that <strong>can occur both between countries and within a single country</strong>.</p>
+</section>
+<section id="what-is-parachute-science" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-parachute-science">What is parachute science?</h2>
+<p>Parachute science happens when researchers from high-income countries or regions collect samples during short visits, go back home to analyze and publish the results, and generally do not give credit to local collaborators. It is as if the researcher “dropped in” by parachute, collected the data, and left.</p>
+<p>I know well how this works, because I have been through it. In the first half of 2024, when I was a PhD student, I was invited to present my study area to a team of American scientists. The invitation was presented to me as an opportunity for partnership, networking, and internationalization. I accepted. They said they wanted to get to know the site and test how efficient drones are for collecting biological data. This first contact lasted about two weeks. It has been two years now, and I have never heard anything about the data or the researchers again. Only with time did I understand that what they called a test was, in practice, data collection. And the promised internationalization never materialized.</p>
+</section>
+<section id="what-is-helicopter-science" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-helicopter-science">What is helicopter science?</h2>
+<p>Helicopter science happens when there are sporadic field campaigns and superficial partnerships. It is as if the researcher flew over by helicopter, landed from time to time to collect data, and went back home without building a lasting relationship, often ignoring the local context.</p>
+<p>To illustrate, I want to reflect on a situation that took place within Brazil. In August of this year, a <a href="https://agencia.fapesp.br/expedicao-inedita-vai-mapear-a-biodiversidade-do-topo-da-serra-do-araca-no-norte-do-amazonas/59032">news report</a> was published about a scientific collecting expedition to Serra do Aracá, in Amazonas, described as unprecedented. It involved 16 researchers from the following institutions: the University of São Paulo (USP), the Federal University of São Carlos (UFSCar), the National Institute of Amazonian Research (INPA), the Federal Institute of Amazonas (IFAM), the University of Toulouse (France), the Autonomous University of Madrid (Spain), the Natural History Museum of Oslo (Norway), and the Missouri Botanical Garden (United States). Among them, there was only <a href="http://lattes.cnpq.br/2682066078532807">one researcher from INPA</a> and one <a href="http://lattes.cnpq.br/2565691074120686">researcher from IFAM</a>. I find it curious that both did their postdocs at USP and, even more curious, that the INPA researcher does not appear on the <a href="https://bv.fapesp.br/pt/auxilios/116069/a-biodiversidade-desconhecida-das-montanhas-da-amazonia/">FAPESP page with information about the project’s funding</a>. Moreover, the expedition is not that unprecedented: <a href="https://scholar.google.com/scholar?hl=en&amp;as_sdt=0%2C5&amp;q=serra+do+arac%C3%A1+biodiversity&amp;btnG=">a quick Google Scholar search</a> returns articles on the biodiversity of Serra do Aracá. <a href="https://www.scielo.br/j/zool/a/5T6gybMp5ZTvC49PzG9dDkG/?lang=en">One of them was written by Sergio Borges</a>, who studied birds in the region and is now a professor at the Federal University of Amazonas (UFAM). This example illustrates superficial partnerships, in which the acquisition of knowledge about the Amazon remains outside the Amazon.</p>
+</section>
+<section id="what-is-remote-control-science" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-remote-control-science">What is remote-control science?</h2>
+<p>Remote-control science occurs mainly through digital coordination. In this model, researchers from the Global North or from high-income regions do not even need to visit the study site, but they keep decision-making power over the research questions, methods, funding, and publications. Meanwhile, collaborators from the Global South or from lower-income regions are in charge of data collection and operational stages of the analysis. Communication takes place by email or virtual meetings, while equipment and other materials are sent by courier. So it is as if local collaborating researchers were commanded from a distance, by remote control, by researchers from higher-income regions.</p>
+<p>To think about remote-control science, I want to bring in the <a href="https://www.nature.com/articles/s44185-026-00131-y">ideas of Deliane Penha</a>, an Amazonian researcher and professor at the Federal University of Western Pará (UFOPA), on decolonial science in the Amazon.</p>
+<p>According to her, the Amazon is now at the center of global attention and, as a result, investments and research projects in the region have increased. <a href="https://theconversation.com/amazonia-em-debate-mais-do-que-promessas-regiao-precisa-de-uma-ciencia-decolonial-integrada-e-estavel-285908">But the power to set scientific agendas and priorities generally remains concentrated outside the Amazon</a>. She also points out that, when local researchers take part in these projects, the partnership is usually presented as a form of capacity building. In practice, scientists and students from the region end up responsible for data collection and field logistics, while having less room to lead the research. This maintains historical inequalities and hinders the professional growth of these researchers.</p>
+</section>
+<section id="what-can-be-done-to-confront-these-practices" class="level2">
+<h2 class="anchored" data-anchor-id="what-can-be-done-to-confront-these-practices">What can be done to confront these practices?</h2>
+<p>To reflect on the possible paths for confronting scientific colonialism and neocolonialism, I once again bring the words of <a href="https://www.nature.com/articles/s44185-026-00131-y">Deliane Penha</a>:</p>
+<blockquote class="blockquote">
+<p>A decolonial approach to science requires more than denunciation. It requires awareness of these practices and the courage to challenge them.[…] And to do this science we need to co-create research and reparative practices, ensure equitable participation, and recognize Amazonian scientists and local populations as co-producers of knowledge. This presupposes shared authority.</p>
+</blockquote>
+<p>I complement this with five key recommendations for confronting the unethical and unequal practices perpetuated by neocolonialism, according to <a href="https://onlinelibrary.wiley.com/doi/10.1111/ele.70227">Dáttilo and Rivera-Núñez (2025)</a>:</p>
+<blockquote class="blockquote">
+<ol type="1">
+<li><strong>Early and deep involvement of local scientists</strong>: Local researchers should take part from the planning stage of the research and help decide what will be studied, how the study will be carried out, and what the priorities will be. They should not only carry out tasks, but also share the leadership and decisions of the project.</li>
+</ol>
+</blockquote>
+<blockquote class="blockquote">
+<ol start="2" type="1">
+<li><strong>Recognition and integration of local ecological knowledge</strong>: Whenever relevant, research should recognize and value both traditional ecological knowledge and the scientific knowledge produced in the region itself. This knowledge should be considered in the analysis of results and in the conclusions of studies.</li>
+</ol>
+</blockquote>
+<blockquote class="blockquote">
+<ol start="3" type="1">
+<li><strong>Fair recognition of authorship and editorial responsibility</strong>: Local researchers who contribute to data collection, analysis, interpretation, and writing should be recognized as lead authors, and not relegated to acknowledgments or marginal positions.</li>
+</ol>
+</blockquote>
+<blockquote class="blockquote">
+<ol start="4" type="1">
+<li><strong>Capacity building and knowledge sharing</strong>: Strengthening local science requires continuous investment in the training of researchers, in institutions, and in infrastructure. Besides offering technical training, it is important to create opportunities for local researchers to lead projects, develop their own lines of research, and strengthen their institutions.</li>
+</ol>
+</blockquote>
+<blockquote class="blockquote">
+<ol start="5" type="1">
+<li><strong>More appropriate funding structures</strong>: Funding agencies and governments need to review the rules that favor remote-control science. To change this scenario, it is possible to require the participation of Global South institutions in project leadership, allocate resources to infrastructure and to the salaries of local teams, and create calls for international research led by researchers from these regions.</li>
+</ol>
+</blockquote>
+<p>In the end, building a fairer science is not just a matter of including local researchers in projects. It is necessary to share decisions, value different forms of knowledge, and ensure that scientists from the region itself have the conditions to lead their research.</p>
+<p>For these changes to become reality, it is also necessary to invest in science. And this depends on the choices we make at the polls, since political decisions define priorities and influence investments and opportunities in research, education, and national development.</p>
+<p>Changing our own attitudes is important, but it is not enough. The decisions that define the future of science in the country are also collective and go through the vote, ours and that of the people we choose to represent us. While one candidate wants to hand Brazil over, we have another fighting for a sovereign Brazil, one that is nobody’s backyard. To free ourselves from this colonial logic, we also need leaders committed to this vision. That is why, on the 25th, it is Lula 13!</p>
+<p>I hope this text has made you reflect in some way.</p>
+<p>See you at the polls.</p>
+<p>Until next time.</p>
+<section id="reading-suggestions" class="level3">
+<h3 class="anchored" data-anchor-id="reading-suggestions">Reading suggestions</h3>
+<ol type="1">
+<li><p><a href="https://onlinelibrary.wiley.com/doi/10.1111/ele.70227">Remote-Control Science in Ecology: A Hidden Face of Scientific Neocolonialism</a></p></li>
+<li><p><a href="https://www.nature.com/articles/s44185-026-00131-y">Decolonial science in the Amazon demands active and equitable seats at the table</a></p></li>
+<li><p><a href="https://link.springer.com/article/10.1007/s44353-024-00005-z">Beyond more inclusive and equitable research in ecology and conservation: on the practical implications of expanding authorship to local data collectors</a></p></li>
+</ol>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>academic life</category>
+  <category>equity in research</category>
+  <guid>https://ivana-cardoso.github.io/en/posts/scientific_colonialism/</guid>
+  <pubDate>Fri, 23 Oct 2026 03:00:00 GMT</pubDate>
+  <media:content url="https://ivana-cardoso.github.io/en/posts/scientific_colonialism/caravela_freepik.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>How do hydroelectric dams create islands and affect biodiversity?</title>
+  <dc:creator>Ivana Cardoso</dc:creator>
+  <link>https://ivana-cardoso.github.io/en/posts/insularization/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p><em>This text came from a desire to write about the central theme of most of the research I do today: forest insularization. Here, I leave behind islands in the open ocean to arrive at the central subject of this text, which is islands created by hydroelectric dam reservoirs, while also sharing a bit of my personal interests. My goal is to address the concept of insularization and what it causes to biodiversity.</em> <em>I hope you enjoy it :)</em></p>
+<section id="what-is-an-island" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-an-island">What is an island?</h2>
+<p>Islands have been in our imagination since the early days of biology, marked by <a href="https://portal.sbpcnet.org.br/noticias/as-expedicoes-naturalistas-no-brasil-no-seculo-xix/">naturalist expeditions</a> to archipelagos around the world. One of the first naturalists I remember sparking my interest was <a href="https://pt.wikipedia.org/wiki/Alfred_Russel_Wallace">Alfred Russel Wallace</a>, a researcher of limited means whom history has overshadowed, and who, around 1858, during his explorations in the Malay Archipelago, had <a href="https://digitalcommons.wku.edu/cgi/viewcontent.cgi?article=1002&amp;context=dlps_fac_arw">his first glimpses of natural selection</a>.</p>
+<p>Alfred is also known as the father of <a href="https://pt.wikipedia.org/wiki/Biogeografia">biogeography</a>, the study of the distribution of species in space and time. If you are a biology student, or are familiar with the subject, you have probably heard the term “biogeography” in another context and with other names: Robert MacArthur and Edward O. Wilson, who proposed the <a href="https://ecovirtual.ib.usp.br/doku.php?id=ecovirt:roteiro:neutr:biogeo_base">theory of island biogeography</a> (MacArthur &amp; Wilson, <a href="https://www.jstor.org/stable/2407089?origin=crossref">1963</a>, <a href="https://www.jstor.org/stable/j.ctt19cc1t2">1967</a>).</p>
+<p>The theory of island biogeography tells us that the number of species on an island is the result of a balance between the number of species that arrive on the island through immigration and those that disappear through local extinction. For larger and less isolated islands, this balance results in a greater number of species. For smaller and more isolated islands, it results in a smaller number of species. MacArthur and Wilson studied data from different oceanic islands, among them the archipelago of <a href="https://pt.wikipedia.org/wiki/Melan%C3%A9sia">Melanesia</a>, and also <a href="https://pt.wikipedia.org/wiki/Krakatoa">Krakatoa</a>.</p>
+<p>Later, the theory of island biogeography left oceanic islands and began to be applied to other ecosystems as well, including terrestrial environments (<a href="https://www.sciencedirect.com/science/article/abs/pii/000632077590052X?via%3Dihub">Diamond, 1975</a>). This ended up changing the very conception of what could be considered an “island.”</p>
+<p>Since Wallace and the early days of biogeography, our knowledge about islands has expanded considerably. Today we know that these stretches of “land” surrounded by water can have different origins (volcanic, continental, coralline) and that this term can even cover less obvious environments, such as lakes, mountaintops, or pieces of a previously continuous forest (<a href="https://www.cell.com/current-biology/fulltext/S0960-9822(21)00988-X?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS096098222100988X%3Fshowall%3Dtrue">Matthews &amp; Triantis, 2021</a>). In this context, an <strong>island is an environment surrounded by another that is unsuitable for the persistence of species</strong>.</p>
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><img src="https://ivana-cardoso.github.io/en/posts/insularization/Matthews_Triantis_2021.png" class="img-fluid figure-img"></p>
+<figcaption>Reproduction of Figure 1 in <a href="https://www.cell.com/current-biology/fulltext/S0960-9822(21)00988-X?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS096098222100988X%3Fshowall%3Dtrue">Matthews &amp; Triantis, 2021</a> <strong>Different types of islands</strong>: (A) Pico Island, in the Azores, an oceanic island of volcanic origin; (B) many island-like systems have been identified in the marine environment, such as seamounts; (C) atolls are islands formed by coral reefs; (D) insular forest fragments surrounded by agricultural areas; (E) islands within lakes; and (F) lakes, which can be considered islands from the point of view of aquatic animals.</figcaption>
+</figure>
+</div>
+</section>
+<section id="islands-created-by-the-flooding-of-the-forest" class="level2">
+<h2 class="anchored" data-anchor-id="islands-created-by-the-flooding-of-the-forest">Islands created by the flooding of the forest</h2>
+<p>The process of creating islands is called insularization. In Brazil (<a href="https://fmclimaticas.org.br/wp-content/uploads/2015/07/Hidrel%C3%A9tricas-na-Amaz%C3%B4nia-Impactos-ambientais-Sociais..-V.1.pdf">Fearnside, 2015</a>), and especially in the tropical region of the world (<a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0035126">Finer &amp; Jenkins, 2012</a>; <a href="https://link.springer.com/article/10.1007/s00027-014-0377-0">Zarfl et al., 2015</a>), <strong>the creation of hydroelectric dams floods previously continuous forests and, when the topography allows, forms forest islands on former hilltops</strong>. When this happens, part of the forest is lost and the rest is divided into islands of different sizes, which come to be surrounded by a contrasting environment: water.</p>
+<p>This process, which takes years to complete, actually begins long before the damming of the river itself. Much is planned, such as the removal of vegetation and the rescue of wildlife, <a href="https://rainforestjournalismfund.org/pt-br/stories/novas-hidreletricas-na-amazonia-ignoram-normas-e-causam-estragos-ambientais">but what actually happens is different</a>. The impacts of building the dam have lasting effects and affect not only fauna and flora, but also <a href="https://rainforestjournalismfund.org/pt-br/stories/terra-arrasada-os-atingidos-por-belo-monte">Indigenous and riverside populations, with consequences that reverberate for a long time after the flooding</a>. There are many of these dams where the story was similar. Some names I recall right now are <a href="https://amazoniareal.com.br/os-25-anos-da-usina-hidreletrica-de-balbina-parte-i/">Balbina</a>, <a href="https://mapadeconflitos.ensp.fiocruz.br/conflito/pa-atingidos-por-barragens-indigenas-quilombolas-e-comunidades-tradicionais-de-tucurui-lutam-por-seus-direitos/">Tucuruí</a>, and <a href="https://amazoniareal.com.br/belo-monte-o-paquiderme-de-energia-parado/">Belo Monte</a>. At Balbina, for example, an area of more than 310,000 hectares of forest was flooded, creating more than 3,500 islands of different sizes (<a href="https://besjournals.onlinelibrary.wiley.com/doi/10.1111/1365-2745.12371">Benchimol &amp; Peres, 2015</a>).</p>
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><img src="https://ivana-cardoso.github.io/en/posts/insularization/Balbina_Eduardo_Venticinque.jpg" class="img-fluid figure-img"></p>
+<figcaption>Forest islands in the reservoir of the Balbina Hydroelectric Dam. Photo by Eduardo Venticinque</figcaption>
+</figure>
+</div>
+</section>
+<section id="environmental-changes-after-insularization-and-their-consequences-for-biodiversity" class="level2">
+<h2 class="anchored" data-anchor-id="environmental-changes-after-insularization-and-their-consequences-for-biodiversity">Environmental changes after insularization and their consequences for biodiversity</h2>
+<p>Island size can limit the number of species that live on it (<a href="https://www.jstor.org/stable/2255763?origin=crossref">Arrhenius, 1921</a>; <a href="https://www.jstor.org/stable/j.ctt19cc1t2">MacArthur &amp; Wilson, 1967</a>) as well as the amount of resources available to those species. In addition, larger islands can offer a greater variety of environments, such as <a href="https://anotherecoblog.wordpress.com/2023/03/23/efeitos-de-borda-fantasticos-e-como-encontra-los-ou-nao/">edge and interior areas</a> (<a href="https://nsojournals.onlinelibrary.wiley.com/doi/10.1111/j.1600-0706.2009.18061.x">Banks-Leite et al., 2010</a>), and therefore harbor more species. They also tend to sustain larger populations, which reduces the risk of local extinction. On small islands, on the other hand, populations are usually smaller and more vulnerable to disappearance (<a href="https://doi.org/10.1016/j.biocon.2016.03.016">Aurélio-Silva et al., 2016</a>).</p>
+<p><a href="https://theconversation.com/pequenos-fragmentos-florestais-podem-conservar-mais-aves-quando-o-entorno-e-favoravel-283861">Compared with forest patches of similar size surrounded by terrestrial environments, small islands surrounded by water harbor fewer bird species</a>, for example. This happens because birds living in forest fragments surrounded by terrestrial environments can use this environment to move around, as well as its resources, such as insects and flower nectar, which generally does not occur when the adjacent environment is aquatic (<a href="https://www.pnas.org/doi/10.1073/pnas.2521783123">Bueno et al., 2026</a>).</p>
+<p>With the creation of forest islands, environmental conditions change. For example, the amount of light that penetrates the interior of the island and the intensity of the wind increase, while air and soil humidity decrease (<a href="https://conbio.onlinelibrary.wiley.com/doi/10.1046/j.1523-1739.2002.01025.x">Laurance et al., 2002</a>). Some species cannot tolerate these new conditions and quickly disappear, while others persist for some time before also disappearing (<a href="https://www.cell.com/trends/ecology-evolution/abstract/S0169-5347(09)00191-8?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0169534709001918%3Fshowall%3Dtrue">Kuussaari et al., 2009</a>). In the region of the Balbina Hydroelectric Dam, for example, <a href="https://www.eurekalert.org/news-releases/886933">mammals, birds, and turtles continued to disappear from the islands even 26 years after isolation</a>.</p>
+<p>This delay in local extinctions after forest insularization is known as extinction debt (<a href="https://www.cell.com/trends/ecology-evolution/abstract/S0169-5347(09)00191-8?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0169534709001918%3Fshowall%3Dtrue">Kuussaari et al., 2009</a>; <a href="https://www.sciencedirect.com/science/article/abs/pii/S0006320716301732?via%3Dihub">Jones et al., 2016</a>), in which the island loses species until it reaches a new equilibrium with a community with fewer species.</p>
+<p>Extinction debt is also influenced by island area: smaller islands lose species more quickly and therefore pay off their extinction debt more quickly than larger islands (<a href="https://www.science.org/doi/10.1126/science.1240495">Gibson et al., 2013</a>; <a href="https://www.sciencedirect.com/science/article/abs/pii/S0006320716301732?via%3Dihub">Jones et al., 2016</a>). Larger islands, on the other hand, act as temporary refuges, allowing some species to survive on borrowed time, delaying their local extinctions (<a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0147909">Uezu &amp; Metzger, 2016</a>). For this reason, the populations of these species can be called “living dead.”</p>
+</section>
+<section id="what-can-we-take-from-this-text" class="level2">
+<h2 class="anchored" data-anchor-id="what-can-we-take-from-this-text">What can we take from this text?</h2>
+<p>With this text, I hope to have clarified how the creation of hydroelectric dams affects biodiversity even decades after the damming of a river. The text may be a bit discouraging, especially when we consider the hydroelectric potential that is planned to be exploited in the Amazon… but not all is lost (vote for candidates who take the environmental agenda seriously in the election we will have in four days!).</p>
+<p>Islands surrounded by an aquatic matrix represent the worst-case scenario of insularization, and their consequences are truly drastic. Thus, understanding the immediate and long-term impacts that hydroelectric dams have on the forest can guide decision-making aimed at biodiversity conservation. Extinction debt itself can be halted if there are conservation measures, such as habitat restoration and landscape management (<a href="https://besjournals.onlinelibrary.wiley.com/doi/10.1111/j.1365-2664.2012.02214.x">Lira et al., 2012</a>).</p>
+<p>Almost two centuries after Wallace explored the Malay Archipelago and began to understand natural selection, islands remain natural laboratories. If they once helped us understand how species arise, they now also help us understand how we lose them.</p>
+<p><em>Cover image credits: <a href="https://www.nationalgeographicbrasil.com/fotografo/andre-dib">André Dib</a></em></p>
+
+
+</section>
+
+ ]]></description>
+  <category>anthropogenic habitat change</category>
+  <category>landscape ecology</category>
+  <category>community ecology</category>
+  <guid>https://ivana-cardoso.github.io/en/posts/insularization/</guid>
+  <pubDate>Wed, 30 Sep 2026 03:00:00 GMT</pubDate>
+  <media:content url="https://ivana-cardoso.github.io/en/posts/insularization/UHE_Balbina_AndreDib.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>What happens to birds when a forest becomes a set of islands?</title>
+  <dc:creator>Ivana Cardoso</dc:creator>
+  <link>https://ivana-cardoso.github.io/en/posts/paper_rsos/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p><em>Today I want to share a bit about a paper we just published in <a href="https://royalsocietypublishing.org/rsos">Royal Society Open Science</a>, led by Rayssa Tormes do Amarante, my friend and research partner. This publication is the result of a collaborative effort to understand what happens to bird communities when a continuous forest is transformed into a set of islands. In this post, I want to tell you a little about the study, our adventures, the main results we found, and what they can tell us about the effects of this environmental transformation on biodiversity.</em></p>
+<p>It is four in the afternoon and we are in the <em>voadeira</em> (a small aluminum motorboat), after an intense day of fieldwork. We have been sampling understory birds since six in the morning. Rayssa is sitting in front of me and Maciel steers the boat as we cross the reservoir of the Balbina Hydroelectric Dam. It is hard to imagine that, before 1987, this entire landscape was a continuous forest. Today, the islands we see are the former hilltops of that forest, surrounded by a matrix of water dotted with dead trees. This process of transformation of a continuous forest into forest islands is called forest insularization.</p>
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><img src="https://ivana-cardoso.github.io/en/posts/paper_rsos/20230710_055152.jpg" class="uniform-img img-fluid figure-img"></p>
+<figcaption>Heading back to our camp after a day of bird sampling. Rayssa is at the front, I (Ivana) am in the middle, and Maciel steers the boat</figcaption>
+</figure>
+</div>
+<p>When the forest was flooded, islands of different sizes and degrees of isolation were created. Compared with continuous forest, islands as small as a soccer field have less habitat available and are more exposed to so-called edge effects, which are environmental changes such as increased temperature and light incidence. Isolation, caused by the water around the islands, makes it harder for forest-dependent birds to arrive, reducing the movement of individuals between islands.</p>
+<p>The environmental changes caused by the creation of islands can lead not only to the loss of species, but also to the loss of the ecological functions that these species perform on the islands. When a group of species uses similar resources and can perform similar ecological functions, this group is called a guild. For example, some birds that feed on fruit, which is the resource, can disperse seeds, which is the ecological function.</p>
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><img src="https://ivana-cardoso.github.io/en/posts/paper_rsos/Turdus_albicollis_Beco-do-Catitu_2023-10-27_L4.jpg" class="uniform-img img-fluid figure-img"></p>
+<figcaption>This is one of the birds we captured and banded, a White-necked Thrush (<em>Turdus albicollis</em>). This bird feeds on fruit and can disperse seeds. More information about it on <a href="https://www.wikiaves.com.br/wiki/sabia-coleira">WikiAves</a>.</figcaption>
+</figure>
+</div>
+<p>When a guild disappears from an island, we lose the ecological functions that this group of species performed, and not only the species that were part of the guild. As a consequence, bird communities on islands become increasingly different from those found in continuous forests.</p>
+<p>These differences can occur mainly in two ways: through species replacement or through differences in the number of species. Replacement happens when species present in one place are replaced by others, while differences in the number of species occur when one place has more or fewer species than another.</p>
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><img src="https://ivana-cardoso.github.io/en/posts/paper_rsos/esquema_beta.jpg" class="img-fluid figure-img"></p>
+<figcaption>When two islands have a similar number of species but different species, this difference is caused by species replacement. When islands have different numbers of species, this difference can occur regardless of the identity of the species.</figcaption>
+</figure>
+</div>
+<p>It is in this context that we sought to understand how forest insularization affects understory bird communities, evaluating how island size and isolation influence differences in species composition and in the ecological functions they perform. We also investigated whether these differences are caused by species replacement or by differences in the number of species among sites.</p>
+<p>To investigate these questions, we sampled birds on 32 islands and in five continuous forest areas in the reservoir of the Balbina Hydroelectric Dam, in Amazonas, between June and December of 2023 and 2024. In total, we captured 1,634 individuals belonging to 114 bird species. These species performed different ecological functions, distributed across 32 guilds.</p>
+<p>When we compared the communities, we found that island communities were more different from each other than continuous forest communities were. In the continuous forest areas, most of the difference between communities was caused by species replacement. In other words, different sites had different sets of species, but a similar number of species. On the islands, on the other hand, the differences were caused by the number of species, indicating that some islands had more species than others.</p>
+<p>Ecological functions also differed more among islands than in the continuous forest. In this case, the differences were determined mainly by the number of guilds, indicating that some islands harbored a larger set of ecological functions than others. In addition, the greater the differences in size and isolation between two islands, the greater the differences between their communities.</p>
+<p>In the end, what this set of islands shows us is that the effects of insularization can go beyond the loss of species. Island size and isolation work as filters that influence which species are able to remain in these fragments and, consequently, which ecological functions continue to be performed.</p>
+<p>Over time, this process can produce communities that are increasingly different from each other and have fewer ecological functions. Thus, transforming a continuous forest into a set of islands does not only mean reducing the amount of available habitat; it also means reorganizing the communities that live there and potentially changing how these ecosystems function.</p>
+<p>So, answering the question in the title, <strong>“what happens to birds when a continuous forest becomes a set of islands?”</strong>, when a continuous forest becomes a set of islands, bird communities change. As a result, some species disappear or stop arriving on the islands, causing them to have different numbers of species and ecological functions. Thus, the bird communities of the islands become more different from each other and from those found in the continuous forest.</p>
+<p>The full paper can be found at <a href="https://royalsocietypublishing.org/rsos/article/13/8/rsos260165/482732/Habitat-insularization-alters-taxonomic-and" class="uri">https://royalsocietypublishing.org/rsos/article/13/8/rsos260165/482732/Habitat-insularization-alters-taxonomic-and</a></p>
+<p>If you liked this post and are interested in ecology and biodiversity conservation, here is a reading suggestion:</p>
+<ul>
+<li><a href="https://books.scielo.org/id/p5cwn">Um naturalista no Antropoceno (A naturalist in the Anthropocene), by Professor Mauro Galetti</a>.</li>
+</ul>
+<p>In this book, the author invites us to think about changes in nature based on field experiences and reflections on biodiversity in the Anthropocene.</p>
+<p><em>Cover image credits: <a href="https://oeldoradoeaqui.blogspot.com/2010/12/lago-de-balbina-presidente-figueiredo.html">Luciane Moral</a></em></p>
+<p><em>Credits for the bird silhouettes used in the schematic figure: <a href="https://www.phylopic.org/nodes/667b8664-5dd7-487e-ba56-c6c5c95055a2/aves-silhouettes">Phylopic</a></em></p>
+
+
+
+ ]]></description>
+  <category>community ecology</category>
+  <category>ornithology</category>
+  <category>scientific publishing</category>
+  <guid>https://ivana-cardoso.github.io/en/posts/paper_rsos/</guid>
+  <pubDate>Mon, 24 Aug 2026 03:00:00 GMT</pubDate>
+  <media:content url="https://ivana-cardoso.github.io/en/posts/paper_rsos/Balbina_Luciane_Moral.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>The weight of invisible achievements</title>
+  <dc:creator>Ivana Cardoso</dc:creator>
+  <link>https://ivana-cardoso.github.io/en/posts/weight_of_invisible_achievements/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>I am writing this post today because (1) this topic has come up often in my circles, both in Brazil and here in Canada, inside and outside Ecology, and (2) because I feel it is a reflection I need right now.</p>
+<p><strong>Do you also have the feeling that we researchers are always behind in some way?</strong></p>
+<p>We publish a paper, present it at a conference, and soon move on to the next challenge. Many times, we do not set aside time to celebrate an achievement or to process a rejection. This happens because, in academia, finishing something rarely means, in fact, being done. There is always a next stage waiting. How many times have you finished a piece of work already expecting that it was time to start the next one?</p>
+<p>This cycle becomes dangerous because, when we do not acknowledge our own effort, our achievements go unnoticed. Over time, no external recognition seems like enough. Little by little, we internalize the idea that we are not good enough and, along with it, comes fear: of failing, of not measuring up. A fear that can shape our choices and, at times, paralyze us.</p>
+<p>When I was an undergraduate and began studying habitat fragmentation, one of the first women I admired was the professor I work with today, who is one of the leading figures in the field. If someone had told me back then that I would one day work with her, I would never have believed it… there are still days when I don’t. When she accepted me and, later, praised my work, I was immensely happy, but the thoughts soon came: “sooner or later, she will realize I’m not good enough,” “is research really what I want to do?” These questions did not exist before. I have always been passionate about fieldwork and research, and working with someone I admire used to feel like a sure thing. So, what changed?</p>
+<p>I believe that, throughout my PhD, I focused so much on completing stages (courses, fieldwork, analyses…) that I ended up missing important parts of the journey: time with friends, the experience in the field, moving to another country, celebrating my achievements. Now, less than a year from finishing, this feeling of not having made the most of it all still persists.</p>
+<p>Academic training is much more than earning a degree. That is why having a life outside academia is also essential. But how do we balance this when work extends beyond the lab and the field, taking up breaks, weekends, and even the thoughts we have before falling asleep?</p>
+<p>Balance is often treated as an individual responsibility, as if organization and discipline were enough. But what if the problem is not only personal? What if this constant sense of insufficiency is part of the academic structure itself, fueled by productivity metrics, pressure to publish, and a continuous expectation of performance?</p>
+<p>The most curious thing is that, even when the context changes (country, institution, culture), this logic seems to repeat itself, sometimes with different intensities, but always present. At what point did we stop celebrating our own achievements? What happens when living becomes just keeping up with the next step?</p>
+<p>Perhaps the question is not only how to get out of this cycle, but why, in some way, we learned to accept it.</p>
+<p>And you, dear reader, how do you feel?</p>
+<p><em>Cover image credits: <a href="https://www.freepik.com/free-vector/flat-hand-drawn-time-management-concept_13109473.htm#fromView=search&amp;page=2&amp;position=29&amp;uuid=9cc23e0b-74d7-49bc-9f55-17eddec7bcaa&amp;query=+woman+with+hourglass+time">Freepik</a></em></p>
+
+
+
+ ]]></description>
+  <category>academic life</category>
+  <category>personal account</category>
+  <guid>https://ivana-cardoso.github.io/en/posts/weight_of_invisible_achievements/</guid>
+  <pubDate>Thu, 02 Apr 2026 03:00:00 GMT</pubDate>
+  <media:content url="https://ivana-cardoso.github.io/en/posts/weight_of_invisible_achievements/woman_hourglass_freepik.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>How can tree plantations help conserve forest birds?</title>
+  <dc:creator>Ivana Cardoso</dc:creator>
+  <link>https://ivana-cardoso.github.io/en/posts/paper_foreco/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p><em>Today’s post is about sharing a very special milestone: we have published our first paper in a Qualis A1 international journal, written and led by current and former students of the Instituto Federal Farroupilha - Campus Júlio de Castilho. This is the institution where I graduated and where now I have the great pleasure of working as a collaborator at the Núcleo de Pesquisas em Ciências Biológicas (NPCBio). One detail that makes this work even more meaningful is that it is a local study, conducted in Rio Grande do Sul by people from the region themselves. I clearly remember the moment, five years ago, when the first plots of the permanent research site – a modified RAPELD <a href="https://www.scielo.br/j/bn/a/f77RCKmNYmkHFxBLcFRFgSL/?format=pdf&amp;lang=en">(Magnusson et al., 2005)</a> – were stablished on Passo Fundo National Forest, where the study was conducted. This article is the first publication resulting from this collective effort. Below, I share the main findings of the study.</em></p>
+<p>Natural forest areas have been declining worldwide, mainly due to land conversion for agricultural and livestock activities. At the same time, the area occupied by tree plantations has been increasing, driven by growing demand for timber, pulp, and, more recently, carbon credits. In this context, a central question arises: can tree plantations help conserve forest biodiversity? In this study, we investigated whether plantations of native (<em>Araucaria angustifolia</em>) and exotic (<em>Pinus elliottii</em>) tree species can support bird communities found in natural Mixed Ombrophilous Forests, also known as Araucaria Forests. We also aimed to identify bird species that could serve as indicators of these different forest types.</p>
+<p>This study was conducted in the Passo Fundo National Forest, in northern Rio Grande do Sul (Fig. 1). Fieldwork lasted one year, from June 2021 to May 2022. We sampled birds using mist nets throughout the four seasons. The fieldwork was led by <strong>Rayssa T. Amarante</strong>, with the valuable collaboration of <strong>Raquel T. Amarante</strong> and <strong>Felipe Brum</strong>. I took part in the autumn field campaign (April–May 2022), and it was the coldest fieldwork experience I have ever had! (Fig. 2). I even remember how the birds looked like little fluffy balls, fluffing up their feathers to trap heat and keep warm (Fig. 3). Throughout the entire process, from data collection to the publication of the article, we were supervised by Professor <strong>Anderson Saldanha Bueno</strong> (Fig. 4).</p>
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><img src="https://ivana-cardoso.github.io/en/posts/paper_foreco/IMG_20240206.jpg" class="uniform-img img-fluid figure-img"></p>
+<figcaption>Fig. 1 - Passo Fundo National Forest, our study area.</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><img src="https://ivana-cardoso.github.io/en/posts/paper_foreco/20220508072547_IMG_0760.jpg" class="uniform-img img-fluid figure-img"></p>
+<figcaption>Fig. 2 - On some sampling days, it was so cold that we measured the birds and checked the mist nets while wrapped up in blankets.</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><img src="https://ivana-cardoso.github.io/en/posts/paper_foreco/IMG-20210730.jpg" class="uniform-img img-fluid figure-img"></p>
+<figcaption>Fig. 3 - A <em>Chiroxiphia caudata</em> fluffing up because of the cold.</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><img src="https://ivana-cardoso.github.io/en/posts/paper_foreco/20250723.jpg" class="uniform-img img-fluid figure-img"></p>
+<figcaption>Fig. 4 - Our research team. From left to right: Anderson S. Bueno, Felipe Brum, Raquel T. Amarante, Ivana Cardoso, Rayssa T. Amarante.</figcaption>
+</figure>
+</div>
+<p>In total, we sampled 18 areas, divided into three groups of six, corresponding to the three forest types studied: natural forest, araucaria plantations, and pine plantations (Fig. 5). In each area, we also measured understory vegetation obstruction, an important feature for assessing the availability of resources and shelter for birds.</p>
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><img src="https://ivana-cardoso.github.io/en/posts/paper_foreco/forests_scheme3.png" class="img-fluid figure-img"></p>
+<figcaption>Fig. 5 - The three forest types where we sampled understory birds on the Passo Fundo National Forest.</figcaption>
+</figure>
+</div>
+<p>It is worth noting that the plantations we sampled are old, ranging from 49 to 71 years in age, and are located close to natural forest fragments of at least 10 hectares. These conditions create a relatively “benign” environmental setting, meaning one that is more favorable to the presence of forest bird species.</p>
+<p>Throughout the study, we captured 1,073 birds belonging to 51 different species. Our results showed that tree plantations, both native and exotic, can support bird communities similar to those found in natural forests when located in a benign environmental context, characterized by a well-developed understory, older plantation age, and proximity to natural forest fragments. This similarity in bird communities was even more pronounced in native tree plantations, suggesting that they have greater potential for conserving forest birdlife.</p>
+<p>Of the 51 species captured, 45 were forest species. Among them, only one species (<em>Leptopogon amaurocephalus</em>) (Fig. 6) was associated with natural forest. This suggests that, for many forest species, native and exotic tree plantations in a benign environmental context can act as complementary or alternative habitats.</p>
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><img src="https://ivana-cardoso.github.io/en/posts/paper_foreco/Leptopogon_amaurocephalus.jpg" class="uniform-img img-fluid figure-img"></p>
+<figcaption>Fig. 6 - <em>Leptopogon amaurocephalus</em>, the only species associated exclusively with natural forest in our study.</figcaption>
+</figure>
+</div>
+<p>Still, it is important to highlight that bird communities in natural forests are more intact than those found in plantations. In other words, the variety of species and the number of individuals of each species are more similar among natural forests than between natural forests and plantations. Therefore, the preservation of natural forests is irreplaceable for bird conservation.</p>
+<p>Furthermore, maintaining natural forests benefits not only the species living within them but also increases the conservation value of nearby plantations, which often depend on this proximity to support more diverse and representative bird communities.</p>
+<p>The paper presenting the research findings was published on July 21, 2025, in the scientific journal <strong>Forest Ecology and Management</strong> and can be accessed through the following link: <a href="https://doi.org/10.1016/j.foreco.2025.122985" class="uri">https://doi.org/10.1016/j.foreco.2025.122985</a>.</p>
+
+
+
+ ]]></description>
+  <category>community ecology</category>
+  <category>ornithology</category>
+  <category>scientific publication</category>
+  <guid>https://ivana-cardoso.github.io/en/posts/paper_foreco/</guid>
+  <pubDate>Tue, 29 Jul 2025 03:00:00 GMT</pubDate>
+  <media:content url="https://ivana-cardoso.github.io/en/posts/paper_foreco/capa.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>What is the scale of effect and how do we identify it?</title>
+  <dc:creator>Ivana Cardoso</dc:creator>
+  <link>https://ivana-cardoso.github.io/en/posts/scale_of_effect/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="what-is-scale" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-scale">What is scale?</h2>
+<p>Scale is a central concept in research planning and in the interpretation of ecological patterns. It defines the lens through which we observe natural phenomena and is made up of two key elements:</p>
+<ul>
+<li><p><strong>Grain</strong>: the smallest unit measured, or the size of the sampling units;</p></li>
+<li><p><strong>Extent</strong>: the total area covered by the study, or the duration of a time series.</p></li>
+</ul>
+<p>The spatial scale at which landscape characteristics are measured can affect the inferred relationships <a href="https://www.jstor.org/stable/2389612">(Wiens, 1989)</a>. For example, in a study of 12 beetle species, the correlation between forest cover and abundance ranged from positive to nonexistent, depending on the scale at which forest cover was measured <a href="https://academic.oup.com/bioscience/article-abstract/54/3/227/223100">(Holland et al., 2004)</a>. In addition, each species interacts with the environment in a different way. For example, an analysis of forest cover in landscapes with a 2 km radius revealed opposite effects on different groups of birds: forest specialist, frugivorous, and insectivorous birds had their diversity reduced in areas with lower forest cover. In contrast, generalist birds showed greater diversity in those same areas <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0128923">(Morante-Filho et al., 2015)</a>. Thus, what may have little effect on some species at a given scale can be catastrophic for others. This requires adjustments in the sampling design to avoid mistaken conclusions, since inadequate scales may fail to reveal ecological relationships or create false patterns. For this reason, it is often necessary to test different scales to find the scale of effect.</p>
+</section>
+<section id="what-is-the-scale-of-effect" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-the-scale-of-effect">What is the scale of effect?</h2>
+<p>The scale of effect is the spatial scale at which a given landscape characteristic best explains the response variable <a href="https://onlinelibrary.wiley.com/doi/full/10.1111/geb.12233">(Jackson and Fahrig, 2015)</a>. It can be determined by following the steps below:</p>
+<ul>
+<li><p><strong>In data collection</strong>: measuring the response variable in several sampling units across a region (Fig. 1a);</p></li>
+<li><p><strong>In the multi-scale analysis</strong>: measuring the landscape characteristic of interest at multiple spatial extents around each sampling unit (Fig. 1b);</p></li>
+<li><p><strong>In the statistical analysis</strong>: identifying the scale with the highest correlation coefficient, regression slope, or model information value between the predictor variable of interest, related to landscape structure, and the response variable of interest (Fig. 1c).</p></li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://ivana-cardoso.github.io/en/posts/scale_of_effect/adaptado_Jackson_Fahrig_2015.png" class="img-fluid figure-img"></p>
+<figcaption><strong>Fig. 1</strong> a. measuring the response variable in several sampling units across a region; b. measuring the predictor variable of interest at several scales; c.&nbsp;diagram showing how the scale of effect is determined. Based on Fig. 1 of <a href="https://onlinelibrary.wiley.com/doi/full/10.1111/geb.12233">(Jackson and Fahrig, 2015)</a></figcaption>
+</figure>
+</div>
+<p>The selection of spatial scales should take into account the biology of the studied species. For example, in a study of Amazonian understory birds that tested 40 intervals, the smallest scale (50 m) was defined as intermediate between these birds’ reluctance to cross 30 m gaps and their ability to cross gaps of up to 70 m. The largest scale (2,000 m) corresponded to the value frequently used in habitat fragmentation studies <a href="https://onlinelibrary.wiley.com/doi/full/10.1111/jbi.13499?casa_token=x2rq4eXhDo8AAAAA%3AG_urffg9N329QcGEd-k3HU-D3-PXh28DJQyvl-FnTyKAeQgyL3_msiBA-pmpDag2EvWXXkZZWeDQWA">(Bueno and Peres, 2019)</a>. Finally, besides reflecting the biology of the species, it is essential to test different intervals and to consider that the scale of effect identified in multi-scale analyses <strong>may be imprecise if</strong> the scales are:</p>
+<ul>
+<li><p>Too small or too large;</p></li>
+<li><p>Limited in range (i.e., only intermediate sizes);</p></li>
+<li><p>Insufficient in number (i.e., too few scales tested).</p></li>
+</ul>
+</section>
+<section id="how-do-we-calculate-the-scale-of-effect" class="level2">
+<h2 class="anchored" data-anchor-id="how-do-we-calculate-the-scale-of-effect">How do we calculate the scale of effect?</h2>
+<p>For this exercise, we will use the data from <a href="https://onlinelibrary.wiley.com/doi/full/10.1111/jbi.13499?casa_token=DusuIn3clAIAAAAA%3A_dadze5I-rbSaO2VnbIWrl_MzLBRJ69oznsdkiwXJOGO7vdQJriBEErCcdLDN-9G5xMatTuBQUBAbyLbhg">Bueno and Peres (2019)</a>. I chose this study because the authors calculated forest cover at <strong>different spatial scales</strong> and identified the <strong>scale of effect</strong>. This allows us to compare our approach with that of the study, ensuring that we are calculating correctly.</p>
+<p><a href="https://onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1111%2Fjbi.13499&amp;file=jbi13499-sup-0001-Supinfo.html">In the supplementary material</a> of the paper, the authors provide the code used in the analyses and in the generation of the study’s graphs. This code begins with data processing and results in the table below (birds). If you prefer, you can access the supplementary material, download the original tables, and reprocess the data manually. However, to keep things simple and maintain the focus of this exercise, I made the already processed and filtered table available, avoiding technical details that are not relevant to our goal.</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-overflow-wrap code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Load the necessary packages</span></span>
+<span id="cb1-2"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">library</span>(ggplot2) <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># If you do not have this package, you can install it using install.packages("ggplot2")</span></span>
+<span id="cb1-3"></span>
+<span id="cb1-4"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Clear R's memory</span></span>
+<span id="cb1-5"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">rm</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">list =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">ls</span>()) </span>
+<span id="cb1-6"></span>
+<span id="cb1-7"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Turn off scientific notation</span></span>
+<span id="cb1-8"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">options</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">scipen =</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">999</span>) </span>
+<span id="cb1-9"></span>
+<span id="cb1-10"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Set your working directory</span></span>
+<span id="cb1-11"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">setwd</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"C:/Users/ivana/OneDrive/Ivana-Cardoso.github.io/posts/Escala_efeito"</span>) <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Don't forget to change this to the folder where you will save the data</span></span></code></pre></div></div>
+</div>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Import the data</span></span>
+<span id="cb2-2"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># You can download the processed table at the link below:</span></span>
+<span id="cb2-3"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># https://github.com/Ivana-Cardoso/Ivana-Cardoso.github.io/blob/main/posts/Escala_efeito/bueno_2019_insect_birds.csv</span></span>
+<span id="cb2-4">birds <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">read.csv</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"bueno_2019_insect_birds.csv"</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">row.names =</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>)</span>
+<span id="cb2-5">birds[<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">6</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">3</span>] <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># shows the first six rows and three columns of the table</span></span></code></pre></div></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>               Automolus_infuscatus Automolus_ochrolaemus Bucco_tamatia
+Abusado                           0                     0             0
+Adeus                             0                     0             0
+Andre                             0                     0             0
+Arrepiado                         0                     0             0
+Bacaba                            0                     0             0
+Beco_do_Catitu                    0                     0             0</code></pre>
+</div>
+</div>
+<p>Note the format of the community data:</p>
+<ul>
+<li><p><strong>Rows</strong>: Represent the <strong>sampling units</strong>. In this study, the sampling units are the mist-net lines used to capture the birds. One net line with 16 nets was used per island, so these lines are identified by the name of each island.</p></li>
+<li><p><strong>Columns</strong>: Represent the <strong>species</strong> of insectivorous birds recorded in the study. Each column corresponds to a different species.</p></li>
+<li><p><strong>Values in the cells</strong>: The number in each cell indicates the <strong>abundance</strong> of a given species in each sampling unit.</p></li>
+</ul>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># The environmental data can be downloaded at: </span></span>
+<span id="cb4-2"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn%3Auuid%3Ab0f42cac-42de-43f0-a4f7-05ea8156b1cf</span></span>
+<span id="cb4-3">islands <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">read.csv</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"balbina_environmental_variables.csv"</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">row.names =</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>)</span>
+<span id="cb4-4">islands <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> islands[<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">c</span>(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">8</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">12</span>),] <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># removes the sites in continuous forest</span></span>
+<span id="cb4-5">islands[<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">4</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">4</span>] <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># shows the first four rows and columns of the table</span></span></code></pre></div></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>          latitude.WGS84 longitude.WGS84 area.ha forest.cover.50
+Abusado         -1.76221       -59.67875   13.31           97.96
+Adeus           -1.87378       -59.66240   50.08           97.78
+Andre           -1.58461       -59.87198    2.08           66.67
+Arrepiado       -1.51512       -59.73919    7.43           93.62</code></pre>
+</div>
+</div>
+<p>Note the structure of the environmental data:</p>
+<ul>
+<li><p><strong>Rows</strong>: Each row represents a <strong>sampling unit</strong>.</p></li>
+<li><p><strong>Columns</strong>: Each column contains a specific <strong>characteristic</strong> of each sampling unit, such as geographic coordinates and the amount of forest cover at each scale.</p></li>
+</ul>
+<p>We are interested in the columns that represent forest cover at different spatial scales. For example, the column <em>forest.cover.50</em> (column 4) shows the percentage of forest cover in the landscape at a scale of 50 meters around each sampling unit. Other columns, such as forest.cover.100 or forest.cover.200, follow the same logic, but for larger scales (100 m, 200 m, etc.).</p>
+<p>For this exercise, we are interested in finding out which scale of effect best explains the relationship between insectivorous bird species richness and landscape forest cover. Therefore, the first step is to transform the abundance data into richness data:</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb6" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Calculates insectivorous bird species richness in each sampling unit</span></span>
+<span id="cb6-2">islands<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">$</span>richness <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">=</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">rowSums</span>(<span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">ifelse</span>(birds <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">&gt;</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>))</span></code></pre></div></div>
+</div>
+<section id="determining-the-scale-of-effect-using-correlation" class="level3">
+<h3 class="anchored" data-anchor-id="determining-the-scale-of-effect-using-correlation">Determining the scale of effect using correlation</h3>
+<p>In the study by <a href="https://onlinelibrary.wiley.com/doi/full/10.1111/jbi.13499?casa_token=DusuIn3clAIAAAAA%3A_dadze5I-rbSaO2VnbIWrl_MzLBRJ69oznsdkiwXJOGO7vdQJriBEErCcdLDN-9G5xMatTuBQUBAbyLbhg">Bueno and Peres (2019)</a>, the predictor (forest cover) and response (number of species) variables are transformed by log10(x + 1) for all analyses. Therefore, we will also use the transformed variables to calculate the scale of effect. <strong>Remember to pay attention to how you are using your variables in the analyses and make sure to include them correctly when calculating the scale of effect</strong>. To calculate the scale of effect using correlation, we will use the following command format:</p>
+<p><em>object name &lt;- cor.test(predictor variable of interest, response variable of interest)</em></p>
+<p>For example, to calculate the correlation between landscape forest cover at a scale of 50 meters and species richness we will use:</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb7" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1">cor50 <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">cor.test</span>(<span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">log10</span>(islands<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">$</span>forest.cover<span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">.50</span> <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>), <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">log10</span>(islands<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">$</span>richness <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>))</span>
+<span id="cb7-2">cor50<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">$</span>estimate</span></code></pre></div></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>      cor 
+0.7072203 </code></pre>
+</div>
+</div>
+<p>Since we need to do this for 40 scales, from 50 m to 2000 m at 50 m intervals, we will create a for loop and store the results in a table.</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb9" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Creating a vector with the desired scales</span></span>
+<span id="cb9-2">escalas <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">seq</span>(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">50</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2000</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">by =</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">50</span>)</span>
+<span id="cb9-3"></span>
+<span id="cb9-4"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Creating a data frame to store the results</span></span>
+<span id="cb9-5">resultados <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">data.frame</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">Escala =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">numeric</span>(), <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">Correlacao =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">numeric</span>(), <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">Pvalor =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">numeric</span>())</span>
+<span id="cb9-6"></span>
+<span id="cb9-7"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Loop to calculate the correlation at each scale</span></span>
+<span id="cb9-8"><span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">for</span> (escala <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">in</span> escalas) {</span>
+<span id="cb9-9">  <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Creating the column name dynamically</span></span>
+<span id="cb9-10">  nome_coluna <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">paste0</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"forest.cover."</span>, escala)</span>
+<span id="cb9-11">  </span>
+<span id="cb9-12">  <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Checking whether the column exists in the data frame</span></span>
+<span id="cb9-13">  <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">if</span> (nome_coluna <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%in%</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">names</span>(islands)) {</span>
+<span id="cb9-14">    <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Calculating the Pearson correlation</span></span>
+<span id="cb9-15">    cor_test <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">cor.test</span>(<span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">log10</span>(islands[[nome_coluna]]<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>), <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">log10</span>(islands<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">$</span>richness<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>))</span>
+<span id="cb9-16">    </span>
+<span id="cb9-17">    <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Saving the results in the data frame</span></span>
+<span id="cb9-18">    resultados <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">rbind</span>(resultados, <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">data.frame</span>(</span>
+<span id="cb9-19">      <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">Escala =</span> escala,</span>
+<span id="cb9-20">      <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">Correlacao =</span> cor_test<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">$</span>estimate,</span>
+<span id="cb9-21">      <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">Pvalor =</span> cor_test<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">$</span>p.value</span>
+<span id="cb9-22">    ))</span>
+<span id="cb9-23">  }</span>
+<span id="cb9-24">}</span>
+<span id="cb9-25"></span>
+<span id="cb9-26">resultados[<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">5</span>,] <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># shows the first five rows and all columns of the object</span></span></code></pre></div></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>     Escala Correlacao              Pvalor
+cor      50  0.7072203 0.00000419514851270
+cor1    100  0.7973281 0.00000002791826298
+cor2    150  0.8449761 0.00000000062347696
+cor3    200  0.8733220 0.00000000003349166
+cor4    250  0.8680142 0.00000000006089560</code></pre>
+</div>
+</div>
+<p>The table above shows the correlation values (column 2) and p-values (column 3) between forest cover and species richness for each scale. Let’s create a graph to make the result easier to visualize:</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb11" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1">plot1 <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span></span>
+<span id="cb11-2">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">ggplot</span>(resultados, <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">aes</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">x =</span> Escala, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">y =</span> Correlacao)) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb11-3">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">geom_line</span>() <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb11-4">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">geom_point</span>() <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb11-5">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">labs</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">x =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Scale size (m)"</span>,</span>
+<span id="cb11-6">       <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">y =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Pearson correlation value (r) </span></span>
+<span id="cb11-7"><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">between richness and forest cover"</span>) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb11-8">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">theme_bw</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">base_size =</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">16</span>) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb11-9">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">theme</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">panel.grid =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">element_blank</span>(),</span>
+<span id="cb11-10">        <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">panel.border =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">element_rect</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">colour =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"black"</span>),</span>
+<span id="cb11-11">        <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">plot.margin =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">margin</span>(<span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0.5</span>, <span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1.5</span>, <span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0.5</span>, <span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1.5</span>, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"cm"</span>))</span>
+<span id="cb11-12">plot1</span></code></pre></div></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="https://ivana-cardoso.github.io/en/posts/scale_of_effect/index_files/figure-html/unnamed-chunk-7-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Note that the scale at which the correlation between richness and forest cover had the highest value was 200 meters. Remember that each point represents a scale at 50-meter intervals. Therefore, the fourth point, which is the highest, represents the 200-meter scale.</p>
+</section>
+<section id="conclusion" class="level3">
+<h3 class="anchored" data-anchor-id="conclusion">Conclusion</h3>
+<p>As I mentioned earlier, there are different ways to determine the scale of effect, depending on the research goal and the analysis used. Therefore, the first step is to choose the most appropriate analysis, considering the question, the data collected, and the study design. Then, we apply this analysis at different scales and identify the one at which the relationship between the response and predictor variables is strongest, that is, <strong>the scale of effect.</strong></p>
+<p>I hope this post has helped you understand what the scale of effect is and how to calculate it. Thank you for following along this far, and I wish you success in your future analyses!</p>
+<p>Until next time!</p>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>R</category>
+  <category>landscape ecology</category>
+  <guid>https://ivana-cardoso.github.io/en/posts/scale_of_effect/</guid>
+  <pubDate>Sun, 16 Feb 2025 03:00:00 GMT</pubDate>
+  <media:content url="https://ivana-cardoso.github.io/en/posts/scale_of_effect/capa.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Reflections of a woman in field research</title>
+  <dc:creator>Ivana Cardoso</dc:creator>
+  <link>https://ivana-cardoso.github.io/en/posts/field_research_reflections/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Anyone who thinks that doing fieldwork (in some situations, like ours) is just a matter of enduring months without electricity, a shower, or a refrigerator is mistaken. Fieldwork also involves dealing with situations and people, and this can teach a lot about emotional and social intelligence and interpersonal relationships. Today’s text will address a bit of what I faced as a woman leading a research project.</p>
+<p>If you are a woman, you probably already have an idea of what I am going to describe in the lines below. Unfortunately, this is something so common and so deeply rooted in our culture that I am sure that, if you have not faced it yourself, you know someone who has. Here, I am referring to sexism in the workplace, specifically in fieldwork.</p>
+<p>The first time I came across this was three years ago, when a field assistant refused to work with us because there were only two women on the team. He believed he would have to work twice as hard, carrying materials, for example. At that moment, I was very upset, but I knew that Rayssa, my collaborator and friend, and I worked better than many men out there. That situation passed; we found another assistant and collected the data, all good… Or at least that is what I thought, until I started collecting data for my PhD.</p>
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><img src="https://ivana-cardoso.github.io/en/posts/field_research_reflections/montagem_redes.jpg" class="img-fluid figure-img" style="width:50.0%"></p>
+<figcaption>Three years ago, Rayssa and I setting up mist nets to capture understory birds in eucalyptus plantations in southern Bahia.</figcaption>
+</figure>
+</div>
+<p>In the 11 months since the start of data collection, we have worked with many different people. Some were excellent and very kind, but others not so much. Some did not want to contribute to the daily tasks of the camp, such as washing dishes or cooking; others did not respect my leadership and planning, going against my decisions in front of the team or belittling my knowledge of the study area.</p>
+<p>Uncomfortable comments also came from colleagues who, faced with difficulties of access in certain areas, said we would not be able to make it, since we were two women, while they, two men, had not been able to get in (we did, in fact, get in!).</p>
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><img src="https://ivana-cardoso.github.io/en/posts/field_research_reflections/IMG-20240217.jpg" class="img-fluid figure-img" style="width:50.0%"></p>
+<figcaption>Rayssa and I organizing one of the camps on the lake of the Balbina Hydroelectric Dam, in Amazonas, where we spent approximately 25 days in the conditions mentioned above.</figcaption>
+</figure>
+</div>
+<p>During this time, these and other situations made me realize that a woman has to do more than a man to be seen and admired. If she does the same, she goes unnoticed, and if she does less, it is simply what is expected. There was even a time when we went to a very isolated area, the Uatumã Grid. To get there, you have to paddle and push the boat up the <em>igarapé</em> (a small Amazonian stream), and then walk many kilometers to reach the plot. At that time, the <em>igarapé</em> was so dry that we could only set up camp 7 km from the plot, so we had to walk about 14 km every day, carrying our materials just to go to and from the camp. At the end of a day of sampling, after returning to camp, we still had to hear: “You must be tired, right? It’s already hard for me, and I’m a man; imagine for you.”</p>
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><img src="https://ivana-cardoso.github.io/en/posts/field_research_reflections/IMG-20230918.jpg" class="img-fluid figure-img" style="width:50.0%"></p>
+<figcaption>On another occasion, our team pushing the boat to reach another study area, on the Balbina Hydroelectric Dam lake.</figcaption>
+</figure>
+</div>
+<p>I do not think all of these situations happened out of malice. We are dealing with different people, raised in different realities and eras. In addition, the field in which we work is somewhat atypical, and conditions can be stressful, especially because of living together 24 hours a day, for almost 25 days per field campaign.</p>
+<p>These experiences taught me that, despite the difficulties, our competence does not need the validation of those who do not believe in us. Each challenge overcome became proof that we are capable of accomplishing everything we set out to do, regardless of the barriers imposed. Today, looking back, I see how much these situations have made me stronger. I continue to lead my fieldwork, trusting my knowledge and my skills, with a team that respects and believes in the work we do. The road is hard, and there are days when it is harder to “swallow my pride,” but we keep going.</p>
+<p>In the end, what matters is that, with the support of many dear people, we will finish our data collection and remember the good moments. After all, nobody does anything alone.</p>
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><img src="https://ivana-cardoso.github.io/en/posts/field_research_reflections/anilhando.jpg" class="img-fluid figure-img" style="width:50.0%"></p>
+<figcaption>Nobody does anything alone</figcaption>
+</figure>
+</div>
+
+
+
+ ]]></description>
+  <category>academic life</category>
+  <category>personal account</category>
+  <guid>https://ivana-cardoso.github.io/en/posts/field_research_reflections/</guid>
+  <pubDate>Mon, 23 Sep 2024 03:00:00 GMT</pubDate>
+  <media:content url="https://ivana-cardoso.github.io/en/posts/field_research_reflections/capa.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Lessons and inspirations from a summer course</title>
+  <dc:creator>Ivana Cardoso</dc:creator>
+  <link>https://ivana-cardoso.github.io/en/posts/summer_course_report/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Located on the <a href="https://en.wikipedia.org/wiki/Mid-Atlantic_Ridge">Mid-Atlantic Ridge</a>, the <a href="https://en.wikipedia.org/wiki/Azores">Azores archipelago</a> is made up of nine volcanic islands, formed in the late Tertiary. Among them is <a href="https://en.wikipedia.org/wiki/Terceira_Island">Terceira Island</a>, which emerged about 3.52 million years ago and has an area of approximately 402 km². One of Terceira’s municipalities is <a href="https://en.wikipedia.org/wiki/Angra_do_Hero%C3%ADsmo">Angra do Heroísmo</a>, which is today a UNESCO World Heritage Site.</p>
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><img src="https://ivana-cardoso.github.io/en/posts/summer_course_report/20240721_angra.jpg" class="img-fluid figure-img" style="width:60.0%"></p>
+<figcaption>Angra do Heroísmo, personal archive</figcaption>
+</figure>
+</div>
+<p>Between the end of July and the beginning of August 2024, this municipality welcomed students from many parts of the world to take part in the summer course <a href="https://gba.uac.pt/training/ver.php?id=8"><em>Island Biogeography and Macroecology</em></a>. I was one of those students, the only Brazilian and one of three people from the Global South. It is about this experience that I will write in the lines below.</p>
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><img src="https://ivana-cardoso.github.io/en/posts/summer_course_report/20240802_group_photo.jpg" class="img-fluid figure-img" style="width:60.0%"></p>
+<figcaption>Course students and instructors, shared course archive</figcaption>
+</figure>
+</div>
+<p>On July 19, 2024, I left Manaus, Amazonas, and, as my co-advisor says, <em>took off on the wings of science</em> for my first academic experience outside Brazil. At that moment, I had no idea how much my worldview would be broadened and how much I would be inspired.</p>
+<p>Starting on July 22, the course began and we had classes with professors at the frontier of knowledge. We discussed ecological and evolutionary theories, explored the processes that shape island communities, and learned about methods and tools for calculating different dimensions of diversity.</p>
+<p>In addition to lectures, we also had a field class, where we learned methods for collecting arthropods, pollinators, and bryophytes. We got to know new environments, such as the <a href="https://en.wikipedia.org/wiki/Laurisilva">laurel forest (Laurisilva)</a>, and learned to recognize endemic species, such as <a href="https://azoresbioportal.uac.pt/pt/especies-dos-acores/erica-azorica-10091/a"><em>Erica azorica</em></a>, <a href="https://azoresbioportal.uac.pt/pt/especies-dos-acores/laurus-azorica-10116/"><em>Laurus azorica</em></a>, and <a href="https://azoresbioportal.uac.pt/pt/especies-dos-acores/juniperus-brevifolia-brevifolia-6423/"><em>Juniperus brevifolia</em></a>, and invasive ones, such as <a href="https://azoresbioportal.uac.pt/pt/especies-dos-acores/hedychium-gardnerianum-6413/"><em>Hedychium gardnerianum</em></a> and <a href="https://azoresbioportal.uac.pt/pt/especies-dos-acores/hydrangea-macrophylla-6519/"><em>Hydrangea macrophylla</em></a>, which surprisingly cover large areas on Terceira.</p>
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><img src="https://ivana-cardoso.github.io/en/posts/summer_course_report/20240728_SLAM_trap.jpg" class="img-fluid figure-img" style="width:60.0%"></p>
+<figcaption>Permanent plot with SLAM traps, personal archive</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><img src="https://ivana-cardoso.github.io/en/posts/summer_course_report/20240728_polinator.jpg" class="img-fluid figure-img" style="width:60.0%"></p>
+<figcaption>Pollinator traps, personal archive</figcaption>
+</figure>
+</div>
+<p>In the course, I not only gained knowledge and tools that will raise the quality of my PhD project, but I was also inspired by the projects of incredible people who are also dedicated to understanding and defending biodiversity in different parts of the world. We shared experiences, cultures, and ideas, as well as solutions to challenges common to our research. It was fascinating to see how, even in a field as specific as island biogeography, there is such a richness of topics and perspectives.</p>
+<p>The professors gave us inspiring words, stressing the importance of the new generation of scientists and the need for persistence in the face of the adversities of science. One message that stayed with me was that, even in the face of difficulties, perseverance is essential.</p>
+<p>Before setting off on this journey, I was accompanied by fear of the unknown and by insecurity. However, by taking part in the course, I experienced a transformative personal and professional impact that I would not have had otherwise.</p>
+<p>I am writing this post to record this experience and also to thank everyone in my support network who shared this joy with me, and the <a href="http://www.ppginpa.eco.br/index.php/pt-br/">PPGECO</a> (Graduate Program in Ecology) at INPA, which made it possible for me to take part in the course.</p>
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><img src="https://ivana-cardoso.github.io/en/posts/summer_course_report/20240802_project.jpg" class="img-fluid figure-img" style="width:60.0%"></p>
+<figcaption>Project presentation, personal archive</figcaption>
+</figure>
+</div>
+
+
+
+ ]]></description>
+  <category>academic life</category>
+  <category>personal account</category>
+  <guid>https://ivana-cardoso.github.io/en/posts/summer_course_report/</guid>
+  <pubDate>Tue, 06 Aug 2024 03:00:00 GMT</pubDate>
+  <media:content url="https://ivana-cardoso.github.io/en/posts/summer_course_report/20240803_flight.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>The role of the matrix in modified landscapes</title>
+  <dc:creator>Ivana Cardoso</dc:creator>
+  <link>https://ivana-cardoso.github.io/en/posts/matrix/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+
+<div class="no-row-height column-margin column-container"><div class="">
+<div style="border: 2px solid #ccc; padding: 10px;width: 150%;">
+<h4 style="margin-top: 0;" class="anchored"><b>Glossary</b></h4>
+<b> 1. Habitat </b> - An environment with the conditions and resources necessary for the survival, establishment, and reproduction of a specific organism.
+<br>
+<b> 2. Complementary habitat </b> - An environment with the conditions and resources needed to complete a species' life cycle.
+<br>
+<b> 3. Supplementary habitat </b> - An additional environment that provides extra resources, which are not essential to a species' life cycle.
+<br>
+<b> 4. Matrix </b> - The environment adjacent to habitat fragments, such as pasture or secondary forests. 
+<br>
+<b> 5. Edge </b> - The area where the fragment and the matrix meet.
+<br>
+<b> 6. Edge effects </b> - Changes in biotic and abiotic conditions at the edges that influence species and ecological processes.
+<br>
+<b> 7. <i> Stepping stones</i> </b> - Intermediate areas that work as "stepping stones" connecting main habitats or larger fragments, such as small forest patches.
+</div>
+</div></div><p>The expansion of human activities has increasingly led to the loss and fragmentation of different natural environments (e.g., forests, mangroves, grasslands) that are habitat for many species. Activities such as agriculture and livestock farming, the overexploitation of natural resources, and even urban expansion are ubiquitous (see <a href="https://www.nature.com/articles/536143a">Maxwell et al., 2016</a>) and affect species in different ways.</p>
+<p>While habitat loss is characterized by a reduction in the total amount of habitat available to species, fragmentation is the division of that habitat into smaller fragments without changing the total amount of habitat available in the landscape (<a href="https://www.annualreviews.org/content/journals/10.1146/annurev.ecolsys.34.011802.132419">Fahrig, 2003</a>).</p>
+<p>These two processes often occur simultaneously, transforming landscapes of continuous natural habitat into modified landscapes made up of habitat fragments surrounded by a different environment, known as the matrix (Fig. 1; <a href="https://www.science.org/doi/full/10.1126/sciadv.1500052">Haddad et al., 2015</a>). Understanding the role of the matrix in these modified landscapes is crucial for developing effective conservation strategies that integrate biodiversity preservation with tangible economic benefits for people.</p>
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><img src="https://ivana-cardoso.github.io/en/posts/matrix/landscape_itens.jpg" class="img-fluid figure-img" style="width:60.0%"></p>
+<figcaption>Fig. 1: Elements that make up a modified landscape.</figcaption>
+</figure>
+</div>
+<p>The matrix, also called non-habitat, is the environment adjacent to the fragments and can have different degrees of structural similarity to them (Fig. 2). The type of matrix surrounding the fragments is important (<a href="https://link.springer.com/article/10.1007/s10531-009-9750-z">Prevedello and Vieira, 2010</a>) because the more structurally similar the matrix is to the fragments (e.g., secondary forests, tree plantations), the higher its quality. Factors such as vegetation type, degree of human disturbance, and the presence of natural elements, such as riparian corridors, influence this quality.</p>
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><img src="https://ivana-cardoso.github.io/en/posts/matrix/similaridade_estrutural.jpg" class="img-fluid figure-img" style="width:90.0%"></p>
+<figcaption>Fig. 2: Structural similarity between the matrix and the fragments</figcaption>
+</figure>
+</div>
+<p>Depending on its quality, the matrix can:</p>
+<ul>
+<li>
+Influence the movement of species across the landscape
+</li>
+<li>
+Act as supplementary or complementary habitat for species
+</li>
+<li>
+Mitigate or intensify edge effects
+</li>
+<li>
+Serve as a source of species
+</li>
+<li>
+Influence the provision of ecosystem services
+</li>
+</ul>
+<section id="species-movement-across-the-landscape" class="level4">
+<h4 class="anchored" data-anchor-id="species-movement-across-the-landscape">Species movement across the landscape</h4>
+<p>Species movement is directly linked to landscape connectivity. Connectivity, in turn, is influenced by the quality of the matrix surrounding forest fragments and by the presence of natural and semi-natural structures that facilitate movement, such as smaller fragments, trees scattered across the matrix, hedgerows, and corridors. If the matrix is structurally contrasting (i.e., of low quality), such as pasture, and there are no <em>stepping stones</em>, the movement of forest species is limited (<a href="https://www.sciencedirect.com/science/article/pii/S0006320720309563?casa_token=FwK3PZ2kB2IAAAAA:UmQOBP51z4xWrXeu0EsrO2sU1hiSmMrQwmvCFrMVsu1g0kHkc33y6UgUUM_Ks4FcfBHxNEI4MBg">Boesing et al., 2021</a>).</p>
+<p>This happens because many forest bird species avoid crossing open areas (see <a href="https://esajournals.onlinelibrary.wiley.com/doi/abs/10.2307/2265818">Stouffer and Bierregaard, 1995</a>). Open matrices pose a higher risk of predation due to the lack of protective cover and the greater density of predators (<a href="https://www.sciencedirect.com/science/article/pii/S1679007316301530">Biz et al., 2017</a>). For this reason, in these matrices birds tend to move quickly and take direct paths toward the nearest forest fragment. In contrast, in matrices that are more similar to the fragments, such as tree plantations, birds stay longer and make greater use of the available resources (see <a href="https://www.sciencedirect.com/science/article/pii/S1679007316301530">Biz et al., 2017</a>).</p>
+</section>
+<section id="supplementary-andor-complementary-habitat-for-species" class="level4">
+<h4 class="anchored" data-anchor-id="supplementary-andor-complementary-habitat-for-species">Supplementary and/or complementary habitat for species</h4>
+<p>A species may seek supplementary and/or complementary habitat for several reasons, since these habitats offer a variety of resources, such as food, nesting sites, and shelter. Among these reasons is the fact that, when habitat is altered, a species can still survive by using other available habitats. Thus, using multiple habitats increases a species’ resilience to these changes.</p>
+<p>For forest birds, understory vegetation is considered an important predictor of the diversity of this group (<a href="https://www.cambridge.org/core/journals/bird-conservation-international/article/changes-in-bird-communities-following-conversion-of-lowland-forest-to-oil-palm-and-rubber-plantations-in-southern-thailand/69E82B0976E48415F8FE2B9FC6C0555E">Aratrakorn et al., 2006</a>), because it is where many birds can find food, shelter, and nesting sites. Therefore, matrices that are more structurally similar to the fragments and have more understory will support greater bird diversity (see <a href="https://link.springer.com/10.1007/s10980-023-01601-5">Cardoso et al., 2023</a>). In contrast, matrices that are structurally more different will offer fewer resources, which may result in lower bird diversity in forest fragments surrounded by these matrices (<a href="https://linkinghub.elsevier.com/retrieve/pii/S2530064417300172">de Camargo Barbosa et al., 2017</a>).</p>
+</section>
+<section id="edge-effects" class="level4">
+<h4 class="anchored" data-anchor-id="edge-effects">Edge effects</h4>
+<p>The matrix surrounding the fragments can also influence the intensity of edge effects that penetrate the fragments, depending on its structural similarity to them. If the matrix is structurally similar, the intensity of edge effects may be reduced. Edge effects, such as microclimatic changes, tree mortality, and edge avoidance by understory birds, are all reduced when fragments are surrounded by regenerating secondary forests, compared with fragments surrounded by pasture (see <a href="https://onlinelibrary.wiley.com/doi/10.1111/brv.12343">Laurance et al., 2017</a>).</p>
+<p>When the matrix is structurally dissimilar and edge effects are intensified, many species cannot tolerate the new abiotic and biotic conditions in the fragments and disappear. An example is the fragments of the Biological Dynamics of Forest Fragments Project (BDFFP), where many understory insectivorous forest birds disappeared when the fragments were surrounded by pasture, but returned when the matrix became regenerating <em>Cecropia</em> secondary forest (see <a href="https://esajournals.onlinelibrary.wiley.com/doi/abs/10.2307/2265818">Stouffer and Bierregaard, 1995</a>).</p>
+</section>
+<section id="source-of-species" class="level4">
+<h4 class="anchored" data-anchor-id="source-of-species">Source of species</h4>
+<p>Just as forest fragments (i.e., forest) are habitat for some species, the surrounding matrix may be the habitat of others. For example, forest is the habitat of the <a href="https://www.wikiaves.com/wiki/papa-formiga-de-topete">white-plumed antbird</a>, while grasslands are the habitat of the <a href="https://www.wikiaves.com/wiki/tico-tico-do-campo">grassland sparrow</a>. There are also habitat generalist birds, such as the <a href="https://www.wikiaves.com/wiki/corruira">southern house wren</a>, which can live in more than one type of habitat.</p>
+<p>When the environment is altered and the matrix is imposed, a new environment is created where the matrix and the fragment meet, called the edge. The edge can be an area of higher species richness, as it can receive species from both the matrix and the fragment interior (see <a href="https://esajournals.onlinelibrary.wiley.com/doi/full/10.1890/0012-9658%282007%2988%5B96%3ASIBEAA%5D2.0.CO%3B2?casa_token=bY0GyaY2xBYAAAAA%3AHwbA7A20YfB1cDTEcuL58iNhgLG20KQdPVJmXavFWmKV2RdmqfwANAAr9Z1Q6z7_3xrk9v7y70qSpFM">Ewers et al., 2007</a>; <a href="https://doi.org/10.1016/S0378-1127(00)00654-X">Magura, 2002</a>). However, other scenarios are possible at the edge, depending on the similarity between the matrix and the fragments.</p>
+<p>In some cases, the edge initially has higher richness, but over time, species that cannot tolerate the conditions (i.e., edge effects) in this environment disappear and are replaced by more adapted species (<a href="https://doi.org/10.1007/s10531-016-1056-3">Russildi et al., 2016</a>). These scenarios can occur when the matrix is pasture, as in the studies cited above.</p>
+<p>On the other hand, it is also possible for sensitive species to disappear without being replaced, resulting in an impoverished edge. This is expected when the matrix is even more dissimilar and hostile to species, as in the case of an aquatic matrix (<a href="https://doi.org/10.1046/j.1365-2699.2002.00726.x">Watson, 2002</a>).</p>
+</section>
+<section id="ecosystem-services" class="level4">
+<h4 class="anchored" data-anchor-id="ecosystem-services">Ecosystem services</h4>
+<p>Birds provide several ecosystem services. For example, insectivorous birds help control pests, frugivorous birds disperse seeds, and nectarivorous birds contribute to pollination.</p>
+<p>In fragments surrounded by different matrices, edge conditions vary, which influences the provision of these ecosystem services by birds.</p>
+<p>Fragments surrounded by pasture show greater structural contrast, with edges more exposed to light. These conditions may favor certain plants that offer greater availability of fruits and flowers, attracting more frugivorous and nectarivorous birds. These birds, in turn, provide seed dispersal and pollination. On the other hand, when fragments are surrounded by matrices that are more similar to the fragment, such as eucalyptus plantations, there may be a redundancy of resources. In this case, the resources available in the forest will also be present in the matrix, which may not result in a significant increase in the provision of ecosystem services (see <a href="https://link.springer.com/article/10.1007/s10980-019-00812-z">Barros et al., 2019</a>). <br></p>
+</section>
+<section id="how-can-we-increase-matrix-quality" class="level4">
+<h4 class="anchored" data-anchor-id="how-can-we-increase-matrix-quality">How can we increase matrix quality?</h4>
+<p><a href="https://onlinelibrary.wiley.com/doi/10.1111/ele.13535">Arroyo-Rodriguez et al.&nbsp;(2020)</a> suggest that, to increase matrix quality, it is necessary to maintain less contrasting matrices, such as agroforests and secondary forests, as well as to preserve scattered trees in the matrix and maintain a large number of small fragments. This will facilitate species movement across the landscape, minimize edge effects, and promote the use of the matrix by forest species.</p>
+<p>In this same article, the authors show how it is possible to plan landscapes that pursue both biodiversity conservation and benefits for us. One example is the presence of agroforestry matrices, such as <a href="https://www.parquedasaves.com.br/blog/conheca-a-cabruca-cultivo-de-cacau-que-protege-a-mata-atlantica/">cabrucas</a> (shade-grown cacao agroforests in Brazil’s Atlantic Forest), in modified landscapes. In addition to contributing to biodiversity conservation, these matrices also bring profit to producers.</p>
+</section>
+<section id="conclusion" class="level3">
+<h3 class="anchored" data-anchor-id="conclusion">Conclusion</h3>
+<p>The matrix plays a crucial role in fragmented landscapes. Its quality can significantly influence the richness, composition, and movement of species across the landscape, as well as the provision of ecosystem services. Considering the matrix as a key element in conservation strategies is essential for creating resilient and sustainable landscapes.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>landscape ecology</category>
+  <category>anthropogenic habitat change</category>
+  <category>biodiversity conservation</category>
+  <guid>https://ivana-cardoso.github.io/en/posts/matrix/</guid>
+  <pubDate>Thu, 18 Jul 2024 03:00:00 GMT</pubDate>
+  <media:content url="https://ivana-cardoso.github.io/en/posts/matrix/fragmented_landscape.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Como calcular a composição da paisagem no R?</title>
+  <dc:creator>Ivana Cardoso</dc:creator>
+  <link>https://ivana-cardoso.github.io/en/posts/landscape_composition/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p><a href="https://www.scielo.br/j/bn/a/Jbchd6rjY35PGkY5BHPz63S/">Em ecologia de paisagens</a>, uma paisagem pode ser definida como um mosaico de usos do solo que interagem entre si em uma determinada escala, e pode ser caracterizada por sua composição e configuração. A composição da paisagem diz respeito a quantidade dos diferentes elementos na paisagem, enquanto a configuração diz respeito ao arranjo espacial desses elementos.</p>
+<p>Por exemplo, a cobertura florestal é uma medida de composição da paisagem que representa a quantidade de floresta, geralmente expressa em porcentagem, dentro da paisagem. Maior cobertura florestal pode indicar maior diversidade de espécies e disponibilidade de recursos <a href="https://onlinelibrary.wiley.com/doi/epdf/10.1111/ele.13535">(revisado por Arroyo-Rodríguez et al., 2020)</a>. Já o número de fragmentos é uma medida de configuração da paisagem que representa o nível de fragmentação dessa paisagem. Para um determinado valor de habitat, mais fragmentos podem facilitar a movimentação das espécies <a href="https://onlinelibrary.wiley.com/doi/epdf/10.1111/ele.13535">(revisado por Arroyo-Rodríguez et al., 2020)</a>.</p>
+<p>A escala em que a composição e a configuração da paisagem são calculadas influencia fortemente a relação das espécies com a paisagem. Por isso, é indicado fazer uma análise multi-escalar para selecionar uma escala, chamada <a href="https://onlinelibrary.wiley.com/doi/pdf/10.1111/geb.12233">escala de efeito</a>, que produza a relação mais forte entre sua variável resposta relacionada às espécies e sua variável preditora relacionada à paisagem. Por exemplo, em um estudo com aves foi utilizada uma análise multi-escalar para avaliar a relação entre <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/jbi.13499">número de espécies e quantidade de habitat disponível</a> na paisagem.</p>
+<p>No post de hoje, vamos aprender a calcular a composição da paisagem no software R utilizando o pacote <a href="https://r-spatialecology.github.io/landscapemetrics/index.html">landscapemetrics</a>. Para isso, utilizaremos, para fins didáticos, poucas paisagens e apenas uma escala de 2000 m. No entanto, lembre-se de avaliar se uma análise multi-escalar seria adequada para o seu caso.</p>
+<p>A área de estudo que escolhi foi a <a href="https://ppbio.inpa.gov.br/sitios/RDS_Rio_Negro">Reserva de Desenvolvimento Sustentável (RDS) do Rio Negro</a>, no Amazonas. Então, baixei o raster de cobertura e uso do solo da área no <a href="https://brasil.mapbiomas.org/colecoes-mapbiomas/">MAPBIOMAS</a> para o ano de 2022 (coleção 8). O arquivo está disponível no meu <a href="https://github.com/Ivana-Cardoso/Ivana-Cardoso.github.io/tree/main/posts/Composicao_paisagem">GitHub</a>, mas caso prefira baixar diretamente do site original, sugiro utilizar o <a href="https://www.youtube.com/watch?v=OBqaoSuLGbk&amp;ab_channel=MapBiomasBrasil">Toolkit</a> no Google Engine e prestar atenção ao Sistema de Referência de Coordenadas (CRS) escolhido.</p>
+<section id="calculando-a-composição-da-paisagem" class="level2">
+<h2 class="anchored" data-anchor-id="calculando-a-composição-da-paisagem">Calculando a composição da paisagem</h2>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Baixe os pacotes necessarios</span></span>
+<span id="cb1-2"><span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">if</span> (<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">!</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">requireNamespace</span>(<span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">c</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"terra"</span>, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"landscapemetrics"</span>, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"sf"</span>), <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">quietly =</span> <span class="cn" style="color: #8f5902;
+background-color: null;
+font-style: inherit;">TRUE</span>)) {</span>
+<span id="cb1-3">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">install.packages</span>(<span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">c</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"terra"</span>, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"landscapemetrics"</span>, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"sf"</span>))</span>
+<span id="cb1-4">}</span>
+<span id="cb1-5"></span>
+<span id="cb1-6"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Carregue os pacotes necessarios</span></span>
+<span id="cb1-7"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">library</span>(terra)</span>
+<span id="cb1-8"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">library</span>(landscapemetrics)</span>
+<span id="cb1-9"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">library</span>(sf)</span></code></pre></div></div>
+</div>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode r code-overflow-wrap code-with-copy"><code class="sourceCode r"><span id="cb2-1"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Defina seu diretorio</span></span>
+<span id="cb2-2"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">setwd</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"C:/Users/ivana/OneDrive/Ivana-Cardoso.github.io/posts/Composicao_paisagem"</span>) <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Nao esqueca de mudar para a pasta onde voce ira salvar o raster baixado</span></span></code></pre></div></div>
+</div>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Importe o raster</span></span>
+<span id="cb3-2"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Você pode baixa-lo em:</span></span>
+<span id="cb3-3"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># https://github.com/Ivana-Cardoso/Ivana-Cardoso.github.io/raw/main/posts/Composicao_paisagem/RDS_Rio_Negro.tif</span></span>
+<span id="cb3-4">RDS <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">rast</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"RDS_Rio_Negro.tif"</span>)</span>
+<span id="cb3-5"></span>
+<span id="cb3-6"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Veja qual o Sistema de Referencia de Coordenadas do raster</span></span>
+<span id="cb3-7"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">crs</span>(RDS)</span></code></pre></div></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "PROJCRS[\"WGS 84 / UTM zone 20S\",\n    BASEGEOGCRS[\"WGS 84\",\n        DATUM[\"World Geodetic System 1984\",\n            ELLIPSOID[\"WGS 84\",6378137,298.257223563,\n                LENGTHUNIT[\"metre\",1]]],\n        PRIMEM[\"Greenwich\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433]],\n        ID[\"EPSG\",4326]],\n    CONVERSION[\"UTM zone 20S\",\n        METHOD[\"Transverse Mercator\",\n            ID[\"EPSG\",9807]],\n        PARAMETER[\"Latitude of natural origin\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8801]],\n        PARAMETER[\"Longitude of natural origin\",-63,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8802]],\n        PARAMETER[\"Scale factor at natural origin\",0.9996,\n            SCALEUNIT[\"unity\",1],\n            ID[\"EPSG\",8805]],\n        PARAMETER[\"False easting\",500000,\n            LENGTHUNIT[\"metre\",1],\n            ID[\"EPSG\",8806]],\n        PARAMETER[\"False northing\",10000000,\n            LENGTHUNIT[\"metre\",1],\n            ID[\"EPSG\",8807]]],\n    CS[Cartesian,2],\n        AXIS[\"(E)\",east,\n            ORDER[1],\n            LENGTHUNIT[\"metre\",1]],\n        AXIS[\"(N)\",north,\n            ORDER[2],\n            LENGTHUNIT[\"metre\",1]],\n    USAGE[\n        SCOPE[\"Navigation and medium accuracy spatial referencing.\"],\n        AREA[\"Between 66°W and 60°W, southern hemisphere between 80°S and equator, onshore and offshore. Argentina. Bolivia. Brazil. Falkland Islands (Malvinas). Paraguay.\"],\n        BBOX[-80,-66,0,-60]],\n    ID[\"EPSG\",32720]]"</code></pre>
+</div>
+</div>
+<p>O nosso raster está no datum WGS-84, no formato de saída UTM, zona 20, hemisfério sul. É importante atentar para o formato de saída, pois queremos que as unidades do mapa sejam metros, e não graus. Isso facilita a compreensão do tamanho das nossas paisagens. É mais intuitivo entender que o tamanho das paisagens é de 2000 m do que 0.018 graus, não é? <br> Lembre-se de verificar a <a href="https://forest-gis.com/2016/06/um-pouco-sobre-a-projecao-utm.html/">zona UTM</a> da sua ára de estudo e garantir que seu raster esteja na projeção correta. <br></p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb5" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Cheque o raster</span></span>
+<span id="cb5-2"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">check_landscape</span>(RDS) </span></code></pre></div></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>  layer       crs units   class n_classes OK
+1     1 projected     m integer         9  ✔</code></pre>
+</div>
+</div>
+<p>Observe que nossas unidades estão em metros (coluna ‘units’), nosso raster possui nove classes (coluna ‘n_classes’) de uso e cobertura do solo, e que o valor dessas classes é especificado por números inteiros (coluna ‘class’). <br></p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb7" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Crie as coordenadas centrais das paisagens</span></span>
+<span id="cb7-2">coordenadas <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">data.frame</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">X =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">c</span>(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">774310</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">757581</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">745481</span>),</span>
+<span id="cb7-3">                          <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">Y =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">c</span>(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">9658335</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">9670747</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">9688402</span>))</span>
+<span id="cb7-4"></span>
+<span id="cb7-5"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Identifique as paisagens</span></span>
+<span id="cb7-6">coordenadas<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">$</span>id <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">c</span>(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">3</span>)</span>
+<span id="cb7-7"></span>
+<span id="cb7-8"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Transforme a tabela de coordenadas em pontos espaciais</span></span>
+<span id="cb7-9">pontos <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">st_as_sf</span>(coordenadas, </span>
+<span id="cb7-10">                        <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">coords =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">c</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"X"</span>, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Y"</span>), <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">crs =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">crs</span>(RDS)) </span></code></pre></div></div>
+</div>
+<p>Se você quiser visualizar seus dados <strong>diretamente</strong> no R antes de iniciar as análises, você pode utilizar os comandos abaixo:</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb8" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Crie as paisagens de 2000 m</span></span>
+<span id="cb8-2">paisagens <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">st_buffer</span>(pontos, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">dist =</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2000</span>)</span>
+<span id="cb8-3"></span>
+<span id="cb8-4"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Visualize os dados</span></span>
+<span id="cb8-5"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">plot</span>(RDS, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">col=</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">gray.colors</span>(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">34</span>))</span>
+<span id="cb8-6"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">points</span>(coordenadas, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">pch =</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">16</span>)</span>
+<span id="cb8-7"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">plot</span>(paisagens, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">add =</span> <span class="cn" style="color: #8f5902;
+background-color: null;
+font-style: inherit;">TRUE</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">color=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"black"</span>) </span></code></pre></div></div>
+</div>
+<p><img src="https://ivana-cardoso.github.io/en/posts/landscape_composition/RDS.png" class="img-fluid" style="width:60.0%"></p>
+<p>Eu criei esse mapa no QGIS v.3.34.3, mas ele é essencialmente o mesmo do mapa gerado a partir dos comandos acima, com exceção das cores. Eu escolhi fazer no QGIS apenas para mudar as cores sem incluir e dificultar o código com ações que não são o objetivo desse tutorial. Os pontos das nossas coordenadas estão representadas no mapa pela bolinha preta com contorno branco e as paisagens de 2000 m estão representadas pelo círculo tracejado.</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb9" style="background: #f1f3f5;"><pre class="sourceCode r code-overflow-wrap code-with-copy"><code class="sourceCode r"><span id="cb9-1"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Calcule a composição da paisagem</span></span>
+<span id="cb9-2">composicao <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> landscapemetrics<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">::</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">sample_lsm</span>(RDS, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">y =</span> pontos, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">size =</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2000</span>,</span>
+<span id="cb9-3">                                           <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">shape =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"circle"</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">plot_id =</span> pontos<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">$</span>id,</span>
+<span id="cb9-4">                                           <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">what =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"lsm_c_pland"</span>)</span></code></pre></div></div>
+</div>
+<p>Para amostrar paisagens em uma determinada escala ao redor de pontos de interesse utilizamos a função <a href="https://r-spatialecology.github.io/landscapemetrics/reference/sample_lsm.html">sample_lsm</a>. Dentro dessa função especificamos nosso raster (RDS), os pontos centrais de interesse (y = pontos), a escala das nossas paisagens (size = 2000), o formato das nossas paisagens (shape = “circle”), o identificador de cada paisagem (plot_id = pontos$id) e o que gostaríamos de calcular dentro dessas paisagens (“lsm_c_pland”). A função <a href="https://r-spatialecology.github.io/landscapemetrics/reference/lsm_c_pland.html?q=lsm_c_pland#ref-usage">lsm_c_pland</a> calcula a porcentagem de cada classe do raster dentro das paisagens. No nosso caso, essa função calculou a porcentagem de cada uso do solo nas paisagens.</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb10" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Visualize os resultados</span></span>
+<span id="cb10-2">composicao</span></code></pre></div></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 16 × 8
+   layer level class    id metric   value plot_id percentage_inside
+   &lt;int&gt; &lt;chr&gt; &lt;int&gt; &lt;int&gt; &lt;chr&gt;    &lt;dbl&gt;   &lt;dbl&gt;             &lt;dbl&gt;
+ 1     1 class     3    NA pland  74.4          1              102.
+ 2     1 class     6    NA pland   6.75         1              102.
+ 3     1 class    11    NA pland   1.23         1              102.
+ 4     1 class    12    NA pland   0.0352       1              102.
+ 5     1 class    15    NA pland   0.458        1              102.
+ 6     1 class    33    NA pland  17.2          1              102.
+ 7     1 class     3    NA pland  97.8          2              102.
+ 8     1 class     6    NA pland   1.06         2              102.
+ 9     1 class    15    NA pland   0.810        2              102.
+10     1 class    33    NA pland   0.374        2              102.
+11     1 class     3    NA pland  68.1          3              102.
+12     1 class     6    NA pland   2.26         3              102.
+13     1 class    11    NA pland   2.18         3              102.
+14     1 class    12    NA pland   0.507        3              102.
+15     1 class    15    NA pland   9.73         3              102.
+16     1 class    33    NA pland  17.2          3              102.</code></pre>
+</div>
+</div>
+<p>Essa tabela mostra nossos resultados. Preste atenção na coluna três, chamada “class”, na coluna seis, chamada “value”, e na coluna sete chamada “plot_id”.</p>
+<p>A coluna três indica os valores dos pixels que representam as classes. Já que utilizamos o raster do MAPBIOMAS, temos que consultar o <a href="https://brasil.mapbiomas.org/wp-content/uploads/sites/4/2023/08/Legenda-Colecao-8-LEGEND-CODE.pdf">código de legenda</a> para entender o que é cada classe do raster.</p>
+<p>A coluna seis indica o valor, em porcentagem, de cada classe na paisagem.</p>
+<p>A coluna sete indica a qual paisagem pertencem os valores. Com nossos resultados podemos concluir que:</p>
+<p>A composição da <strong>paisagem 1</strong> é:</p>
+
+<ul>
+<li><p>74.4% de Formação Florestal (classe 3),</p></li>
+<li><p>6.75% de Floresta Alagável (classe 6),</p></li>
+<li><p>1.23% Campo Alagado e Área Pantanosa (classe 11),</p></li>
+<li><p>0.0352% de Formação Campestre (classe 12),</p></li>
+<li><p>0.458% de Pastagem (classe 15),</p></li>
+<li><p>17.2% de Rio (classe 33).</p>
+</li></ul>
+
+<p>A composição da <strong>paisagem 2</strong> é:</p>
+
+<ul>
+<li><p>97.8% de Formação Florestal (classe 3),</p></li>
+<li><p>1.06% de Floresta Alagável (classe 6),</p></li>
+<li><p>0.810% de Pastagem (classe 15),</p></li>
+<li><p>0.374% de Rio (classe 33).</p>
+</li></ul>
+
+<p>A composição da <strong>paisagem 3</strong> é:</p>
+
+<ul>
+<li><p>68.1% de Formação Florestal (classe 3),</p></li>
+<li><p>2.26% de Floresta Alagável (classe 6),</p></li>
+<li><p>2.18% Campo Alagado e Área Pantanosa (classe 11),</p></li>
+<li><p>0.507% de Formação Campestre (classe 12),</p></li>
+<li><p>9.73% de Pastagem (classe 15),</p></li>
+<li><p>17.2% de Rio (classe 33).</p>
+</li></ul>
+
+<p><img src="https://ivana-cardoso.github.io/en/posts/landscape_composition/RDS_Landscapes.png" class="img-fluid"></p>
+
+
+</section>
+
+ ]]></description>
+  <category>R</category>
+  <category>ecologia de paisagem</category>
+  <guid>https://ivana-cardoso.github.io/en/posts/landscape_composition/</guid>
+  <pubDate>Mon, 26 Feb 2024 03:00:00 GMT</pubDate>
+  <media:content url="https://ivana-cardoso.github.io/en/posts/landscape_composition/Paisagem_capa.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Women in Science: Breaking barriers and inspiring new paths</title>
+  <dc:creator>Ivana Cardoso</dc:creator>
+  <link>https://ivana-cardoso.github.io/en/posts/women_in_science/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Women have faced challenges and discrimination, especially in their pursuit of education and recognition in science. For a long time throughout history, we were considered intellectually inferior and excluded from spaces of scientific research and production.</p>
+<p>Despite the emergence of universities in the Middle Ages, such as the University of Bologna in 1088, we only gained the right to attend them in 1879, with permission from our fathers or husbands. In addition to restrictions on access to education, many women were overshadowed, and credit for their scientific work was given to men, as in the cases of <a href="https://doi.org/10.1590/1806-9126-RBEF-2022-0103">Lise Meitner</a> and <a href="https://pubs.aip.org/physicstoday/article/56/3/42/412288">Rosalind Franklin</a>.</p>
+<p>Currently, female representation in scientific research remains unequal, with only <a href="https://www.unesco.org/pt/days/women-girls-science">33% of researchers worldwide being women</a> (2023). In Brazil, <a href="https://piaui.folha.uol.com.br/cada-100-bolsistas-do-cnpq-65-sao-homens-e-35-sao-mulheres/">women account for 35% of the approximately 21,000 CNPq scholarship recipients</a> (2022). These numbers highlight the ongoing need to promote gender equality and recognize the crucial role of women in science.</p>
+<p>Today is the International Day of Women and Girls in Science. For this reason, this post aims to explore the journeys of three women scientists who challenged the norms of their time and paved the way for other women. One of them was a pioneer in data visualization, another developed the first programming language to use words, and the last was the first woman to lead a scientific institution in South America. I hope these stories inspire and encourage more women and girls to pursue their dreams and contribute to scientific and technological progress.</p>
+<section id="florence-nightingale-1820---1910" class="level2">
+<h2 class="anchored" data-anchor-id="florence-nightingale-1820---1910">Florence Nightingale (1820 - 1910)</h2>
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><img src="https://ivana-cardoso.github.io/en/posts/women_in_science/Florence-Nightingale.png" class="img-fluid figure-img" style="width:40.0%"></p>
+<figcaption>Santa Croce Firenze©</figcaption>
+</figure>
+</div>
+<p>Florence was a nurse who revolutionized the field of nursing through the first graphical representations of statistical data. She began working at the age of 33 and, after one year, was appointed head nurse during the <a href="https://pt.wikipedia.org/wiki/Guerra_da_Crimeia">Crimean War</a>.</p>
+<p>During her time in the war, she realized that better hygiene conditions in hospitals could reduce the soldiers’ mortality rate. However, convincing those in power that improving sanitary conditions would save many lives was not an easy task. Besides being a woman, she was a civilian, and her authority was independent of the Armed Forces. So, to convince them of the need for change, she turned to the numbers:</p>
+<p>When Florence arrived in February 1855, the mortality rate was 42.7%. Six months after her arrival and the implementation of her sanitary reforms, the mortality rate had dropped to 2.2%.</p>
+<p>Florence was a pioneer in the graphical representation of statistics. She invented polar area diagrams to show how many deaths could have been prevented if these sanitary measures had been implemented earlier. Below is the original figure created by Florence:</p>
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><img src="https://ivana-cardoso.github.io/en/posts/women_in_science/polar-area-diagram.png" class="img-fluid figure-img"></p>
+<figcaption>Polar area diagram</figcaption>
+</figure>
+</div>
+<p>In the diagram above, the blue areas represent preventable deaths (such as those caused by infectious diseases), the brown areas represent deaths from wounds, and the grey areas represent deaths from other causes. Note that the mortality peak occurred in January 1855, with a total of 3,168 deaths - 2,761 from infectious diseases and 83 from wounds. This diagram is included in Florence’s book <em>Notes on Matters Affecting the Health, Efficiency and Hospital Administration of the British Army</em> (1858). However, I took this information from a <a href="https://www.jstor.org/stable/24969329">paper written by Bernard Cohen in 1984</a>.</p>
+</section>
+<section id="grace-hopper-1906---1992" class="level2">
+<h2 class="anchored" data-anchor-id="grace-hopper-1906---1992">Grace Hopper (1906 - 1992)</h2>
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><img src="https://ivana-cardoso.github.io/en/posts/women_in_science/Grace-Hopper.jpg" class="img-fluid figure-img" style="width:40.0%"></p>
+<figcaption>Vassar College©</figcaption>
+</figure>
+</div>
+<p>Grace was a pioneer in computer programming and has inspired, and continues to inspire, many <a href="https://www.aauw.org/resources/research/the-stem-gap/">women in STEM</a> (Science, Technology, Engineering and Matematics), a field that is still predominantly male.</p>
+<p>In 1928, Grace graduated in Mathematics and Physics from Vassar College and became a mathematics professor at the same institution in 1931. She also earned a master’s degree (1930) and a PhD in Mathematics (1934) from Yale University.</p>
+<p>In 1939, with the beginning of World War II, she interrupted her teaching career to enlist in the U.S. Navy. There, Grace was assigned to work on <a href="https://pt.wikipedia.org/wiki/Howard_Aiken">Howard Aiken’s</a> computers, becoming the third programmer, and the only woman, to work on the <a href="https://pt.wikipedia.org/wiki/Harvard_Mark_I">Mark I</a>.</p>
+<p>She was the one who proposed the creation of a programming language entirely in English, developing the first English-language data-processing compiler. Her work not only simplified computer programming but also opened the door to a new era of accessibility in information technology.</p>
+</section>
+<section id="emilie-snethlage-1868-1929" class="level2">
+<h2 class="anchored" data-anchor-id="emilie-snethlage-1868-1929">Emilie Snethlage (1868-1929)</h2>
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><img src="https://ivana-cardoso.github.io/en/posts/women_in_science/Emilia-Snethlage.png" class="img-fluid figure-img" style="width:40.0%"></p>
+<figcaption>Museum für Naturkunde Berlin/Historische Bild-und Schriftgutsammlungen©</figcaption>
+</figure>
+</div>
+<p>Emilie was an ornithologist and naturalist, known for her work in the Amazon. She was also the first woman to lead a scientific institution in Latin America.</p>
+<p>In 1899, she began studying natural history at the University of Berlin, and five years later, she earned a PhD in Science from the University of Freiburg.</p>
+<p>In 1905, she began her career as a zoology assistant at the Berlin Museum of Natural History. However, later that same year, she moved to Belém to work at the Paraense Museum of Natural History and Ethnography, now known as the <a href="https://www.gov.br/museugoeldi/pt-br">Emilio Goeldi Museum</a>. From then on, she led several expeditions across the Amazon, one of the most notable being her exploration of the region between the Xingu and Tapajós rivers in 1909.</p>
+<p>Emilie was the director of the Emilio Goeldi Museum between 1914 and 1922, making her the first woman to lead a scientific institution in Latin America. Among her most notable works is the <em>Catalogue of Amazonian Birds</em> (1914), which included 1,117 Amazonian bird species. <a href="https://en.wikipedia.org/wiki/Helmut_Sick">Helmut Sick</a> dedicated his book <em>Brazilian Ornithology</em> to her in 1985.</p>
+<p>In this post, we explored the journeys of three women scientists whose contributions continue to resonate in the fields of statistics, programming, and ornithology — topics that are at the heart of the biRd blog. May these stories inspire our ongoing commitment to gender equality and to supporting women and girls on their journey toward knowledge and scientific discovery.</p>
+<p><em>Cover image credits: <a href="https://www.freepik.com/free-vector/flat-international-day-women-girls-science-background_133721459.htm#from_view=detail_serie">Freepik</a></em></p>
+
+
+</section>
+
+ ]]></description>
+  <category>gender equality</category>
+  <category>women&#39;s empowerment</category>
+  <guid>https://ivana-cardoso.github.io/en/posts/women_in_science/</guid>
+  <pubDate>Sun, 11 Feb 2024 03:00:00 GMT</pubDate>
+  <media:content url="https://ivana-cardoso.github.io/en/posts/women_in_science/women_science_freepik.jpg" medium="image" type="image/jpeg"/>
+</item>
 </channel>
 </rss>

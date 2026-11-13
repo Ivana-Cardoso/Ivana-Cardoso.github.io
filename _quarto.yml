@@ -1,6 +1,9 @@
 project:
   type: website
   output-dir: docs
+  render:
+    - "*.qmd"
+    - "!en/"
   
 website:
   site-url: https://ivana-cardoso.github.io/
@@ -24,12 +27,16 @@ website:
       - text: "App"
         file: app.qmd
     right: 
+      - text: "PT"
+        file: index.qmd
+      - text: "EN"
+        file: en/index.html
       - icon: github
         href: https://github.com/Ivana-Cardoso
       - icon: rss
         href: index.xml
     logo: round_biRd.png
-  page-footer: "Este blog foi construído com [Quarto v.1.6.42](https://quarto.org/) no [R v.4.3.2](https://www.r-project.org/)"
+  page-footer: "Este blog foi construído com [Quarto v.1.9.38](https://quarto.org/) no [R v.4.3.2](https://www.r-project.org/)"
 
 format:
   html:

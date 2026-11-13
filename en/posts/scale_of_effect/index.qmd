@@ -1,0 +1,178 @@
+---
+title: "What is the scale of effect and how do we identify it?"
+author: "Ivana Cardoso"
+date: "2025-02-16"
+image: "capa.jpg"
+categories: 
+  - R
+  - landscape ecology
+metadata:
+  open-graph:
+    image: capa.jpg
+  twitter-card:
+    image: capa.jpg
+execute:
+  freeze: auto
+---
+
+## What is scale?
+
+Scale is a central concept in research planning and in the interpretation of ecological patterns. It defines the lens through which we observe natural phenomena and is made up of two key elements:
+
+- **Grain**: the smallest unit measured, or the size of the sampling units;
+
+- **Extent**: the total area covered by the study, or the duration of a time series.
+
+The spatial scale at which landscape characteristics are measured can affect the inferred relationships [(Wiens, 1989)](https://www.jstor.org/stable/2389612). For example, in a study of 12 beetle species, the correlation between forest cover and abundance ranged from positive to nonexistent, depending on the scale at which forest cover was measured [(Holland et al., 2004)](https://academic.oup.com/bioscience/article-abstract/54/3/227/223100). In addition, each species interacts with the environment in a different way. For example, an analysis of forest cover in landscapes with a 2 km radius revealed opposite effects on different groups of birds: forest specialist, frugivorous, and insectivorous birds had their diversity reduced in areas with lower forest cover. In contrast, generalist birds showed greater diversity in those same areas [(Morante-Filho et al., 2015)](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0128923). Thus, what may have little effect on some species at a given scale can be catastrophic for others. This requires adjustments in the sampling design to avoid mistaken conclusions, since inadequate scales may fail to reveal ecological relationships or create false patterns. For this reason, it is often necessary to test different scales to find the scale of effect.
+
+## What is the scale of effect?
+
+The scale of effect is the spatial scale at which a given landscape characteristic best explains the response variable [(Jackson and Fahrig, 2015)](https://onlinelibrary.wiley.com/doi/full/10.1111/geb.12233). It can be determined by following the steps below:
+
+- **In data collection**: measuring the response variable in several sampling units across a region (Fig. 1a);
+
+- **In the multi-scale analysis**: measuring the landscape characteristic of interest at multiple spatial extents around each sampling unit (Fig. 1b);
+
+- **In the statistical analysis**: identifying the scale with the highest correlation coefficient, regression slope, or model information value between the predictor variable of interest, related to landscape structure, and the response variable of interest (Fig. 1c).
+
+![**Fig. 1** a. measuring the response variable in several sampling units across a region; b. measuring the predictor variable of interest at several scales; c. diagram showing how the scale of effect is determined. Based on Fig. 1 of [(Jackson and Fahrig, 2015)](https://onlinelibrary.wiley.com/doi/full/10.1111/geb.12233)](adaptado_Jackson_Fahrig_2015.png)
+
+The selection of spatial scales should take into account the biology of the studied species. For example, in a study of Amazonian understory birds that tested 40 intervals, the smallest scale (50 m) was defined as intermediate between these birds' reluctance to cross 30 m gaps and their ability to cross gaps of up to 70 m. The largest scale (2,000 m) corresponded to the value frequently used in habitat fragmentation studies [(Bueno and Peres, 2019)](https://onlinelibrary.wiley.com/doi/full/10.1111/jbi.13499?casa_token=x2rq4eXhDo8AAAAA%3AG_urffg9N329QcGEd-k3HU-D3-PXh28DJQyvl-FnTyKAeQgyL3_msiBA-pmpDag2EvWXXkZZWeDQWA). Finally, besides reflecting the biology of the species, it is essential to test different intervals and to consider that the scale of effect identified in multi-scale analyses **may be imprecise if** the scales are:
+
+- Too small or too large;
+
+- Limited in range (i.e., only intermediate sizes);
+
+- Insufficient in number (i.e., too few scales tested).
+
+## How do we calculate the scale of effect?
+
+For this exercise, we will use the data from [Bueno and Peres (2019)](https://onlinelibrary.wiley.com/doi/full/10.1111/jbi.13499?casa_token=DusuIn3clAIAAAAA%3A_dadze5I-rbSaO2VnbIWrl_MzLBRJ69oznsdkiwXJOGO7vdQJriBEErCcdLDN-9G5xMatTuBQUBAbyLbhg). I chose this study because the authors calculated forest cover at **different spatial scales** and identified the **scale of effect**. This allows us to compare our approach with that of the study, ensuring that we are calculating correctly.
+
+[In the supplementary material](https://onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1111%2Fjbi.13499&file=jbi13499-sup-0001-Supinfo.html) of the paper, the authors provide the code used in the analyses and in the generation of the study's graphs. This code begins with data processing and results in the table below (birds). If you prefer, you can access the supplementary material, download the original tables, and reprocess the data manually. However, to keep things simple and maintain the focus of this exercise, I made the already processed and filtered table available, avoiding technical details that are not relevant to our goal.
+
+```{r, output = FALSE}
+#| code-overflow: wrap
+
+# Load the necessary packages
+library(ggplot2) # If you do not have this package, you can install it using install.packages("ggplot2")
+
+# Clear R's memory
+rm(list = ls()) 
+
+# Turn off scientific notation
+options(scipen = 999) 
+
+# Set your working directory
+setwd("C:/Users/ivana/OneDrive/Ivana-Cardoso.github.io/posts/Escala_efeito") # Don't forget to change this to the folder where you will save the data
+```
+
+```{r}
+# Import the data
+# You can download the processed table at the link below:
+# https://github.com/Ivana-Cardoso/Ivana-Cardoso.github.io/blob/main/posts/Escala_efeito/bueno_2019_insect_birds.csv
+birds <- read.csv("bueno_2019_insect_birds.csv", row.names = 1)
+birds[1:6, 1:3] # shows the first six rows and three columns of the table
+```
+
+Note the format of the community data:
+
+- **Rows**: Represent the **sampling units**. In this study, the sampling units are the mist-net lines used to capture the birds. One net line with 16 nets was used per island, so these lines are identified by the name of each island.
+
+- **Columns**: Represent the **species** of insectivorous birds recorded in the study. Each column corresponds to a different species.
+
+- **Values in the cells**: The number in each cell indicates the **abundance** of a given species in each sampling unit.
+
+```{r}
+# The environmental data can be downloaded at: 
+# https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn%3Auuid%3Ab0f42cac-42de-43f0-a4f7-05ea8156b1cf
+islands <- read.csv("balbina_environmental_variables.csv", row.names = 1)
+islands <- islands[-c(8:12),] # removes the sites in continuous forest
+islands[1:4, 1:4] # shows the first four rows and columns of the table
+```
+
+Note the structure of the environmental data:
+
+- **Rows**: Each row represents a **sampling unit**.
+
+- **Columns**: Each column contains a specific **characteristic** of each sampling unit, such as geographic coordinates and the amount of forest cover at each scale.
+
+We are interested in the columns that represent forest cover at different spatial scales. For example, the column *forest.cover.50* (column 4) shows the percentage of forest cover in the landscape at a scale of 50 meters around each sampling unit. Other columns, such as forest.cover.100 or forest.cover.200, follow the same logic, but for larger scales (100 m, 200 m, etc.).
+
+For this exercise, we are interested in finding out which scale of effect best explains the relationship between insectivorous bird species richness and landscape forest cover. Therefore, the first step is to transform the abundance data into richness data:
+
+```{r}
+# Calculates insectivorous bird species richness in each sampling unit
+islands$richness = rowSums(ifelse(birds > 0, 1, 0))
+```
+
+### Determining the scale of effect using correlation
+
+In the study by [Bueno and Peres (2019)](https://onlinelibrary.wiley.com/doi/full/10.1111/jbi.13499?casa_token=DusuIn3clAIAAAAA%3A_dadze5I-rbSaO2VnbIWrl_MzLBRJ69oznsdkiwXJOGO7vdQJriBEErCcdLDN-9G5xMatTuBQUBAbyLbhg), the predictor (forest cover) and response (number of species) variables are transformed by log10(x + 1) for all analyses. Therefore, we will also use the transformed variables to calculate the scale of effect. **Remember to pay attention to how you are using your variables in the analyses and make sure to include them correctly when calculating the scale of effect**. To calculate the scale of effect using correlation, we will use the following command format:
+
+*object name \<- cor.test(predictor variable of interest, response variable of interest)*
+
+For example, to calculate the correlation between landscape forest cover at a scale of 50 meters and species richness we will use:
+
+```{r}
+cor50 <- cor.test(log10(islands$forest.cover.50 + 1), log10(islands$richness + 1))
+cor50$estimate
+```
+
+Since we need to do this for 40 scales, from 50 m to 2000 m at 50 m intervals, we will create a for loop and store the results in a table.
+
+```{r}
+# Creating a vector with the desired scales
+escalas <- seq(50, 2000, by = 50)
+
+# Creating a data frame to store the results
+resultados <- data.frame(Escala = numeric(), Correlacao = numeric(), Pvalor = numeric())
+
+# Loop to calculate the correlation at each scale
+for (escala in escalas) {
+  # Creating the column name dynamically
+  nome_coluna <- paste0("forest.cover.", escala)
+  
+  # Checking whether the column exists in the data frame
+  if (nome_coluna %in% names(islands)) {
+    # Calculating the Pearson correlation
+    cor_test <- cor.test(log10(islands[[nome_coluna]]+1), log10(islands$richness+1))
+    
+    # Saving the results in the data frame
+    resultados <- rbind(resultados, data.frame(
+      Escala = escala,
+      Correlacao = cor_test$estimate,
+      Pvalor = cor_test$p.value
+    ))
+  }
+}
+
+resultados[1:5,] # shows the first five rows and all columns of the object
+```
+
+The table above shows the correlation values (column 2) and p-values (column 3) between forest cover and species richness for each scale. Let's create a graph to make the result easier to visualize:
+
+```{r}
+plot1 <-
+  ggplot(resultados, aes(x = Escala, y = Correlacao)) +
+  geom_line() +
+  geom_point() +
+  labs(x = "Scale size (m)",
+       y = "Pearson correlation value (r) 
+between richness and forest cover") +
+  theme_bw(base_size = 16) +
+  theme(panel.grid = element_blank(),
+        panel.border = element_rect(colour = "black"),
+        plot.margin = margin(0.5, 1.5, 0.5, 1.5, "cm"))
+plot1
+```
+
+Note that the scale at which the correlation between richness and forest cover had the highest value was 200 meters. Remember that each point represents a scale at 50-meter intervals. Therefore, the fourth point, which is the highest, represents the 200-meter scale.
+
+### Conclusion
+
+As I mentioned earlier, there are different ways to determine the scale of effect, depending on the research goal and the analysis used. Therefore, the first step is to choose the most appropriate analysis, considering the question, the data collected, and the study design. Then, we apply this analysis at different scales and identify the one at which the relationship between the response and predictor variables is strongest, that is, **the scale of effect.**
+
+I hope this post has helped you understand what the scale of effect is and how to calculate it. Thank you for following along this far, and I wish you success in your future analyses!
+
+Until next time!

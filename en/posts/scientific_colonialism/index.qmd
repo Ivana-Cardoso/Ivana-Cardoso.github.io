@@ -1,0 +1,88 @@
+---
+title: "What is scientific colonialism?"
+author: "Ivana Cardoso"
+date: "2026-10-23"
+image: "caravela_freepik.jpg"
+categories: 
+  - academic life
+  - equity in research
+metadata:
+  open-graph:
+    image: "caravela_freepik.jpg"
+  twitter-card:
+    image: "caravela_freepik.jpg"
+---
+
+Brazil goes to the polls this Sunday (October 25, 2026) for the [presidential runoff](https://www.tse.jus.br/comunicacao/noticias/2026/Outubro/flavio-bolsonaro-e-lula-vao-disputar-o-2o-turno-para-a-presidencia-da-republica). Amid a debate about national sovereignty, and facing the threat of a project that accepts a [subaltern Brazil and hands our wealth over to the United States](https://youtu.be/F0aBW8GcAtE?si=os__5q4rAjhGwZh1), I think it is important to also discuss another form of colonialism: scientific colonialism. Before talking about scientific colonialism, we need to recall what [colonialism](https://sites.unipampa.edu.br/lehmai/o-que-e-colonialismo/) is.
+
+## What is colonialism?
+
+[Colonialism](https://pt.wikipedia.org/wiki/Colonialismo) is the domination of one territory by another country, against the will of its inhabitants, in order to exploit its wealth, control its population, and often impose its culture. A well-known example for us Brazilians is the relationship between [Portugal and colonial Brazil (1500-1822)](https://pt.wikipedia.org/wiki/Brasil_Col%C3%B4nia#Economia_e_sociedade_colonial). During this period, the Portuguese exploited high-value products here, such as [brazilwood](https://pt.wikipedia.org/wiki/Ciclo_do_pau-brasil), [sugarcane](https://pt.wikipedia.org/wiki/Ciclo_do_a%C3%A7%C3%BAcar), and [gold](https://pt.wikipedia.org/wiki/Ciclo_do_ouro), using the [enslaved labor of Indigenous and African peoples](https://www.tst.jus.br/memoriaviva/-/asset_publisher/LGQDwoJD0LV2/content/ev-jt-80-02). While Portugal profited from our wealth, the Indigenous peoples of Brazil suffered violence and the loss of their lands, languages, religions, and cultures.
+
+Colonialism is still debated in some contexts today. For example, [Puerto Rico](https://www.brasildefato.com.br/podcast/brasil-de-fato-entrevista/2026/02/23/porto-rico-nunca-foi-plenamente-autonomo-professor-analisa-status-colonial-da-ilha-movimentos-por-soberania-e-resistencia-cultural-de-bad-bunny/) is a United States territory, but its residents [do not vote for president, do not elect senators, and have only one representative in the House who has no vote on the floor](https://en.wikipedia.org/wiki/Federal_voting_rights_in_Puerto_Rico). The pressure that the United States exerts on independent countries such as [Cuba](https://www.brasildefato.com.br/2026/08/25/cubanos-nao-querem-voltar-a-ser-colonia-dos-estados-unidos-reporter-do-bdf-conta-o-que-viu-em-cuba-durante-gravacoes-de-documentario-sobre-fidel/) and [Venezuela](https://www.brasildefato.com.br/2025/12/17/a-venezuela-jamais-voltara-a-ser-colonia-de-imperio-algum-diz-venezuela-sobre-cerco-dos-eua/), in turn, can be considered [neocolonialism](https://pt.wikipedia.org/wiki/Neocolonialismo). This concept refers to the control or influence of one power over another country through economic and political means.
+
+**The concepts of colonialism and neocolonialism are also present in science.**
+
+## What is scientific colonialism?
+
+With the naturalist expeditions that became more common in the 17th and 18th centuries, European naturalists traveled to other regions of the world and collected all kinds of material, such as animals, [plants](https://pt.wikipedia.org/wiki/Expedi%C3%A7%C3%B5es_bot%C3%A2nicas), [fossils](https://portal.sbpcnet.org.br/noticias/a-luta-contra-o-colonialismo-cientifico/), and [Indigenous artifacts](https://piaui.uol.com.br/web/volta-do-manto-tupinamba/). This material was then sent to their home countries to be studied and, more often, collected. [Many naturalists passed through Brazil](https://revistacienciaecultura.org.br/?artigos=as-expedicoes-naturalistas-no-brasil-no-seculo-xix), among them the Germans Johann-Baptist Spix and Carl Martius, between 1817 and 1820. On that expedition, they took from here thousands of plants, animals, and even (!) [Indigenous children](https://www.bbc.com/portuguese/articles/cll4zdq3n00o). In this sense, scientific colonialism is "the process by which the center of knowledge acquisition about a nation is located outside the nation itself" [(Galtung, 1967)](https://www.jstor.org/stable/2934342?seq=4).
+
+Two concepts are linked to scientific colonialism: [parachute science](https://www.sciencearena.org/noticias/ciencia-paraquedas/) and [helicopter science](https://revistapesquisa.fapesp.br/desigualdade-em-colaboracoes-e-questao-de-integridade-cientifica-aponta-conferencia-mundial/). Linked to scientific neocolonialism, in turn, is [remote-control science](https://onlinelibrary.wiley.com/doi/10.1111/ele.70227). These three concepts describe ways of doing science that marginalize researchers from the Global South and from lower-income regions, and that **can occur both between countries and within a single country**.
+
+## What is parachute science?
+
+Parachute science happens when researchers from high-income countries or regions collect samples during short visits, go back home to analyze and publish the results, and generally do not give credit to local collaborators. It is as if the researcher "dropped in" by parachute, collected the data, and left.
+
+I know well how this works, because I have been through it. In the first half of 2024, when I was a PhD student, I was invited to present my study area to a team of American scientists. The invitation was presented to me as an opportunity for partnership, networking, and internationalization. I accepted. They said they wanted to get to know the site and test how efficient drones are for collecting biological data. This first contact lasted about two weeks. It has been two years now, and I have never heard anything about the data or the researchers again. Only with time did I understand that what they called a test was, in practice, data collection. And the promised internationalization never materialized.
+
+## What is helicopter science?
+
+Helicopter science happens when there are sporadic field campaigns and superficial partnerships. It is as if the researcher flew over by helicopter, landed from time to time to collect data, and went back home without building a lasting relationship, often ignoring the local context.
+
+To illustrate, I want to reflect on a situation that took place within Brazil. In August of this year, a [news report](https://agencia.fapesp.br/expedicao-inedita-vai-mapear-a-biodiversidade-do-topo-da-serra-do-araca-no-norte-do-amazonas/59032) was published about a scientific collecting expedition to Serra do Aracá, in Amazonas, described as unprecedented. It involved 16 researchers from the following institutions: the University of São Paulo (USP), the Federal University of São Carlos (UFSCar), the National Institute of Amazonian Research (INPA), the Federal Institute of Amazonas (IFAM), the University of Toulouse (France), the Autonomous University of Madrid (Spain), the Natural History Museum of Oslo (Norway), and the Missouri Botanical Garden (United States). Among them, there was only [one researcher from INPA](http://lattes.cnpq.br/2682066078532807) and one [researcher from IFAM](http://lattes.cnpq.br/2565691074120686). I find it curious that both did their postdocs at USP and, even more curious, that the INPA researcher does not appear on the [FAPESP page with information about the project's funding](https://bv.fapesp.br/pt/auxilios/116069/a-biodiversidade-desconhecida-das-montanhas-da-amazonia/). Moreover, the expedition is not that unprecedented: [a quick Google Scholar search](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=serra+do+arac%C3%A1+biodiversity&btnG=) returns articles on the biodiversity of Serra do Aracá. [One of them was written by Sergio Borges](https://www.scielo.br/j/zool/a/5T6gybMp5ZTvC49PzG9dDkG/?lang=en), who studied birds in the region and is now a professor at the Federal University of Amazonas (UFAM). This example illustrates superficial partnerships, in which the acquisition of knowledge about the Amazon remains outside the Amazon.
+
+## What is remote-control science?
+
+Remote-control science occurs mainly through digital coordination. In this model, researchers from the Global North or from high-income regions do not even need to visit the study site, but they keep decision-making power over the research questions, methods, funding, and publications. Meanwhile, collaborators from the Global South or from lower-income regions are in charge of data collection and operational stages of the analysis. Communication takes place by email or virtual meetings, while equipment and other materials are sent by courier. So it is as if local collaborating researchers were commanded from a distance, by remote control, by researchers from higher-income regions.
+
+To think about remote-control science, I want to bring in the [ideas of Deliane Penha](https://www.nature.com/articles/s44185-026-00131-y), an Amazonian researcher and professor at the Federal University of Western Pará (UFOPA), on decolonial science in the Amazon.
+
+According to her, the Amazon is now at the center of global attention and, as a result, investments and research projects in the region have increased. [But the power to set scientific agendas and priorities generally remains concentrated outside the Amazon](https://theconversation.com/amazonia-em-debate-mais-do-que-promessas-regiao-precisa-de-uma-ciencia-decolonial-integrada-e-estavel-285908). She also points out that, when local researchers take part in these projects, the partnership is usually presented as a form of capacity building. In practice, scientists and students from the region end up responsible for data collection and field logistics, while having less room to lead the research. This maintains historical inequalities and hinders the professional growth of these researchers.
+
+## What can be done to confront these practices?
+
+To reflect on the possible paths for confronting scientific colonialism and neocolonialism, I once again bring the words of [Deliane Penha](https://www.nature.com/articles/s44185-026-00131-y):
+
+> A decolonial approach to science requires more than denunciation. It requires awareness of these practices and the courage to challenge them.\[...\] And to do this science we need to co-create research and reparative practices, ensure equitable participation, and recognize Amazonian scientists and local populations as co-producers of knowledge. This presupposes shared authority.
+
+I complement this with five key recommendations for confronting the unethical and unequal practices perpetuated by neocolonialism, according to [Dáttilo and Rivera-Núñez (2025)](https://onlinelibrary.wiley.com/doi/10.1111/ele.70227):
+
+> 1.  **Early and deep involvement of local scientists**: Local researchers should take part from the planning stage of the research and help decide what will be studied, how the study will be carried out, and what the priorities will be. They should not only carry out tasks, but also share the leadership and decisions of the project.
+
+> 2.  **Recognition and integration of local ecological knowledge**: Whenever relevant, research should recognize and value both traditional ecological knowledge and the scientific knowledge produced in the region itself. This knowledge should be considered in the analysis of results and in the conclusions of studies.
+
+> 3.  **Fair recognition of authorship and editorial responsibility**: Local researchers who contribute to data collection, analysis, interpretation, and writing should be recognized as lead authors, and not relegated to acknowledgments or marginal positions.
+
+> 4.  **Capacity building and knowledge sharing**: Strengthening local science requires continuous investment in the training of researchers, in institutions, and in infrastructure. Besides offering technical training, it is important to create opportunities for local researchers to lead projects, develop their own lines of research, and strengthen their institutions.
+
+> 5.  **More appropriate funding structures**: Funding agencies and governments need to review the rules that favor remote-control science. To change this scenario, it is possible to require the participation of Global South institutions in project leadership, allocate resources to infrastructure and to the salaries of local teams, and create calls for international research led by researchers from these regions.
+
+In the end, building a fairer science is not just a matter of including local researchers in projects. It is necessary to share decisions, value different forms of knowledge, and ensure that scientists from the region itself have the conditions to lead their research.
+
+For these changes to become reality, it is also necessary to invest in science. And this depends on the choices we make at the polls, since political decisions define priorities and influence investments and opportunities in research, education, and national development.
+
+Changing our own attitudes is important, but it is not enough. The decisions that define the future of science in the country are also collective and go through the vote, ours and that of the people we choose to represent us. While one candidate wants to hand Brazil over, we have another fighting for a sovereign Brazil, one that is nobody's backyard. To free ourselves from this colonial logic, we also need leaders committed to this vision. That is why, on the 25th, it is Lula 13!
+
+I hope this text has made you reflect in some way.
+
+See you at the polls.
+
+Until next time.
+
+### Reading suggestions
+
+1.  [Remote-Control Science in Ecology: A Hidden Face of Scientific Neocolonialism](https://onlinelibrary.wiley.com/doi/10.1111/ele.70227)
+
+2.  [Decolonial science in the Amazon demands active and equitable seats at the table](https://www.nature.com/articles/s44185-026-00131-y)
+
+3.  [Beyond more inclusive and equitable research in ecology and conservation: on the practical implications of expanding authorship to local data collectors](https://link.springer.com/article/10.1007/s44353-024-00005-z)

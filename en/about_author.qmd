@@ -1,0 +1,50 @@
+---
+title: "Ivana Cardoso"
+image: profile.jpg
+about:
+  template: trestles
+  links:
+    - icon: gmail
+      text: E-mail
+      href: mailto:ivanawaters@gmail.com
+    - icon: github
+      text: Github
+      href: https://github.com/Ivana-Cardoso
+    - icon: orcid
+      text: ORCID
+      href: https://orcid.org/0000-0003-2662-6426
+    - icon: researchgate
+      text: ResearchGate
+      href: https://www.researchgate.net/profile/Ivana-Cardoso
+    - icon: instagram
+      text: Instagram
+      href: https://instagram.com/waters_ivana?igsh=eHINWJ2eHgzN2V0
+comments: false
+theme: theme.scss
+---
+
+## About the author
+
+My name is Ivana Cardoso. I am a PhD student in Ecology at the [Instituto Nacional de Pesquisas da Amazônia](http://ppginpa.eco.br/index.php/pt-br/) and I currently study the spatial and temporal effects of forest insularization on bird and ant assemblages.
+
+## Education
+
+Instituto Federal Farroupilha \| Júlio de Castilhos, RS, Brazil **Bachelor's Degree (Licenciatura) in Biological Sciences** \| 2015 - 2019
+
+Universidade Estadual de Santa Cruz \| Ilhéus, BA, Brazil **Master's in Ecology and Biodiversity Conservation** \| 2020 - 2022
+
+Instituto Nacional de Pesquisas da Amazônia \| Manaus, AM, Brazil **PhD in Biology (Ecology)** \| 2023 - present
+
+Carleton University \| Ottawa, Canada \| **Exchange PhD period (PDSE - Call No. 26/2024)** \| 09/2025 - 07/2026
+
+## Awards
+
+[Helmut Sick](https://ararajuba.org.br/congressos-e-premios/premio-helmut-sick/) Award - [1st place, undergraduate student, oral presentation](https://www.iffarroupilhaead.edu.br/noticias-jc/item/14313-aluna-do-iffar-%C3%A9-premiada-em-congresso-brasileiro-de-ornitologia-5d40445f32487) at the XXVI Brazilian Congress of Ornithology (2019). Awarded by the Brazilian Ornithological Society.
+
+## Publications
+
+Amarante, R. T.; Cornelius, C.; **Cardoso, I.**; Peres, C. A.; Bueno, A. S. [Habitat insularization alters taxonomic and functional beta diversity of understorey birds in Amazonian forest islands](https://doi.org/10.1098/rsos.260165). *Royal Society Open Science*, v.13(8), rsos260165, **2026**.
+
+Amarante, R. T.; **Cardoso, I.**; Amarante, R. T.; Brum, F.; Bueno, A. S. [Tree plantations inserted in a benign environmental context can contribute to the maintenance of forest avifauna](https://www.sciencedirect.com/science/article/abs/pii/S0378112725004931). *Forest Ecology and Management*, v.595, p.122985, **2025**.
+
+**Cardoso, I.**; Bueno, A. S.; Morante-Filho, J. C. [Number of forest fragments and understory plants exert opposite effects on multiple facets of bird diversity in eucalypt plantations](https://link.springer.com/article/10.1007/s10980-023-01601-5) *Landscape Ecology*, v.3, p.1 - 15, **2023**.
