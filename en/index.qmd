@@ -4,12 +4,13 @@ title-block-banner: true
 margin-header: subscribe.html
 listing:
   id: listing
-  contents: posts
+  contents: "/posts/*/index.qmd"
   sort: "date desc"
   type: default
   categories: false
   sort-ui: true
   filter-ui: false
+  image-height: 150px
   fields: [image, author, date, title, reading-time, description, categories]
   feed: true
 page-layout: full

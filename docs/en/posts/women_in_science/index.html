@@ -123,6 +123,10 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="../../../index.html"> 
 <span class="menu-text">PT</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html"> 
+<span class="menu-text">EN</span></a>
+  </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/Ivana-Cardoso"> <i class="bi bi-github" role="img">
 </i> 
@@ -243,6 +247,32 @@ ul.task-list li input[type="checkbox"] {
 </section>
 
 </main> <!-- /main -->
+<style>
+  .navbar .lang-flag {
+    height: 1em;
+    width: 1.33em;
+    margin-right: 0.4em;
+    vertical-align: -0.12em;
+    border-radius: 2px;
+    object-fit: cover;
+  }
+</style>
+<script>
+  // Coloca a bandeira ao lado dos botões "PT" e "EN" do menu
+  (function () {
+    var flags = { "PT": "/flags/br.svg", "EN": "/flags/ca.svg" };
+    document.querySelectorAll("nav.navbar a.nav-link").forEach(function (link) {
+      var texto = link.textContent.trim();
+      if (flags[texto] && !link.querySelector(".lang-flag")) {
+        var img = document.createElement("img");
+        img.src = flags[texto];
+        img.alt = "";
+        img.className = "lang-flag";
+        link.insertBefore(img, link.firstChild);
+      }
+    });
+  })();
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

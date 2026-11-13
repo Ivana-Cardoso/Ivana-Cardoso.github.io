@@ -4,6 +4,8 @@ project:
   render:
     - "*.qmd"
     - "!en/"
+  resources:
+    - flags/
   
 website:
   site-url: https://ivana-cardoso.github.io/
@@ -28,9 +30,9 @@ website:
         file: app.qmd
     right: 
       - text: "PT"
-        file: index.qmd
+        href: index.html
       - text: "EN"
-        file: en/index.html
+        href: en/index.html
       - icon: github
         href: https://github.com/Ivana-Cardoso
       - icon: rss
@@ -42,6 +44,7 @@ format:
   html:
     theme:
       - theme.scss
+    include-after-body: lang-flags.html
 
 editor: visual
 

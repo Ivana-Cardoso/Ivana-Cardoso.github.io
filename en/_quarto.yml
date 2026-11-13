@@ -25,6 +25,8 @@ website:
     right:
       - text: "PT"
         href: ../index.html
+      - text: "EN"
+        href: index.html
       - icon: github
         href: https://github.com/Ivana-Cardoso
       - icon: rss
@@ -36,5 +38,6 @@ format:
   html:
     theme:
       - theme.scss
+    include-after-body: lang-flags.html
 
 editor: visual
